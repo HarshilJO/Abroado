@@ -7,8 +7,8 @@
 .preloader.hidden { opacity: 0; visibility: hidden; }
 .preloader-content { text-align: center; }
 .loader-container { display: flex; flex-direction: column; align-items: center; gap: 20px; }
-.logo-mark { width: 90px; height: 100px; filter: drop-shadow(0 8px 24px rgba(48,169,227,0.4)); }
-.abroado-svg { width: 100%; height: 100%; overflow: visible; }
+.logo-mark { width: 120px; height: 120px; filter: drop-shadow(0 12px 36px rgba(48,169,227,0.32)); display:flex; align-items:center; justify-content:center; }
+.preloader-logo { width: 100%; height: auto; display: block; }
 .preloader-label { font-family: var(--font-display); font-size: 1.5rem; font-weight: 600; color: rgba(255,255,255,0.9); letter-spacing: 4px; animation: textFade 1.8s ease-in-out infinite; }
 .rotate-outer { transform-origin: 60px 65px; animation: spinOuter 2s cubic-bezier(0.68,-0.55,0.265,1.55) infinite; }
 .rotate-inner { transform-origin: 60px 65px; animation: spinInner 2s cubic-bezier(0.68,-0.55,0.265,1.55) infinite; }
