@@ -16,7 +16,7 @@ export class PreloaderComponent implements OnInit {
       setTimeout(() => {
         this.hidden = true;
         document.body.style.overflow = '';
-      }, 1800);
+      }, 2000);
     });
     document.body.style.overflow = 'hidden';
   }

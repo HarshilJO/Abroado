@@ -23,8 +23,9 @@
       <li><a routerLink="/" fragment="services" class="nav-link" [class.active]="activeSection==='services'" (click)="scrollTo('services')">Services</a></li>
       <li><a routerLink="/" fragment="destinations" class="nav-link" [class.active]="activeSection==='destinations'" (click)="scrollTo('destinations')">Destinations</a></li>
       <li><a routerLink="/" fragment="testimonials" class="nav-link" [class.active]="activeSection==='testimonials'" (click)="scrollTo('testimonials')">Success Stories</a></li>
-      <li><a routerLink="/blog" class="nav-link" routerLinkActive="active">Blog</a></li>
       <li><a routerLink="/" fragment="contact" class="nav-link" [class.active]="activeSection==='contact'" (click)="scrollTo('contact')">Contact</a></li>
+     
+      <li><a routerLink="/blog" class="nav-link" routerLinkActive="active">Blog</a></li>
     </ul>
 
     <a routerLink="/" fragment="contact" class="btn btn-primary nav-cta" (click)="scrollTo('contact')">Free Consultation</a>
