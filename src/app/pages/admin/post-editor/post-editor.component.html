@@ -1,0 +1,143 @@
+<div class="admin-layout">
+  <header class="admin-header">
+    <div class="admin-brand">
+      <svg viewBox="0 0 120 130" xmlns="http://www.w3.org/2000/svg" width="32" height="36">
+        <defs><linearGradient id="elg" gradientUnits="userSpaceOnUse" x1="17" y1="15" x2="103" y2="115"><stop offset="0%" stop-color="#30a9e3"/><stop offset="100%" stop-color="#1771c1"/></linearGradient></defs>
+        <polygon points="60,15 103,40 103,90 60,115 17,90 17,40" fill="url(#elg)"/>
+        <rect x="37" y="42" width="46" height="46" fill="#fff"/>
+        <polygon points="37,42 83,42 37,88" fill="url(#elg)"/>
+      </svg>
+      <span>{{ isEdit ? 'Edit Post' : 'New Post' }}</span>
+    </div>
+    <div class="admin-header-actions">
+      <a routerLink="/admin/blog" class="btn btn-outline">← Dashboard</a>
+      <button class="btn btn-dark" (click)="save(false)" [disabled]="saving">Save Draft</button>
+      <button class="btn btn-primary" (click)="save(true)" [disabled]="saving">
+        @if (saving) {
+          <span class="spinner"></span>
+        }
+        {{ saving ? 'Publishing...' : 'Publish' }}
+      </button>
+    </div>
+  </header>
+
+  <div class="editor-body">
+    <div class="editor-main">
+      <!-- Title -->
+      <div class="editor-field">
+        <input class="title-input" type="text" [(ngModel)]="form.title" (input)="autoSlug()" placeholder="Post title..." name="title">
+      </div>
+
+      <!-- Slug -->
+      <div class="editor-field slug-field">
+        <span class="slug-prefix">abroado.com/blog/</span>
+        <input type="text" [(ngModel)]="form.slug" name="slug" placeholder="url-slug">
+      </div>
+
+      <!-- Excerpt -->
+      <div class="editor-field">
+        <label>Excerpt / Summary *</label>
+        <textarea [(ngModel)]="form.excerpt" name="excerpt" placeholder="Brief summary of the post..." rows="3"></textarea>
+      </div>
+
+      <!-- Content -->
+      <div class="editor-field">
+        <label>Content (Markdown-style)</label>
+        <div class="content-toolbar">
+          <button type="button" (click)="insertMarkdown('## ')">H2</button>
+          <button type="button" (click)="insertMarkdown('### ')">H3</button>
+          <button type="button" (click)="insertMarkdown('**', '**')">Bold</button>
+          <button type="button" (click)="insertMarkdown('*', '*')">Italic</button>
+          <button type="button" (click)="insertMarkdown('- ')">List</button>
+        </div>
+        <textarea class="content-textarea" [(ngModel)]="form.content" name="content" placeholder="Write your post content here...
+
+## Section Heading
+Your content here...
+
+### Sub Heading
+- List item 1
+- List item 2
+
+**Bold text** and *italic text*" rows="20" #contentArea></textarea>
+      </div>
+    </div>
+
+    <!-- Sidebar -->
+    <div class="editor-sidebar">
+      <!-- Publish Box -->
+      <div class="editor-widget">
+        <h3>Publish Settings</h3>
+        <div class="publish-toggle" (click)="form.published = !form.published">
+          <div class="toggle-track" [class.on]="form.published">
+            <div class="toggle-thumb"></div>
+          </div>
+          <span>{{ form.published ? 'Published' : 'Draft' }}</span>
+        </div>
+      </div>
+
+      <!-- Meta -->
+      <div class="editor-widget">
+        <h3>Post Details</h3>
+        <div class="editor-field">
+          <label>Category *</label>
+          <select [(ngModel)]="form.category" name="category">
+            <option value="">Select category</option>
+            @for (c of categories; track c.value) {
+              <option [value]="c.value">{{ c.label }}</option>
+            }
+          </select>
+        </div>
+        <div class="editor-field">
+          <label>Tags (comma separated)</label>
+          <input type="text" [(ngModel)]="tagsInput" name="tags" placeholder="UK, Visa, Study">
+        </div>
+        <div class="editor-field">
+          <label>Author</label>
+          <input type="text" [(ngModel)]="form.author" name="author" placeholder="Author name">
+        </div>
+        <div class="editor-field">
+          <label>Author Initials</label>
+          <input type="text" [(ngModel)]="form.authorAvatar" name="authorAvatar" placeholder="AB" maxlength="3">
+        </div>
+        <div class="editor-field">
+          <label>Read Time (minutes)</label>
+          <input type="number" [(ngModel)]="form.readTime" name="readTime" min="1" max="60">
+        </div>
+        <div class="editor-field">
+          <label>Date</label>
+          <input type="date" [(ngModel)]="form.date" name="date">
+        </div>
+      </div>
+
+      <!-- Cover Image -->
+      <div class="editor-widget">
+        <h3>Cover Image</h3>
+        <div class="editor-field">
+          <label>Image URL / Path</label>
+          <input type="text" [(ngModel)]="form.coverImage" name="coverImage" placeholder="images/uk-hero.jpg">
+        </div>
+        @if (form.coverImage) {
+          <div class="image-preview" [style.background-image]="'url(' + form.coverImage + ')'">
+            <div class="preview-overlay">Preview</div>
+          </div>
+        }
+        <div class="quick-images">
+          <span class="quick-label">Quick select:</span>
+          @for (img of defaultImages; track img.path) {
+            <button type="button" class="quick-img-btn" (click)="form.coverImage = img.path">{{ img.label }}</button>
+          }
+        </div>
+      </div>
+
+      <!-- Instagram -->
+      <div class="editor-widget">
+        <h3>Instagram Post URL</h3>
+        <div class="editor-field">
+          <input type="url" [(ngModel)]="form.instagramUrl" name="instagramUrl" placeholder="https://instagram.com/p/...">
+        </div>
+        <p class="helper-text">Link to your related Instagram post for cross-promotion.</p>
+      </div>
+    </div>
+  </div>
+</div>

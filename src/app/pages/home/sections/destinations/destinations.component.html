@@ -1,0 +1,52 @@
+<section class="destinations section" id="destinations">
+  <div class="container">
+    <div class="section-header center">
+      <span class="section-tag" data-animate="fade-up">Our Destinations</span>
+      <h2 class="section-title" data-animate="fade-up" data-delay="100">Choose Your<br><span class="title-accent">Dream Destination</span></h2>
+      <p class="section-description" data-animate="fade-up" data-delay="200">We specialize in two of the world's most sought-after destinations for education and travel, offering unparalleled opportunities for academic and personal growth.</p>
+    </div>
+    <div class="destinations-grid">
+      @for (dest of destinations; track dest.name; let i = $index) {
+        <div class="destination-card" data-animate="fade-up" [attr.data-delay]="300 + i*100">
+          <div class="destination-header" [style.background]="dest.headerBg">
+            <div class="destination-info">
+              <span class="dest-flag">{{ dest.flag }}</span>
+              <div>
+                <h3 class="destination-name">{{ dest.name }}</h3>
+                <span class="destination-tagline">{{ dest.tagline }}</span>
+              </div>
+            </div>
+            <div class="destination-badge-top">{{ dest.badge }}</div>
+          </div>
+          <div class="destination-image">
+            <img [src]="dest.img" [alt]="dest.name" loading="lazy">
+            <div class="image-overlay"></div>
+          </div>
+          <div class="destination-content">
+            <p class="destination-description">{{ dest.description }}</p>
+            <div class="destination-highlights">
+              @for (h of dest.highlights; track h.text) {
+                <div class="highlight">
+                  <span class="highlight-number">{{ h.num }}</span>
+                  <span class="highlight-text">{{ h.text }}</span>
+                </div>
+              }
+            </div>
+            <ul class="destination-features">
+              @for (feat of dest.features; track feat) {
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  {{ feat }}
+                </li>
+              }
+            </ul>
+            <a href="#contact" class="btn btn-dark btn-block" (click)="scrollTo($event, 'contact')">
+              Explore {{ dest.name }} Programs
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+</section>

@@ -1,0 +1,17 @@
+.visa-cards { display: grid; grid-template-columns: 1fr; gap: var(--spacing-2xl); }
+@media (min-width: 768px) { .visa-cards { grid-template-columns: 1fr 1fr; } }
+.visa-card { background: var(--color-surface); border-radius: var(--radius-xl); padding: var(--spacing-2xl); box-shadow: var(--shadow-lg); transition: all var(--transition-normal); border: 1px solid var(--color-border); }
+.visa-card:hover { transform: translateY(-8px); box-shadow: var(--shadow-2xl); }
+.visa-card-header { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: var(--spacing-xl); }
+.visa-icon { width: 64px; height: 64px; background: linear-gradient(135deg, rgba(26,54,93,0.1), rgba(26,54,93,0.05)); border-radius: var(--radius-lg); display: flex; align-items: center; justify-content: center; color: var(--color-primary); }
+.visa-icon ::ng-deep svg { width: 40px; height: 40px; }
+.visa-badge { font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; padding: 6px 14px; border-radius: var(--radius-full); background: rgba(201,162,39,0.15); color: var(--color-accent); }
+.visa-badge.visitor { background: rgba(26,54,93,0.1); color: var(--color-primary); }
+.visa-title { font-family: var(--font-display); font-size: 1.75rem; font-weight: 600; color: var(--color-text); margin-bottom: var(--spacing-md); }
+.visa-description { color: var(--color-text-secondary); line-height: 1.7; margin-bottom: var(--spacing-xl); }
+.visa-features { display: flex; flex-direction: column; gap: var(--spacing-md); margin-bottom: var(--spacing-xl); }
+.visa-feature { display: flex; align-items: center; gap: var(--spacing-md); }
+.visa-feature svg { width: 18px; height: 18px; color: var(--color-success); flex-shrink: 0; }
+.visa-feature span { font-size: 0.9rem; color: var(--color-text-secondary); }
+.visa-countries { display: flex; gap: var(--spacing-md); margin-bottom: var(--spacing-xl); }
+.visa-country { font-size: 0.875rem; font-weight: 600; padding: 6px 14px; background: var(--color-surface-alt); border-radius: var(--radius-full); }

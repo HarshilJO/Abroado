@@ -1,0 +1,19 @@
+.preloader {
+  position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+  background: linear-gradient(135deg, #0f2744 0%, #1a365d 100%);
+  display: flex; align-items: center; justify-content: center;
+  z-index: 10000; transition: opacity 0.6s ease, visibility 0.6s ease;
+}
+.preloader.hidden { opacity: 0; visibility: hidden; }
+.preloader-content { text-align: center; }
+.loader-container { display: flex; flex-direction: column; align-items: center; gap: 20px; }
+.logo-mark { width: 90px; height: 100px; filter: drop-shadow(0 8px 24px rgba(48,169,227,0.4)); }
+.abroado-svg { width: 100%; height: 100%; overflow: visible; }
+.preloader-label { font-family: var(--font-display); font-size: 1.5rem; font-weight: 600; color: rgba(255,255,255,0.9); letter-spacing: 4px; animation: textFade 1.8s ease-in-out infinite; }
+.rotate-outer { transform-origin: 60px 65px; animation: spinOuter 2s cubic-bezier(0.68,-0.55,0.265,1.55) infinite; }
+.rotate-inner { transform-origin: 60px 65px; animation: spinInner 2s cubic-bezier(0.68,-0.55,0.265,1.55) infinite; }
+.pulse-group { animation: pulseGlow 2s ease-in-out infinite; }
+@keyframes spinOuter { 0%,10%{transform:rotate(0deg)} 35%,100%{transform:rotate(360deg)} }
+@keyframes spinInner { 0%,30%{transform:rotate(0deg)} 55%,100%{transform:rotate(360deg)} }
+@keyframes pulseGlow { 0%,65%{transform:scale(1)} 80%{transform:scale(1.05)} 95%,100%{transform:scale(1)} }
+@keyframes textFade { 0%,55%{opacity:0.6} 75%,90%{opacity:1} 100%{opacity:0.6} }

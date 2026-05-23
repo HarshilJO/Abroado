@@ -1,0 +1,43 @@
+<section class="testimonials section" id="testimonials">
+  <div class="container">
+    <div class="section-header center">
+      <span class="section-tag" data-animate="fade-up">Success Stories</span>
+      <h2 class="section-title" data-animate="fade-up" data-delay="100">Hear From Our<br><span class="title-accent">Happy Clients</span></h2>
+    </div>
+    <div class="testimonials-slider" data-animate="fade-up" data-delay="200">
+      <div class="testimonials-track" [style.transform]="'translateX(-' + offset + 'px)'">
+        @for (t of testimonials; track t.name) {
+          <div class="testimonial-card">
+            <div class="testimonial-rating">
+              @for (s of [1,2,3,4,5]; track s) {
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              }
+            </div>
+            <div class="testimonial-type">{{ t.type }}</div>
+            <blockquote class="testimonial-quote">"{{ t.quote }}"</blockquote>
+            <div class="testimonial-author">
+              <div class="author-avatar">{{ t.initials }}</div>
+              <div class="author-info">
+                <h5>{{ t.name }}</h5>
+                <span>{{ t.university }}</span>
+              </div>
+            </div>
+          </div>
+        }
+      </div>
+      <div class="slider-controls">
+        <button class="slider-btn" (click)="prev()" aria-label="Previous">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        <div class="slider-dots">
+          @for (d of dots; track $index; let i = $index) {
+            <span class="slider-dot" [class.active]="i === current" (click)="goTo(i)"></span>
+          }
+        </div>
+        <button class="slider-btn" (click)="next()" aria-label="Next">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>

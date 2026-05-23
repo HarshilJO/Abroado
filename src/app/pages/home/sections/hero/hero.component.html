@@ -1,0 +1,75 @@
+<section class="hero" id="home">
+  <!-- Hero Slider -->
+  <div class="hero-slider" (mouseenter)="pauseSlider()" (mouseleave)="resumeSlider()">
+    @for (slide of slides; track slide.img; let i = $index) {
+      <div class="hero-slide" [class.active]="i === currentSlide" [style.background-image]="'url(' + slide.img + ')'">
+        <div class="slide-overlay"></div>
+      </div>
+    }
+  </div>
+
+  <!-- Slider Controls -->
+  <div class="hero-slider-controls">
+    <button class="hero-slider-btn prev" (click)="prev()" aria-label="Previous slide">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+    </button>
+    <div class="hero-slider-dots">
+      @for (s of slides; track s.img; let i = $index) {
+        <span class="hero-dot" [class.active]="i === currentSlide" (click)="goTo(i)"></span>
+      }
+    </div>
+    <button class="hero-slider-btn next" (click)="next()" aria-label="Next slide">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+    </button>
+  </div>
+
+  <!-- Progress Bar -->
+  <div class="hero-slider-progress">
+    <div class="hero-slider-progress-bar" [style.width.%]="progressWidth"></div>
+  </div>
+
+  <div class="hero-content container">
+    <div class="hero-badge" data-animate="fade-up">
+      <span class="badge-dot"></span> Trusted by 5000+ Students Worldwide
+    </div>
+    <h1 class="hero-title" data-animate="fade-up" data-delay="100">
+      Your Journey to<br>
+      <span class="title-highlight">World-Class Education</span><br>
+      Starts Here
+    </h1>
+    <p class="hero-description" data-animate="fade-up" data-delay="200">
+      Expert guidance for Study Visa and Visitor Visa to the UK and Australia.
+      From university selection to visa approval, we make your international dreams a reality.
+    </p>
+    <div class="hero-cta" data-animate="fade-up" data-delay="300">
+      <a href="#services" class="btn btn-primary btn-lg btn-glow" (click)="scrollTo('services', $event)">
+        <svg class="btn-icon-left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 14l9-5-9-5-9 5 9 5z"/><path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0112 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/></svg>
+        Study Visa
+      </a>
+      <a href="#services" class="btn btn-outline-light btn-lg" (click)="scrollTo('services', $event)">
+        <svg class="btn-icon-left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        Visitor Visa
+      </a>
+    </div>
+  </div>
+
+  <div class="hero-scroll">
+    <span>Scroll to explore</span>
+    <div class="scroll-indicator"><div class="scroll-dot"></div></div>
+  </div>
+
+  <div class="floating-elements">
+    <div class="floating-card floating-card-1" data-animate="fade-left">
+      <div class="floating-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 14l9-5-9-5-9 5 9 5z"/><path d="M12 14v7"/></svg>
+      </div>
+      <span>Study Abroad</span>
+    </div>
+    <div class="floating-card floating-card-2" data-animate="fade-right">
+      <div class="floating-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+      </div>
+      <span>Visit World</span>
+    </div>
+  </div>
+</section>

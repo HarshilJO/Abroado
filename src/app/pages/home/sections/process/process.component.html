@@ -1,0 +1,22 @@
+<section class="process section">
+  <div class="container">
+    <div class="section-header center">
+      <span class="section-tag" data-animate="fade-up">How It Works</span>
+      <h2 class="section-title" data-animate="fade-up" data-delay="100">Your Path to<br><span class="title-accent">International Dreams</span></h2>
+    </div>
+    <div class="process-steps">
+      @for (step of steps; track step.title; let i = $index) {
+        <div class="process-step" data-animate="fade-up" [attr.data-delay]="200 + i*100">
+          <div class="step-marker">{{ i + 1 }}</div>
+          <div class="step-content">
+            <h4>{{ step.title }}</h4>
+            <p>{{ step.desc }}</p>
+          </div>
+          @if (i < steps.length - 1) {
+            <div class="step-connector"></div>
+          }
+        </div>
+      }
+    </div>
+  </div>
+</section>

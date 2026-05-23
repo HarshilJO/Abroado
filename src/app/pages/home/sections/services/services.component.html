@@ -1,0 +1,37 @@
+<section class="visa-services section" id="services">
+  <div class="container">
+    <div class="section-header center">
+      <span class="section-tag" data-animate="fade-up">Our Services</span>
+      <h2 class="section-title" data-animate="fade-up" data-delay="100">Two Pathways to Your<br><span class="title-accent">International Dreams</span></h2>
+      <p class="section-description" data-animate="fade-up" data-delay="200">Whether you want to study at world-renowned universities or explore beautiful destinations, we have you covered with expert visa services.</p>
+    </div>
+    <div class="visa-cards">
+      @for (card of visaCards; track card.title; let i = $index) {
+        <div class="visa-card" [class.study-visa]="i===0" [class.visitor-visa]="i===1" data-animate="fade-up" [attr.data-delay]="300 + i*100">
+          <div class="visa-card-header">
+            <div class="visa-icon" [innerHTML]="card.icon"></div>
+            <div class="visa-badge" [class.visitor]="i===1">{{ card.badge }}</div>
+          </div>
+          <h3 class="visa-title">{{ card.title }}</h3>
+          <p class="visa-description">{{ card.description }}</p>
+          <div class="visa-features">
+            @for (feat of card.features; track feat) {
+              <div class="visa-feature">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>{{ feat }}</span>
+              </div>
+            }
+          </div>
+          <div class="visa-countries">
+            <span class="visa-country">🇬🇧 UK</span>
+            <span class="visa-country">🇦🇺 Australia</span>
+          </div>
+          <a href="#contact" class="btn btn-block" [class.btn-primary]="i===0" [class.btn-dark]="i===1" (click)="scrollTo($event, 'contact')">
+            {{ card.cta }}
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      }
+    </div>
+  </div>
+</section>

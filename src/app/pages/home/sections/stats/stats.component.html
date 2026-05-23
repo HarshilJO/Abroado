@@ -1,0 +1,11 @@
+<div class="hero-stats" data-animate="fade-up" data-delay="400">
+  @for (stat of stats; track stat.label) {
+    <div class="stat-item">
+      <div class="stat-value">
+        <span class="stat-number" [attr.data-count]="stat.count">0</span>
+        <span class="stat-suffix">{{ stat.suffix }}</span>
+      </div>
+      <span class="stat-label">{{ stat.label }}</span>
+    </div>
+  }
+</div>

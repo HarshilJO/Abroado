@@ -1,0 +1,30 @@
+<div class="admin-login-page">
+  <div class="login-card">
+    <div class="login-logo">
+      <svg viewBox="0 0 120 130" xmlns="http://www.w3.org/2000/svg" width="56" height="62">
+        <defs><linearGradient id="lg" gradientUnits="userSpaceOnUse" x1="17" y1="15" x2="103" y2="115"><stop offset="0%" stop-color="#30a9e3"/><stop offset="100%" stop-color="#1771c1"/></linearGradient></defs>
+        <polygon points="60,15 103,40 103,90 60,115 17,90 17,40" fill="url(#lg)"/>
+        <rect x="37" y="42" width="46" height="46" fill="#fff"/>
+        <polygon points="37,42 83,42 37,88" fill="url(#lg)"/>
+      </svg>
+      <h1>Abroado Admin</h1>
+      <p>Blog Management Portal</p>
+    </div>
+    <form (submit)="onLogin($event)">
+      <div class="login-field">
+        <label>Admin PIN</label>
+        <input type="password" [(ngModel)]="pin" name="pin" placeholder="Enter admin PIN" [class.error]="error" autofocus>
+        @if (error) {
+          <span class="error-msg">Incorrect PIN. Try again.</span>
+        }
+      </div>
+      <button type="submit" class="btn btn-primary btn-block btn-lg">
+        @if (loading) {
+          <span class="spinner"></span>
+        }
+        {{ loading ? 'Verifying...' : 'Access Admin Panel' }}
+      </button>
+    </form>
+    <p class="login-hint">Default PIN: <code>abroado2024</code></p>
+  </div>
+</div>

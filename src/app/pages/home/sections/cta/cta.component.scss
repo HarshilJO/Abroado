@@ -1,0 +1,7 @@
+.cta { position: relative; padding: var(--spacing-4xl) 0; overflow: hidden; }
+.cta-bg { position: absolute; inset: 0; background: linear-gradient(135deg, var(--color-primary-dark), var(--color-primary), var(--color-primary-light)); }
+.cta-pattern { position: absolute; inset: 0; background-image: radial-gradient(circle at 2px 2px, rgba(255,255,255,0.05) 1px, transparent 0); background-size: 40px 40px; }
+.cta-content { position: relative; text-align: center; color: #fff; }
+.cta-title { font-family: var(--font-display); font-size: clamp(1.75rem, 4vw, 2.75rem); font-weight: 600; margin-bottom: var(--spacing-lg); }
+.cta-description { font-size: 1.1rem; opacity: 0.85; max-width: 600px; margin: 0 auto var(--spacing-2xl); line-height: 1.7; }
+.cta-buttons { display: flex; gap: var(--spacing-lg); justify-content: center; flex-wrap: wrap; }

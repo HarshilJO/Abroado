@@ -1,0 +1,57 @@
+<section class="about section" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-content">
+        <span class="section-tag" data-animate="fade-right">About Abroado</span>
+        <h2 class="section-title" data-animate="fade-right" data-delay="100">
+          Dedicated to Shaping<br>
+          <span class="title-accent">Global Futures</span>
+        </h2>
+        <p class="about-text" data-animate="fade-right" data-delay="200">
+          Abroado is a premier visa consultancy dedicated to helping individuals achieve their dreams of international education and travel. With years of expertise, we specialize in <strong>Study Visas</strong> and <strong>Visitor Visas</strong> for the United Kingdom and Australia.
+        </p>
+        <p class="about-text" data-animate="fade-right" data-delay="300">
+          Whether you're a student seeking world-class education or a traveler wanting to explore new horizons, our team provides personalized guidance at every step of your journey.
+        </p>
+        <div class="about-features" data-animate="fade-right" data-delay="400">
+          @for (f of features; track f) {
+            <div class="feature-item">
+              <div class="feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 11.08V12a10 10 0 11-5.93-9.14"/>
+                  <polyline points="22 4 12 14.01 9 11.01"/>
+                </svg>
+              </div>
+              <span>{{ f }}</span>
+            </div>
+          }
+        </div>
+        <a href="#contact" class="btn btn-primary" data-animate="fade-right" data-delay="500" (click)="scrollTo($event, 'contact')">
+          Start Your Journey
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+      <div class="about-visual" data-animate="fade-left">
+        <div class="visual-card visual-card-1">
+          <div class="card-image"><img src="images/uk-hero.jpg" alt="United Kingdom" loading="lazy"></div>
+          <div class="card-label">
+            <span class="card-flag">🇬🇧</span> United Kingdom
+          </div>
+        </div>
+        <div class="visual-card visual-card-2">
+          <div class="card-image"><img src="images/australia-hero.jpg" alt="Australia" loading="lazy"></div>
+          <div class="card-label">
+            <span class="card-flag">🇦🇺</span> Australia
+          </div>
+        </div>
+        <div class="visual-accent"></div>
+        <div class="visual-stats">
+          <div class="visual-stat">
+            <span class="visual-stat-number">10+</span>
+            <span class="visual-stat-label">Years Experience</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
