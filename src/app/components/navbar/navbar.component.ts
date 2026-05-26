@@ -13,6 +13,7 @@ export class NavbarComponent implements OnInit {
   isScrolled = false;
   mobileOpen = false;
   activeSection = 'home';
+  scrollProgress = 0;
 
   constructor(private router: Router) {}
 
@@ -24,6 +25,11 @@ export class NavbarComponent implements OnInit {
   onScroll() {
     this.isScrolled = window.scrollY > 100;
     this.updateActiveSection();
+    
+    const scrollPx = document.documentElement.scrollTop || document.body.scrollTop;
+    const winHeightPx = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    this.scrollProgress = winHeightPx > 0 ? (scrollPx / winHeightPx) * 100 : 0;
+
     if (this.mobileOpen) {
       document.body.classList.add('menu-open');
     } else {

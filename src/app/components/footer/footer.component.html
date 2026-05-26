@@ -13,7 +13,7 @@
               </defs>
               <polygon points="60,15 103,40 103,90 60,115 17,90 17,40" fill="url(#footerGrad)"/>
               <rect x="37" y="42" width="46" height="46" fill="#ffffff"/>
-              <polygon points="37,42 83,42 37,88" fill="url(#footerGrad)"/>
+              <polygon points="48,53 72,53 72,77" fill="url(#footerGrad)"/>
             </svg>
           </span>
           <span class="footer-logo-text">Abroado</span>
@@ -89,9 +89,153 @@
     <div class="footer-bottom">
       <p>&copy; {{ currentYear }} Abroado. All rights reserved.</p>
       <div class="footer-legal">
-        <a href="#">Privacy Policy</a>
-        <a href="#">Terms of Service</a>
+        <a href="#" (click)="openPrivacy($event)">Privacy Policy</a>
+        <a href="#" (click)="openTerms($event)">Terms & Conditions</a>
       </div>
     </div>
   </div>
 </footer>
+
+@if (showTerms) {
+<div class="modal-overlay" (click)="closeTerms()">
+  <div class="modal-content" (click)="$event.stopPropagation()">
+    <div class="modal-header">
+      <h2>Terms & Conditions</h2>
+      <button class="close-btn" (click)="closeTerms()">&times;</button>
+    </div>
+    <div class="modal-body">
+      <p><strong>Effective Date:</strong> May 24, 2026</p>
+      <p>Welcome to Abroado. By accessing or using our website, https://abroado.in, you agree to comply with and be bound by the following Terms & Conditions.</p>
+
+      <h3>1. Services</h3>
+      <p>Abroado provides consultation and assistance services related to:</p>
+      <ul>
+        <li>Student Visa Services</li>
+        <li>Visitor Visa Services</li>
+        <li>Overseas Education Guidance</li>
+      </ul>
+      <p>All decisions regarding visas, admissions, or approvals are made solely by embassies, consulates, universities, and government authorities.</p>
+
+      <h3>2. No Guarantee</h3>
+      <p>Abroado does not guarantee:</p>
+      <ul>
+        <li>Visa approval</li>
+        <li>Admission confirmation</li>
+        <li>Processing timelines</li>
+        <li>Immigration outcomes</li>
+      </ul>
+      <p>Approval depends entirely on the respective authorities and the applicant’s eligibility.</p>
+
+      <h3>3. User Responsibility</h3>
+      <p>Users must ensure that all information and documents submitted are accurate, complete, and genuine. Submission of false or misleading information may result in rejection of applications and termination of services.</p>
+
+      <h3>4. Website Usage</h3>
+      <p>You agree not to:</p>
+      <ul>
+        <li>Use the website for unlawful purposes</li>
+        <li>Attempt unauthorized access to the website or servers</li>
+        <li>Copy or misuse website content without permission</li>
+        <li>Upload malicious or harmful material</li>
+      </ul>
+
+      <h3>5. Intellectual Property</h3>
+      <p>All website content, including text, graphics, branding, and logos, is the property of Abroado and may not be copied or reused without written permission.</p>
+
+      <h3>6. Third-Party Links</h3>
+      <p>Our website may contain links to external websites or institutions. Abroado is not responsible for the content, policies, or services of third-party websites.</p>
+
+      <h3>7. Limitation of Liability</h3>
+      <p>Abroado shall not be held responsible for:</p>
+      <ul>
+        <li>Visa refusals</li>
+        <li>Delays caused by authorities</li>
+        <li>Admission rejections</li>
+        <li>Technical interruptions</li>
+        <li>Any indirect or consequential losses</li>
+      </ul>
+
+      <h3>8. Changes to Terms</h3>
+      <p>We reserve the right to update or modify these Terms & Conditions at any time without prior notice.</p>
+
+      <h3>9. Governing Law</h3>
+      <p>These Terms shall be governed by the laws of Gujarat, India. Any disputes shall be subject to the jurisdiction of Ahmedabad courts.</p>
+
+      <h3>10. Contact Information</h3>
+      <p>Abroado<br>
+      201, Sangath Mall-1, Motera, Ahmedabad - 382424, Gujarat<br>
+      Email: <a href="mailto:info@abroado.in">info@abroado.in</a><br>
+      Phone: +91 7778832033<br>
+      Website: <a href="https://abroado.in" target="_blank" rel="noopener">https://abroado.in</a></p>
+    </div>
+  </div>
+</div>
+}
+
+@if (showPrivacy) {
+<div class="modal-overlay" (click)="closePrivacy()">
+  <div class="modal-content" (click)="$event.stopPropagation()">
+    <div class="modal-header">
+      <h2>Privacy Policy</h2>
+      <button class="close-btn" (click)="closePrivacy()">&times;</button>
+    </div>
+    <div class="modal-body">
+      <p><strong>Effective Date:</strong> May 24, 2026</p>
+      <p>Abroado (“we”, “our”, or “us”) values your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard information when you use our website https://abroado.in.</p>
+
+      <h3>1. Information We Collect</h3>
+      <p>We may collect the following information through contact forms, inquiries, or communication:</p>
+      <ul>
+        <li>Name</li>
+        <li>Email address</li>
+        <li>Phone number</li>
+        <li>Educational or visa-related information voluntarily provided by you</li>
+      </ul>
+      <p>We do not collect payment information through the website.</p>
+
+      <h3>2. How We Use Your Information</h3>
+      <p>We use the collected information to:</p>
+      <ul>
+        <li>Respond to inquiries</li>
+        <li>Provide student and visitor visa consultation</li>
+        <li>Offer overseas education guidance</li>
+        <li>Improve our services and website experience</li>
+        <li>Contact users regarding requested services</li>
+      </ul>
+
+      <h3>3. Information Sharing</h3>
+      <p>We do not sell, rent, or trade your personal information to third parties.</p>
+      <p>Your information may only be shared when necessary with:</p>
+      <ul>
+        <li>Universities or institutions</li>
+        <li>Embassies or visa-related authorities</li>
+        <li>Service providers assisting in application processes</li>
+        <li>Legal authorities if required by law</li>
+      </ul>
+
+      <h3>4. Data Security</h3>
+      <p>We take reasonable steps to protect your information from unauthorized access, misuse, or disclosure. However, no method of online transmission or storage is completely secure.</p>
+
+      <h3>5. Third-Party Links</h3>
+      <p>Our website may contain links to external websites. We are not responsible for the privacy practices or content of third-party websites.</p>
+
+      <h3>6. Cookies</h3>
+      <p>Our website may use basic cookies or analytics tools to improve website performance and user experience.</p>
+      <p>Users can disable cookies through their browser settings if preferred.</p>
+
+      <h3>7. User Consent</h3>
+      <p>By using our website, you consent to the collection and use of information as described in this Privacy Policy.</p>
+
+      <h3>8. Changes to This Policy</h3>
+      <p>We may update this Privacy Policy from time to time. Updated versions will be posted on this page with the revised effective date.</p>
+
+      <h3>9. Contact Us</h3>
+      <p>If you have any questions regarding this Privacy Policy, please contact us:</p>
+      <p>Abroado<br>
+      201, Sangath Mall-1, Motera, Ahmedabad - 382424, Gujarat<br>
+      Email: <a href="mailto:info@abroado.in">info@abroado.in</a><br>
+      Phone: +91 7778832033<br>
+      Website: <a href="https://abroado.in" target="_blank" rel="noopener">https://abroado.in</a></p>
+    </div>
+  </div>
+</div>
+}
