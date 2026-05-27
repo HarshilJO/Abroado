@@ -181,7 +181,7 @@ export class ChatbotComponent implements OnInit, OnDestroy {
     this.isLoading = true;
 
     try {
-      const response = await fetch('http://localhost:8000/api/chat', {
+      const response = await fetch('https://abroado.in/api/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
