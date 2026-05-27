@@ -29,5 +29,9 @@ export const routes: Routes = [
     path: 'admin/blog/edit/:id',
     loadComponent: () => import('./pages/admin/post-editor/post-editor.component').then(m => m.PostEditorComponent)
   },
+  {
+    path: 'contact',
+    loadComponent: () => import('./pages/home/sections/contact/contact.component').then(m => m.ContactComponent)
+  },
   { path: '**', redirectTo: '' }
 ];

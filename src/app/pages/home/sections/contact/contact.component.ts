@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, AfterViewInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
@@ -16,7 +16,7 @@ interface ContactItem {
   templateUrl: './contact.component.html',
   styleUrl: './contact.component.scss'
 })
-export class ContactComponent {
+export class ContactComponent implements AfterViewInit {
   form = { firstName: '', lastName: '', email: '', phone: '', visaType: '', destination: '', message: '' };
   submitting = false;
   submitted = false;
@@ -45,5 +45,21 @@ export class ContactComponent {
     if (!this.form.firstName || !this.form.email || !this.form.phone) return;
     this.submitting = true;
     setTimeout(() => { this.submitting = false; this.submitted = true; this.form = { firstName: '', lastName: '', email: '', phone: '', visaType: '', destination: '', message: '' }; }, 1500);
+  }
+
+  ngAfterViewInit() {
+    setTimeout(() => {
+      const elements = document.querySelectorAll('.contact [data-animate]');
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const delay = (entry.target as HTMLElement).dataset['delay'] || '0';
+            setTimeout(() => entry.target.classList.add('animated'), +delay);
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.1 });
+      elements.forEach(el => observer.observe(el));
+    }, 100);
   }
 }
