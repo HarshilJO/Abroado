@@ -1,0 +1,130 @@
+.assessment {
+  background-color: var(--color-surface-alt);
+}
+
+.assessment-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-3xl);
+  align-items: center;
+
+  @media (min-width: 992px) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.assessment-content {
+  .section-description {
+    margin-left: 0;
+    margin-right: auto;
+    margin-bottom: var(--spacing-xl);
+  }
+}
+
+.assessment-form-wrap {
+  background: var(--color-surface);
+  padding: var(--spacing-2xl);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-lg);
+}
+
+.assessment-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+
+  .form-row {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--spacing-lg);
+
+    @media (min-width: 576px) {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xs);
+
+    &.full-width {
+      grid-column: 1 / -1;
+    }
+
+    label {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: var(--color-text-secondary);
+    }
+
+    input, select {
+      padding: 0.875rem 1rem;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-md);
+      font-family: inherit;
+      font-size: 1rem;
+      transition: all var(--transition-fast);
+      background-color: var(--color-surface);
+
+      &:focus {
+        outline: none;
+        border-color: var(--color-primary);
+        box-shadow: 0 0 0 3px rgba(26, 54, 93, 0.1);
+      }
+    }
+  }
+}
+
+.success-message {
+  padding: var(--spacing-2xl) 0;
+
+  .success-icon {
+    width: 64px;
+    height: 64px;
+    background: rgba(34, 197, 94, 0.1);
+    color: var(--color-success);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto var(--spacing-md);
+
+    svg {
+      width: 32px;
+      height: 32px;
+    }
+  }
+
+  h3 {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    margin-bottom: var(--spacing-sm);
+  }
+
+  p {
+    color: var(--color-text-secondary);
+    margin-bottom: var(--spacing-xl);
+  }
+}
+
+.assessment-image-wrap {
+  position: relative;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-xl);
+
+  .assessment-card-bg {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top right, rgba(26, 54, 93, 0.8), rgba(201, 162, 39, 0.4));
+    mix-blend-mode: multiply;
+  }
+
+  .assessment-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    aspect-ratio: 4/5;
+  }
+}

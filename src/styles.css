@@ -171,7 +171,7 @@ ul { list-style: none; }
 /* ===== Back to Top ===== */
 .back-to-top {
   position: fixed;
-  bottom: 2rem;
+  bottom: calc(2rem + 48px + 1rem);
   right: 2rem;
   width: 48px; height: 48px;
   background-color: var(--color-primary);
@@ -281,7 +281,7 @@ ul { list-style: none; }
 .floating-whatsapp {
   position: fixed;
   bottom: 2rem;
-  right: calc(2rem + 48px + 1rem); /* 2rem right + 48px back-to-top + 1rem gap */
+  right: 2rem;
   width: 48px; height: 48px;
   background-color: #25D366;
   color: #fff;

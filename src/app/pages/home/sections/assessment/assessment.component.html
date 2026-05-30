@@ -1,0 +1,91 @@
+<section class="section assessment" id="assessment">
+  <div class="container">
+    <div class="assessment-container" data-animate="fade-up">
+      <div class="assessment-content">
+        <span class="section-tag">Quick Evaluation</span>
+        <h2 class="section-title">Free Profile <span class="title-highlight">Assessment</span></h2>
+        <p class="section-description">Take our quick assessment to find the best study abroad options tailored to your profile.</p>
+        
+        <div class="assessment-form-wrap">
+          @if (!submitted) {
+          <form class="assessment-form" (submit)="onSubmit($event)">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="dob">Date of Birth *</label>
+                <input type="date" id="dob" [(ngModel)]="form.dob" name="dob" required>
+              </div>
+              <div class="form-group">
+                <label for="qualification">Last Academic Qualification *</label>
+                <select id="qualification" [(ngModel)]="form.qualification" name="qualification" required>
+                  <option value="">Select Qualification</option>
+                  <option value="10th">10th Standard</option>
+                  <option value="12th">12th Standard</option>
+                  <option value="bachelors">Bachelor's Degree</option>
+                  <option value="masters">Master's Degree</option>
+                  <option value="diploma">Diploma</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="gap">Gap in Study (Years)</label>
+                <input type="number" id="gap" min="0" step="0.5" [(ngModel)]="form.gap" name="gap" placeholder="e.g. 1.5">
+              </div>
+              <div class="form-group">
+                <label for="country">Country Preference *</label>
+                <select id="country" [(ngModel)]="form.country" name="country" required>
+                  <option value="">Select Country</option>
+                  <option value="UK">United Kingdom</option>
+                  <option value="Australia">Australia</option>
+                  <option value="USA">USA</option>
+                  <option value="Canada">Canada</option>
+                  <option value="Any">Any / Not Sure</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="course">Course Preference</label>
+                <input type="text" id="course" [(ngModel)]="form.course" name="course" placeholder="e.g. MBA, IT, Business">
+              </div>
+              <div class="form-group">
+                <label for="budget">Budget (in Lakhs)</label>
+                <input type="number" id="budget" min="0" [(ngModel)]="form.budget" name="budget" placeholder="e.g. 15">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group full-width">
+                <label for="income">Parents' Annual Income (in Lakhs)</label>
+                <input type="number" id="income" min="0" [(ngModel)]="form.income" name="income" placeholder="e.g. 8">
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block" [disabled]="submitting">
+              @if (submitting) {
+                <span class="spinner"></span> Processing...
+              } @else {
+                Get Free Assessment
+              }
+            </button>
+          </form>
+          } @else {
+          <div class="success-message" style="text-align: center;">
+            <div class="success-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
+                <polyline points="22 4 12 14.01 9 11.01" />
+              </svg>
+            </div>
+            <h3>Assessment Submitted!</h3>
+            <p>Thank you for sharing your details. Our expert counselor will review your profile and get back to you with the best options within 24 hours.</p>
+            <button class="btn btn-primary" (click)="submitted = false">Submit Another</button>
+          </div>
+          }
+        </div>
+      </div>
+      <div class="assessment-image-wrap">
+        <div class="assessment-card-bg"></div>
+        <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Student consulting" class="assessment-image">
+      </div>
+    </div>
+  </div>
+</section>
