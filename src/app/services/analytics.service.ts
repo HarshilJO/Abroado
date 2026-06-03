@@ -20,7 +20,7 @@ export class AnalyticsService {
     private http: HttpClient,
     private router: Router,
     @Inject(PLATFORM_ID) private platformId: Object
-  ) {}
+  ) { }
 
   public initAnalytics(): void {
     if (isPlatformBrowser(this.platformId)) {
@@ -42,12 +42,26 @@ export class AnalyticsService {
   }
 
   private trackVisitor(): void {
-    const source = document.referrer || 'direct';
+    let utmSource = null;
+    try {
+      const urlParams = new URLSearchParams(window.location.search);
+      utmSource = urlParams.get('utm_source');
+
+      // Fallback for hash-based routing if parameters get appended after the hash
+      if (!utmSource && window.location.hash.includes('?')) {
+        const hashParams = new URLSearchParams(window.location.hash.split('?')[1]);
+        utmSource = hashParams.get('utm_source');
+      }
+    } catch (e) {
+      console.error('Error parsing UTM parameters', e);
+    }
+
+    const source = utmSource || document.referrer || 'direct';
     const payload = {
       session_id: this.sessionId,
       source: source
     };
-    
+
     this.http.post(`${this.apiUrl}/visitor`, payload).subscribe({
       error: (err) => console.error('Analytics error', err)
     });
@@ -61,7 +75,7 @@ export class AnalyticsService {
       filter(event => event instanceof NavigationEnd)
     ).subscribe((event: any) => {
       this.recordPageVisit();
-      
+
       this.currentUrl = window.location.href;
       this.pageEntryTime = Date.now();
       this.maxScroll = 0;
@@ -90,7 +104,7 @@ export class AnalyticsService {
     if (!this.currentUrl) return;
 
     const timeSpentSeconds = (Date.now() - this.pageEntryTime) / 1000;
-    
+
     if (timeSpentSeconds < 1 && isUnload) return;
 
     const payload = {
@@ -112,7 +126,7 @@ export class AnalyticsService {
 
   public trackChatbotLog(question: string): void {
     if (!this.sessionId) return;
-    
+
     const payload = {
       session_id: this.sessionId,
       question: question
@@ -124,7 +138,7 @@ export class AnalyticsService {
 
   public trackLead(name: string, phone: string, interest?: string): void {
     if (!this.sessionId) return;
-    
+
     const payload = {
       session_id: this.sessionId,
       name: name,
@@ -137,9 +151,9 @@ export class AnalyticsService {
   }
 
   private generateUUID(): string {
-    return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+    return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
       const r = Math.random() * 16 | 0,
-            v = c === 'x' ? r : (r & 0x3 | 0x8);
+        v = c === 'x' ? r : (r & 0x3 | 0x8);
       return v.toString(16);
     });
   }
