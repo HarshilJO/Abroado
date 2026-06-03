@@ -1,5 +1,5 @@
 import { Component, OnInit, HostListener } from '@angular/core';
-import { RouterLink, RouterLinkActive, Router } from '@angular/router';
+import { RouterLink, RouterLinkActive, Router, NavigationEnd } from '@angular/router';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -15,7 +15,13 @@ export class NavbarComponent implements OnInit {
   activeSection = 'home';
   scrollProgress = 0;
 
-  constructor(private router: Router) {}
+  constructor(private router: Router) {
+    this.router.events.subscribe((event) => {
+      if (event instanceof NavigationEnd) {
+        setTimeout(() => this.updateActiveSection(), 100);
+      }
+    });
+  }
 
   ngOnInit() {
     this.updateActiveSection();
@@ -38,14 +44,25 @@ export class NavbarComponent implements OnInit {
   }
 
   updateActiveSection() {
+    const basePath = this.router.url.split('#')[0].split('?')[0];
+    if (basePath !== '/' && basePath !== '') {
+      this.activeSection = '';
+      return;
+    }
+
     const sections = ['home', 'about', 'services', 'destinations', 'testimonials', 'contact'];
     const scrollY = window.scrollY + 120;
+    let found = false;
     for (const id of sections) {
       const el = document.getElementById(id);
       if (el && scrollY >= el.offsetTop && scrollY < el.offsetTop + el.offsetHeight) {
         this.activeSection = id;
+        found = true;
         break;
       }
+    }
+    if (!found && window.scrollY < 100) {
+      this.activeSection = 'home';
     }
   }
 

@@ -1,6 +1,8 @@
 import { Component, ElementRef, NgZone, OnDestroy, OnInit, ViewChild } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { AnalyticsService } from '../../services/analytics.service';
+import { environment } from '../../../environments/environment';
 
 @Component({
   selector: 'app-chatbot',
@@ -42,7 +44,7 @@ export class ChatbotComponent implements OnInit, OnDestroy {
     "Which countries do you specialize in?"
   ];
 
-  constructor(private ngZone: NgZone) {}
+  constructor(private ngZone: NgZone, private analytics: AnalyticsService) {}
 
   ngOnInit() {
     this.boundMouseMove = this.onMouseMove.bind(this);
@@ -176,12 +178,14 @@ export class ChatbotComponent implements OnInit, OnDestroy {
   async sendMessage(content: string) {
     if (!content.trim()) return;
 
+    this.analytics.trackChatbotLog(content);
+
     this.messages.push({ role: 'user', content });
     this.userInput = '';
     this.isLoading = true;
 
     try {
-      const response = await fetch('https://abroado.in/api/chat', {
+      const response = await fetch(environment.chatApiUrl, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
