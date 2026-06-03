@@ -2,6 +2,7 @@ import { Component, AfterViewInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
+import { AnalyticsService } from '../../../../services/analytics.service';
 
 interface ContactItem {
   icon: SafeHtml;
@@ -23,7 +24,7 @@ export class ContactComponent implements AfterViewInit {
 
   contactItems: ContactItem[];
 
-  constructor(private sanitizer: DomSanitizer) {
+  constructor(private sanitizer: DomSanitizer, private analytics: AnalyticsService) {
     this.contactItems = [
       {
         icon: this.sanitizer.bypassSecurityTrustHtml(`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>`),
@@ -44,6 +45,12 @@ export class ContactComponent implements AfterViewInit {
     e.preventDefault();
     if (!this.form.firstName || !this.form.email || !this.form.phone) return;
     this.submitting = true;
+    
+    // Log lead to analytics
+    const fullName = `${this.form.firstName} ${this.form.lastName}`.trim();
+    const interest = `Type: ${this.form.visaType}, Dest: ${this.form.destination}, Msg: ${this.form.message}`.trim();
+    this.analytics.trackLead(fullName, this.form.phone, interest);
+    
     setTimeout(() => { this.submitting = false; this.submitted = true; this.form = { firstName: '', lastName: '', email: '', phone: '', visaType: '', destination: '', message: '' }; }, 1500);
   }
 
