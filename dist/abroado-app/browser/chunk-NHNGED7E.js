@@ -1,4 +1,4 @@
-import{J as l,a as s,b as a}from"./chunk-DK3EV5SL.js";var o="abroado_blog_posts",c="abroado2024",g=[{id:"1",title:"Complete Guide to UK Student Visa 2024",slug:"complete-guide-uk-student-visa-2024",excerpt:"Everything you need to know about applying for a UK Student Visa \u2014 from eligibility to approval. Our step-by-step guide covers CAS numbers, financial requirements, and more.",content:`## Introduction
+import{a as s,b as a,k as l}from"./chunk-6CWKA327.js";var o="abroado_blog_posts",c="abroado2024",g=[{id:"1",title:"Complete Guide to UK Student Visa 2024",slug:"complete-guide-uk-student-visa-2024",excerpt:"Everything you need to know about applying for a UK Student Visa \u2014 from eligibility to approval. Our step-by-step guide covers CAS numbers, financial requirements, and more.",content:`## Introduction
 
 Applying for a UK Student Visa (Tier 4) can seem overwhelming, but with the right guidance, it's a straightforward process. This comprehensive guide walks you through every step.
 
