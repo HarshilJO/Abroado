@@ -3,7 +3,7 @@ const isLocalhost = typeof window !== 'undefined' &&
 
 export const environment = {
   production: !isLocalhost,
-  apiUrl: isLocalhost ? 'http://localhost:8000/api' : 'https://abroado.in',
-  chatApiUrl: isLocalhost ? 'http://localhost:8000/api/chat' : 'https://abroado.in/chat',
-  analyticsApiUrl: isLocalhost ? 'http://localhost:8000/api/analytics' : 'https://abroado.in/analytics'
+  apiUrl: isLocalhost ? 'http://localhost:8000/api' : 'https://abroado.in/api/api',
+  chatApiUrl: isLocalhost ? 'http://localhost:8000/api/chat' : 'https://abroado.in/api/api/chat',
+  analyticsApiUrl: isLocalhost ? 'http://localhost:8000/api/analytics' : 'https://abroado.in/api/api/analytics'
 };
