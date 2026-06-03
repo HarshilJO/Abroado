@@ -5,6 +5,16 @@ import { Router, NavigationEnd } from '@angular/router';
 import { filter } from 'rxjs/operators';
 import { environment } from '../../environments/environment';
 
+// Capture UTM source immediately before Angular's HashLocationStrategy rewrites the URL
+let initialUtmSource: string | null = null;
+if (typeof window !== 'undefined') {
+  const url = window.location.href;
+  if (url.includes('utm_source=')) {
+    const match = url.match(/utm_source=([^&#]+)/);
+    if (match) initialUtmSource = match[1];
+  }
+}
+
 @Injectable({
   providedIn: 'root'
 })
@@ -42,11 +52,9 @@ export class AnalyticsService {
   }
 
   private trackVisitor(): void {
-    let utmSource = null;
-    try {
-      const urlParams = new URLSearchParams(window.location.search);
-      utmSource = urlParams.get('utm_source');
+    let utmSource = initialUtmSource;
 
+    try {
       // Fallback for hash-based routing if parameters get appended after the hash
       if (!utmSource && window.location.hash.includes('?')) {
         const hashParams = new URLSearchParams(window.location.hash.split('?')[1]);
