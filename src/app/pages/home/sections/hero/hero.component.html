@@ -1,7 +1,7 @@
 <section class="hero" id="home">
   <!-- Hero Slider -->
   <div class="hero-slider" (mouseenter)="pauseSlider()" (mouseleave)="resumeSlider()">
-    @for (slide of slides; track slide.img; let i = $index) {
+    @for (slide of slides; track $index; let i = $index) {
       <div class="hero-slide" [class.active]="i === currentSlide" [style.background-image]="'url(' + slide.img + ')'">
         <div class="slide-overlay"></div>
       </div>
@@ -14,7 +14,7 @@
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
     </button>
     <div class="hero-slider-dots">
-      @for (s of slides; track s.img; let i = $index) {
+      @for (s of slides; track $index; let i = $index) {
         <span class="hero-dot" [class.active]="i === currentSlide" (click)="goTo(i)"></span>
       }
     </div>

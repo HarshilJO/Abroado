@@ -1,4 +1,4 @@
-import{a as s,b as a,k as l}from"./chunk-6CWKA327.js";var o="abroado_blog_posts",c="abroado2024",g=[{id:"1",title:"Complete Guide to UK Student Visa 2024",slug:"complete-guide-uk-student-visa-2024",excerpt:"Everything you need to know about applying for a UK Student Visa \u2014 from eligibility to approval. Our step-by-step guide covers CAS numbers, financial requirements, and more.",content:`## Introduction
+import{a as s,b as a,k as l}from"./chunk-DAVXE4R6.js";var o="abroado_blog_posts",c="abroado2024",g=[{id:"1",title:"Complete Guide to UK Student Visa 2024",slug:"complete-guide-uk-student-visa-2024",excerpt:"Everything you need to know about applying for a UK Student Visa \u2014 from eligibility to approval. Our step-by-step guide covers CAS numbers, financial requirements, and more.",content:`## Introduction
 
 Applying for a UK Student Visa (Tier 4) can seem overwhelming, but with the right guidance, it's a straightforward process. This comprehensive guide walks you through every step.
 
@@ -34,7 +34,7 @@ Typically processed within 3 weeks. Priority processing available for an additio
 - Ensure all documents are translated by a certified translator
 - Double-check your financial statements cover the required period
 
-Contact Abroado today for personalised guidance through your UK visa journey!`,category:"visa-tips",tags:["UK","Student Visa","University","IELTS"],author:"Abroado Team",authorAvatar:"AT",date:"2024-01-15",coverImage:"images/uk-hero.jpg",instagramUrl:"https://instagram.com/abroado",readTime:8,published:!0},{id:"2",title:"Top 10 Universities in Australia for International Students",slug:"top-universities-australia-international-students",excerpt:"Australia boasts some of the world's finest universities. We explore the top 10 institutions that welcome international students with open arms, excellent support, and world-class education.",content:`## Why Study in Australia?
+Contact Abroado today for personalised guidance through your UK visa journey!`,category:"visa-tips",tags:["UK","Student Visa","University","IELTS"],author:"Abroado Team",authorAvatar:"AT",date:"2024-01-15",coverImage:"images/uk-hero.jpg",instagramUrl:"https://www.instagram.com/abroado_edu/",readTime:8,published:!0},{id:"2",title:"Top 10 Universities in Australia for International Students",slug:"top-universities-australia-international-students",excerpt:"Australia boasts some of the world's finest universities. We explore the top 10 institutions that welcome international students with open arms, excellent support, and world-class education.",content:`## Why Study in Australia?
 
 Australia is home to 8 of the world's top 100 universities and offers exceptional quality of life, a multicultural environment, and excellent post-study work opportunities.
 

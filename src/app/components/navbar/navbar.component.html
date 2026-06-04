@@ -20,8 +20,7 @@
     <ul class="nav-links" id="nav-links">
       <li><a routerLink="/" fragment="home" class="nav-link" [class.active]="activeSection==='home'"
           (click)="scrollTo('home')">Home</a></li>
-      <li><a routerLink="/" fragment="about" class="nav-link" [class.active]="activeSection==='about'"
-          (click)="scrollTo('about')">About</a></li>
+      <li><a routerLink="/about" class="nav-link" routerLinkActive="active">About</a></li>
       <li><a routerLink="/" fragment="services" class="nav-link" [class.active]="activeSection==='services'"
           (click)="scrollTo('services')">Services</a></li>
       <li><a routerLink="/" fragment="destinations" class="nav-link" [class.active]="activeSection==='destinations'"
@@ -52,8 +51,7 @@
   <ul class="mobile-nav-links">
     <li><a routerLink="/" fragment="home" class="mobile-nav-link" (click)="closeMobile(); scrollTo('home')">Home</a>
     </li>
-    <li><a routerLink="/" fragment="about" class="mobile-nav-link" (click)="closeMobile(); scrollTo('about')">About</a>
-    </li>
+    <li><a routerLink="/about" class="mobile-nav-link" routerLinkActive="active" (click)="closeMobile()">About</a></li>
     <li><a routerLink="/" fragment="services" class="mobile-nav-link"
         (click)="closeMobile(); scrollTo('services')">Services</a></li>
     <li><a routerLink="/" fragment="destinations" class="mobile-nav-link"

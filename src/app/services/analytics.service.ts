@@ -158,6 +158,18 @@ export class AnalyticsService {
     });
   }
 
+  public trackAssessment(data: any): void {
+    if (!this.sessionId) return;
+
+    const payload = {
+      session_id: this.sessionId,
+      ...data
+    };
+    this.http.post(`${this.apiUrl}/assessment`, payload).subscribe({
+      error: (err) => console.error('Analytics assessment error', err)
+    });
+  }
+
   private generateUUID(): string {
     return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
       const r = Math.random() * 16 | 0,

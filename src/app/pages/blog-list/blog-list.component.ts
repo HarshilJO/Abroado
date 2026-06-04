@@ -32,12 +32,12 @@ export class BlogListComponent implements OnInit {
   ];
 
   instagramPosts = [
-    { url: 'https://instagram.com/abroado', thumb: 'images/uk-hero.jpg' },
-    { url: 'https://instagram.com/abroado', thumb: 'images/australia-hero.jpg' },
-    { url: 'https://instagram.com/abroado', thumb: 'images/students-hero.jpg' },
-    { url: 'https://instagram.com/abroado', thumb: 'images/travel-hero.jpg' },
-    { url: 'https://instagram.com/abroado', thumb: 'images/uk-hero.jpg' },
-    { url: 'https://instagram.com/abroado', thumb: 'images/australia-hero.jpg' }
+    { url: 'https://www.instagram.com/abroado_edu/', thumb: 'images/uk-hero.jpg' },
+    { url: 'https://www.instagram.com/abroado_edu/', thumb: 'images/australia-hero.jpg' },
+    { url: 'https://www.instagram.com/abroado_edu/', thumb: 'images/students-hero.jpg' },
+    { url: 'https://www.instagram.com/abroado_edu/', thumb: 'images/travel-hero.jpg' },
+    { url: 'https://www.instagram.com/abroado_edu/', thumb: 'images/uk-hero.jpg' },
+    { url: 'https://www.instagram.com/abroado_edu/', thumb: 'images/australia-hero.jpg' }
   ];
 
   get allTags(): string[] {

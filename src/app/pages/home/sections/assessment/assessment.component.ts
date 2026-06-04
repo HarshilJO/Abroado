@@ -1,6 +1,7 @@
 import { Component, AfterViewInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { AnalyticsService } from '../../../../services/analytics.service';
 
 @Component({
   selector: 'app-assessment',
@@ -17,19 +18,35 @@ export class AssessmentComponent implements AfterViewInit {
     country: '',
     course: '',
     budget: '',
-    income: ''
+    income: '',
+    email: ''
   };
   submitting = false;
   submitted = false;
 
+  constructor(private analytics: AnalyticsService) {}
+
   onSubmit(e: Event) {
     e.preventDefault();
-    if (!this.form.dob || !this.form.qualification || !this.form.country) return;
+    if (!this.form.dob || !this.form.qualification || !this.form.country || !this.form.email) return;
     this.submitting = true;
+    
+    const assessmentData = {
+      email: this.form.email,
+      dob: this.form.dob,
+      qualification: this.form.qualification,
+      gap: this.form.gap || null,
+      country: this.form.country,
+      course: this.form.course || null,
+      budget: this.form.budget ? this.form.budget.toString() : null,
+      income: this.form.income ? this.form.income.toString() : null
+    };
+    this.analytics.trackAssessment(assessmentData);
+
     setTimeout(() => {
       this.submitting = false;
       this.submitted = true;
-      this.form = { dob: '', qualification: '', gap: '', country: '', course: '', budget: '', income: '' };
+      this.form = { dob: '', qualification: '', gap: '', country: '', course: '', budget: '', income: '', email: '' };
     }, 1500);
   }
 
