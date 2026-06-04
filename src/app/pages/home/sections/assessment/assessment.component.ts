@@ -35,11 +35,11 @@ export class AssessmentComponent implements AfterViewInit {
       email: this.form.email,
       dob: this.form.dob,
       qualification: this.form.qualification,
-      gap: this.form.gap || null,
+      gap: (this.form.gap !== null && this.form.gap !== '') ? String(this.form.gap) : null,
       country: this.form.country,
       course: this.form.course || null,
-      budget: this.form.budget ? this.form.budget.toString() : null,
-      income: this.form.income ? this.form.income.toString() : null
+      budget: (this.form.budget !== null && this.form.budget !== '') ? String(this.form.budget) : null,
+      income: (this.form.income !== null && this.form.income !== '') ? String(this.form.income) : null
     };
     this.analytics.trackAssessment(assessmentData);
 
