@@ -33,7 +33,7 @@ const SAMPLE_POSTS: BlogPost[] = [
     authorAvatar: 'AT',
     date: '2024-01-15',
     coverImage: 'images/uk-hero.jpg',
-    instagramUrl: 'https://instagram.com/abroado',
+    instagramUrl: 'https://www.instagram.com/abroado_edu/',
     readTime: 8,
     published: true
   },

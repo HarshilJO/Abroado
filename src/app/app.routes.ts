@@ -10,6 +10,10 @@ export const routes: Routes = [
     loadComponent: () => import('./pages/blog-list/blog-list.component').then(m => m.BlogListComponent)
   },
   {
+    path: 'about',
+    loadComponent: () => import('./pages/about-page/about-page.component').then(m => m.AboutPageComponent)
+  },
+  {
     path: 'blog/:slug',
     loadComponent: () => import('./pages/blog-post/blog-post.component').then(m => m.BlogPostComponent)
   },
