@@ -2,6 +2,7 @@ import { Component, AfterViewInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { AnalyticsService } from '../../../../services/analytics.service';
+import { formatDateToDDMMYYYY } from '../../../../utils/date.utils';
 
 @Component({
   selector: 'app-assessment',
@@ -33,7 +34,7 @@ export class AssessmentComponent implements AfterViewInit {
     
     const assessmentData = {
       email: this.form.email,
-      dob: this.form.dob,
+      dob: formatDateToDDMMYYYY(this.form.dob),
       qualification: this.form.qualification,
       gap: (this.form.gap !== null && this.form.gap !== '') ? String(this.form.gap) : null,
       country: this.form.country,
