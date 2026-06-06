@@ -26,7 +26,7 @@
             <span class="visa-country">🇬🇧 UK</span>
             <span class="visa-country">🇦🇺 Australia</span>
           </div>
-          <a href="#contact" class="btn btn-block" [class.btn-primary]="i===0" [class.btn-dark]="i===1" (click)="scrollTo($event, 'contact')">
+          <a routerLink="/contact" class="btn btn-block" [class.btn-primary]="i===0" [class.btn-dark]="i===1">
             {{ card.cta }}
             <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           </a>
