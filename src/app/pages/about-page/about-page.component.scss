@@ -29,9 +29,11 @@
   position: relative;
   height: 500px;
   margin-top: 40px;
+  display: none;
 
   @media (min-width: 1024px) {
     margin-top: 0;
+    display: block;
   }
 
   .main-image {
@@ -67,7 +69,9 @@
       background: var(--color-primary);
       color: #fff;
 
-      .stat-number { color: var(--color-accent); }
+      .stat-number {
+        color: var(--color-accent);
+      }
     }
 
     &-2 {
@@ -76,7 +80,9 @@
       background: var(--color-surface);
       color: var(--color-text);
 
-      .stat-number { color: var(--color-primary); }
+      .stat-number {
+        color: var(--color-primary);
+      }
     }
 
     .stat-number {
@@ -92,10 +98,27 @@
       opacity: 0.9;
       white-space: nowrap;
     }
-    
+
     @media (max-width: 768px) {
-      &-1 { bottom: -15px; left: -15px; padding: var(--spacing-md); .stat-number { font-size: 1.8rem; } }
-      &-2 { top: -15px; right: -15px; padding: var(--spacing-md); .stat-number { font-size: 1.8rem; } }
+      &-1 {
+        bottom: -15px;
+        left: -15px;
+        padding: var(--spacing-md);
+
+        .stat-number {
+          font-size: 1.8rem;
+        }
+      }
+
+      &-2 {
+        top: -15px;
+        right: -15px;
+        padding: var(--spacing-md);
+
+        .stat-number {
+          font-size: 1.8rem;
+        }
+      }
     }
   }
 }
@@ -130,8 +153,8 @@
   overflow: hidden;
   box-shadow: var(--shadow-2xl);
   height: 500px;
-  background: linear-gradient(135deg, rgba(26,54,93,0.1), rgba(26,54,93,0.05));
-  
+  background: linear-gradient(135deg, rgba(26, 54, 93, 0.1), rgba(26, 54, 93, 0.05));
+
   img {
     width: 100%;
     height: 100%;
@@ -144,15 +167,16 @@
     img {
       transform: scale(1.05);
     }
-    
+
     .ceo-badge {
       background: rgba(255, 255, 255, 0.95);
       color: var(--color-text);
       padding-top: var(--spacing-xl); // reduce padding to fit better when solid
-      
+
       .badge-title {
         color: var(--color-primary);
       }
+
       .badge-role {
         color: var(--color-text-secondary);
       }
@@ -165,11 +189,11 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
   padding: var(--spacing-2xl) var(--spacing-xl) var(--spacing-xl);
   color: #fff;
   transition: all 0.4s ease;
-  
+
   .badge-title {
     display: block;
     font-family: var(--font-display);
@@ -178,7 +202,7 @@
     margin-bottom: var(--spacing-xs);
     transition: color 0.4s ease;
   }
-  
+
   .badge-role {
     color: var(--color-accent);
     font-weight: 500;
@@ -194,7 +218,7 @@
   border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
   margin: var(--spacing-xl) 0;
   box-shadow: var(--shadow-md);
-  
+
   .sanskrit-quote {
     font-size: 1.5rem;
     color: var(--color-primary);
@@ -202,7 +226,7 @@
     margin-bottom: var(--spacing-xs);
     font-family: serif;
   }
-  
+
   .quote-translation {
     color: var(--color-text-secondary);
     font-style: italic;
@@ -214,9 +238,9 @@
   position: relative;
   margin: var(--spacing-xl) 0;
   padding: var(--spacing-lg) var(--spacing-xl);
-  background: rgba(26,54,93, 0.03);
+  background: rgba(26, 54, 93, 0.03);
   border-radius: var(--radius-lg);
-  
+
   .quote-icon {
     position: absolute;
     top: -15px;
@@ -226,7 +250,7 @@
     opacity: 0.2;
     line-height: 1;
   }
-  
+
   p {
     position: relative;
     z-index: 1;
@@ -239,16 +263,66 @@
 
 .ceo-signature {
   margin-top: var(--spacing-xl);
-  
+
   .sig-name {
     font-family: var(--font-display);
     font-size: 1.5rem;
     color: var(--color-primary);
     margin-bottom: 0.25rem;
   }
-  
+
   .sig-title {
     color: var(--color-text-secondary);
     font-size: 0.95rem;
+  }
+}
+
+
+.universities-section {
+  padding: var(--spacing-3xl) 0;
+  background: #ffedc9bd;
+}
+
+.universities-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-xl);
+  align-items: center;
+  justify-items: center;
+
+  @media (min-width: 576px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media (min-width: 992px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  @media (min-width: 1200px) {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .uni-logo-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--spacing-md);
+    transition: transform var(--transition-normal, 0.3s ease);
+    width: 100%;
+    height: 100px;
+    background: var(--color-surface);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow-md);
+    }
+
+    img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+    }
   }
 }
