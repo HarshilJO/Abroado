@@ -1,0 +1,34 @@
+name: Deploy Angular to Test Subfolder
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  web-deploy:
+    name: 🎉 Build and Deploy to /test
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v4
+
+    - name: ⚙️ Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    - name: 📦 Install dependencies
+      run: npm install
+
+    - name: 🏗️ Build Angular Project
+      run: npm run build -- --base-href /test/
+
+    - name: 📂 Sync files to cPanel Test Folder
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.3
+      with:
+        server: ${{ secrets.FTP_SERVER }}
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: ./dist/abroado-app/browser/
+        server-dir: ./
