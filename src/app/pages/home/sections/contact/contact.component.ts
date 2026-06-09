@@ -48,8 +48,8 @@ export class ContactComponent implements AfterViewInit {
     
     // Log lead to analytics
     const fullName = `${this.form.firstName} ${this.form.lastName}`.trim();
-    const interest = `Type: ${this.form.visaType}, Dest: ${this.form.destination}, Msg: ${this.form.message}`.trim();
-    this.analytics.trackLead(fullName, this.form.phone, interest);
+    const interest = `Type: ${this.form.visaType}<br>Dest: ${this.form.destination}<br>Msg: ${this.form.message}`.trim();
+    this.analytics.trackLead(fullName, this.form.email, this.form.phone, interest);
     
     setTimeout(() => { this.submitting = false; this.submitted = true; this.form = { firstName: '', lastName: '', email: '', phone: '', visaType: '', destination: '', message: '' }; }, 1500);
   }

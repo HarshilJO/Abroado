@@ -144,17 +144,30 @@ export class AnalyticsService {
     });
   }
 
-  public trackLead(name: string, phone: string, interest?: string): void {
+  public trackLead(name: string, email: string, phone: string, interest?: string): void {
     if (!this.sessionId) return;
 
     const payload = {
       session_id: this.sessionId,
       name: name,
+      email: email,
       phone: phone,
       interest: interest || null
     };
     this.http.post(`${this.apiUrl}/lead`, payload).subscribe({
       error: (err) => console.error('Analytics lead error', err)
+    });
+  }
+
+  public trackNewsletter(email: string): void {
+    if (!this.sessionId) return;
+
+    const payload = {
+      session_id: this.sessionId,
+      email: email
+    };
+    this.http.post(`${this.apiUrl}/newsletter`, payload).subscribe({
+      error: (err) => console.error('Analytics newsletter error', err)
     });
   }
 
