@@ -1,4 +1,4 @@
-name: Deploy Angular to Test Subfolder
+name: Deploy Angular to Production Root
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   web-deploy:
-    name: 🎉 Build and Deploy to /test
+    name: 🚀 Build and Deploy to Live Root
     runs-on: ubuntu-latest
     steps:
     - name: 🚚 Get latest code
@@ -22,13 +22,15 @@ jobs:
       run: npm install
 
     - name: 🏗️ Build Angular Project
-      run: npm run build -- --base-href /test/
+      # 🌟 CRITICAL FIX: Changed from /test/ to / because the app now lives at the root domain
+      run: npm run build -- --base-href /
 
-    - name: 📂 Sync files to cPanel Test Folder
+    - name: 📂 Sync files to cPanel public_html
       uses: SamKirkland/FTP-Deploy-Action@v4.3.3
       with:
         server: ${{ secrets.FTP_SERVER }}
-        username: ${{ secrets.FTP_USERNAME }}
-        password: ${{ secrets.FTP_PASSWORD }}
+        username: ${{ secrets.LIVE_FTP_USERNAME }}   # 🌟 Updated
+        password: ${{ secrets.LIVE_FTP_PASSWORD }}   # 🌟 Updated
         local-dir: ./dist/abroado-app/browser/
+        # 🌟 CRITICAL CHECK: Read the note below regarding your server path
         server-dir: ./
