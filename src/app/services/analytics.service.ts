@@ -36,9 +36,10 @@ export class AnalyticsService {
     if (isPlatformBrowser(this.platformId)) {
       this.ensureSessionId();
       this.trackVisitor();
-      this.setupPageTracking();
-      this.setupScrollTracking();
-      this.setupUnloadTracking();
+      // Disabled to prevent 404s and backend overload
+      // this.setupPageTracking();
+      // this.setupScrollTracking();
+      // this.setupUnloadTracking();
     }
   }
 
@@ -139,9 +140,10 @@ export class AnalyticsService {
       session_id: this.sessionId,
       question: question
     };
-    this.http.post(`${this.apiUrl}/chatbot_log`, payload).subscribe({
-      error: (err) => console.error('Analytics log error', err)
-    });
+    // Disabled to prevent 404s and backend overload
+    // this.http.post(`${this.apiUrl}/chatbot_log`, payload).subscribe({
+    //   error: (err) => console.error('Analytics log error', err)
+    // });
   }
 
   public trackLead(name: string, email: string, phone: string, interest?: string): void {

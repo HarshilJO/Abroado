@@ -4,15 +4,28 @@
       <div class="assessment-content">
         <span class="section-tag">Quick Evaluation</span>
         <h2 class="section-title">Free Profile <span class="title-highlight">Assessment</span></h2>
-        <p class="section-description">Take our quick assessment to find the best study abroad options tailored to your profile.</p>
-        
+        <p class="section-description">Take our quick assessment to find the best study abroad options tailored to your
+          profile.</p>
+
         <div class="assessment-form-wrap">
           @if (!submitted) {
           <form class="assessment-form" (submit)="onSubmit($event)">
             <div class="form-row">
               <div class="form-group">
+                <label for="name">Name *</label>
+                <input type="text" id="name" [(ngModel)]="form.name" name="name" required placeholder="Enter your name">
+              </div>
+              <div class="form-group">
+                <label for="surname">Surname *</label>
+                <input type="text" id="surname" [(ngModel)]="form.surname" name="surname" required
+                  placeholder="Enter your surname">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
                 <label for="dob">Date of Birth *</label>
-                <input type="text" id="dob" [(ngModel)]="form.dob" name="dob" required placeholder="DD/MM/YYYY" pattern="\d{2}/\d{2}/\d{4}">
+                <input type="text" id="dob" [(ngModel)]="form.dob" name="dob" required placeholder="DD/MM/YYYY"
+                  pattern="\d{2}/\d{2}/\d{4}">
               </div>
               <div class="form-group">
                 <label for="qualification">Last Academic Qualification *</label>
@@ -29,7 +42,8 @@
             <div class="form-row">
               <div class="form-group">
                 <label for="gap">Gap in Study (Years)</label>
-                <input type="number" id="gap" min="0" step="0.5" [(ngModel)]="form.gap" name="gap" placeholder="e.g. 1.5">
+                <input type="number" id="gap" min="0" step="0.5" [(ngModel)]="form.gap" name="gap"
+                  placeholder="e.g. 1.5">
               </div>
               <div class="form-group">
                 <label for="country">Country Preference *</label>
@@ -46,10 +60,11 @@
             <div class="form-row">
               <div class="form-group">
                 <label for="course">Course Preference</label>
-                <input type="text" id="course" [(ngModel)]="form.course" name="course" placeholder="e.g. MBA, IT, Business">
+                <input type="text" id="course" [(ngModel)]="form.course" name="course"
+                  placeholder="e.g. MBA, IT, Business">
               </div>
               <div class="form-group">
-                <label for="budget">Budget (in Lakhs)</label>
+                <label for="budget">Available Funds (in Lakhs)</label>
                 <input type="number" id="budget" min="0" [(ngModel)]="form.budget" name="budget" placeholder="e.g. 15">
               </div>
             </div>
@@ -60,14 +75,15 @@
               </div>
               <div class="form-group">
                 <label for="email">Email Address *</label>
-                <input type="email" id="email" [(ngModel)]="form.email" name="email" required placeholder="Enter your email">
+                <input type="email" id="email" [(ngModel)]="form.email" name="email" required
+                  placeholder="Enter your email">
               </div>
             </div>
             <button type="submit" class="btn btn-primary btn-block" [disabled]="submitting">
               @if (submitting) {
-                <span class="spinner"></span> Processing...
+              <span class="spinner"></span> Processing...
               } @else {
-                Get Free Assessment
+              Get Free Assessment
               }
             </button>
           </form>
@@ -80,7 +96,8 @@
               </svg>
             </div>
             <h3>Assessment Submitted!</h3>
-            <p>Thank you for sharing your details. Our expert counselor will review your profile and get back to you with the best options within 24 hours.</p>
+            <p>Thank you for sharing your details. Our expert counselor will review your profile and get back to you
+              with the best options within 24 hours.</p>
             <button class="btn btn-primary" (click)="submitted = false">Submit Another</button>
           </div>
           }
@@ -88,7 +105,9 @@
       </div>
       <div class="assessment-image-wrap">
         <div class="assessment-card-bg"></div>
-        <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Student consulting" class="assessment-image">
+        <img
+          src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+          alt="Student consulting" class="assessment-image">
       </div>
     </div>
   </div>
