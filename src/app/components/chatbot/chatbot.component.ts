@@ -167,7 +167,7 @@ export class ChatbotComponent implements OnInit, OnDestroy {
       this.messages.push({
         role: 'assistant',
         content: {
-          text: 'Hi! I am the Abroado assistant. How can I help you today?',
+          text: 'Hi! I am Abroado Assistant.AI. How can I help you today?',
           links: [],
           suggestions: []
         }
