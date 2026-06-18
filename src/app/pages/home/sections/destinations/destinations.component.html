@@ -10,7 +10,7 @@
         <div class="destination-card" data-animate="fade-up" [attr.data-delay]="300 + i*100">
           <div class="destination-header" [style.background]="dest.headerBg">
             <div class="destination-info">
-              <span class="dest-flag">{{ dest.flag }}</span>
+              <img class="dest-flag" [src]="dest.flagImg" [alt]="dest.flagAlt" width="32" height="24">
               <div>
                 <h3 class="destination-name">{{ dest.name }}</h3>
                 <span class="destination-tagline">{{ dest.tagline }}</span>
@@ -40,10 +40,10 @@
                 </li>
               }
             </ul>
-            <a routerLink="/contact" class="btn btn-dark btn-block">
+            <button class="btn btn-dark btn-block" (click)="exploreCourses(dest.name)">
               Explore {{ dest.name }} Programs
               <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-            </a>
+            </button>
           </div>
         </div>
       }

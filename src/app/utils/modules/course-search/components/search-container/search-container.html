@@ -1,0 +1,101 @@
+<!-- ══ SEARCH CONTAINER ══════════════════════════════ -->
+<div class="sc-wrap">
+
+  <!-- Sticky Search Bar -->
+  <div class="sc-search-bar">
+    <div class="sc-search-bar__inner">
+      <svg class="sc-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+        <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+      </svg>
+      <app-search-bar (searchTermChange)="onSearch($event)"></app-search-bar>
+    </div>
+  </div>
+
+  <!-- Main: sidebar + results -->
+  <div class="sc-main">
+
+    <!-- Filter Sidebar -->
+    <aside class="sc-sidebar-wrap">
+      <app-filter-sidebar
+        [initialCountry]="activeCountry"
+        [universities]="(universities$ | async) || []"
+        (filterChange)="onFilterUpdate($event)"
+        (resetFilters)="onReset()">
+      </app-filter-sidebar>
+    </aside>
+
+    <!-- Results -->
+    <section class="sc-results">
+
+      <!-- Meta bar: count + active filter pills -->
+      <div class="sc-results-meta" *ngIf="(totalResults$ | async) as total">
+        <span class="sc-results-count">
+          <strong>{{ total }}</strong> {{ total === 1 ? 'program' : 'programs' }} found
+          <span class="sc-page-info" *ngIf="(totalPages$ | async)! > 1">
+            — page {{ currentPage }} of {{ totalPages$ | async }}
+          </span>
+        </span>
+
+        <span class="sc-active-filters" *ngIf="activeFilterLabels.length">
+          <span class="sc-filter-tag" *ngFor="let label of activeFilterLabels">{{ label }}</span>
+        </span>
+      </div>
+
+      <!-- Empty state -->
+      <div *ngIf="(totalResults$ | async) === 0" class="sc-empty">
+        <div class="sc-empty__icon">🔍</div>
+        <h3>No programs found</h3>
+        <p>Try adjusting your search or clearing some filters.</p>
+      </div>
+
+      <!-- Cards grid (paged) -->
+      <div class="sc-grid" *ngIf="(totalResults$ | async)! > 0">
+        <app-course-card
+          *ngFor="let course of pagedResults$ | async"
+          [course]="course">
+        </app-course-card>
+      </div>
+
+      <!-- ── Pagination ── -->
+      <nav class="sc-pagination" *ngIf="(totalPages$ | async)! > 1" aria-label="Results pages">
+
+        <!-- Prev -->
+        <button class="sc-page-btn sc-page-nav"
+          [disabled]="currentPage === 1"
+          (click)="goToPage(currentPage - 1)"
+          aria-label="Previous page">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M15 18l-6-6 6-6"/>
+          </svg>
+        </button>
+
+        <!-- Page numbers -->
+        <ng-container *ngFor="let p of getPageNumbers((totalPages$ | async)!)">
+          <!-- ellipsis -->
+          <span *ngIf="p === -1" class="sc-page-ellipsis">…</span>
+          <!-- number -->
+          <button *ngIf="p !== -1"
+            class="sc-page-btn"
+            [class.active]="p === currentPage"
+            (click)="goToPage(p)"
+            [attr.aria-current]="p === currentPage ? 'page' : null">
+            {{ p }}
+          </button>
+        </ng-container>
+
+        <!-- Next -->
+        <button class="sc-page-btn sc-page-nav"
+          [disabled]="currentPage === (totalPages$ | async)"
+          (click)="goToPage(currentPage + 1)"
+          aria-label="Next page">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M9 18l6-6-6-6"/>
+          </svg>
+        </button>
+
+      </nav>
+
+    </section>
+
+  </div>
+</div>

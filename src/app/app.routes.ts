@@ -6,6 +6,10 @@ export const routes: Routes = [
     loadComponent: () => import('./pages/home/home.component').then(m => m.HomeComponent)
   },
   {
+    path: 'courses',
+    loadComponent: () => import('./pages/courses/courses.component').then(m => m.CoursesComponent)
+  },
+  {
     path: 'blog',
     loadComponent: () => import('./pages/blog-list/blog-list.component').then(m => m.BlogListComponent)
   },
@@ -36,6 +40,10 @@ export const routes: Routes = [
   {
     path: 'contact',
     loadComponent: () => import('./pages/home/sections/contact/contact.component').then(m => m.ContactComponent)
+  },
+  {
+    path: 'coming-soon',
+    loadComponent: () => import('./pages/coming-soon/coming-soon.component').then(m => m.ComingSoonComponent)
   },
   { path: '**', redirectTo: '' }
 ];

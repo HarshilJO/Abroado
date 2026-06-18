@@ -1,0 +1,2935 @@
+[
+  {
+    "id": "f0a2c94c2bc9b9b1b866301984239877",
+    "provider": "UniSC",
+    "country": "Australia",
+    "campus_locations": [
+      "Adelaide"
+    ],
+    "course": {
+      "name": "Bachelor of Education Studies (Early Childhood)",
+      "level": "Bachelors",
+      "specialization": "Teaching methodology",
+      "link": "https://www.unisc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-education-studies-early-childhood#program-detail"
+    },
+    "intakes": {
+      "raw": "July 26'",
+      "list": [
+        "July 26'"
+      ]
+    },
+    "requirements": {
+      "academic": {
+        "raw": null
+      },
+      "english": {
+        "raw": "IELTS: 6/6                                                                    PTE: 50/50",
+        "ielts": {
+          "overall": 6.0,
+          "min_band": 6.0
+        },
+        "pte": {
+          "overall": 50,
+          "min_band": 50
+        },
+        "toefl": null
+      }
+    },
+    "fees": {
+      "currency": "AUD",
+      "tuition_raw": "AUD 32500/Year",
+      "tuition_numeric": 32500.0,
+      "period": "Year",
+      "scholarship_raw": null,
+      "after_scholarship_raw": "AUD 32500/Year",
+      "after_scholarship_numeric": 32500.0
+    },
+    "deadlines": {
+      "intake_month": "July",
+      "application_deadline": "15th May, 26'",
+      "coe_or_deposit_deadline": "12th June, 26'",
+      "cas_deadline": null,
+      "intake_start_date": "20th July, 26'",
+      "next_intake": "Nov 26'"
+    },
+    "risk_guidelines": {
+      "high_risk_market_raw": "Punjab, Gujarat, Andhra Pradesh, Telangana, Uttar Pradesh (excluding Ghaziabad and Noida), Rajasthan, Uttarakhand, Bihar, Chhattisgarh, Jammu and Kashmir, Jharkhand. Immediate Rejection from Haryana, Rudrapur and Udham Singh Nagar (Uttarakhand), Sri Ganganagar (Rajasthan)-No UG Applications from these Regions.",
+      "age_limit": {
+        "raw": "UG: 19 PG: 32",
+        "ug": 19,
+        "pg": 32
+      },
+      "backlogs_allowed": {
+        "raw": "10 for 4 year degree and 8 for 3 year degree.",
+        "3_year_degree": 8,
+        "4_year_degree": 10
+      },
+      "core_subjects_required": "15 months for UG. 18 months for PG",
+      "gap_accepted": "Low Risk PG: more than 1 year old                                                                                                            High risk: Not Accepting from High Risk Region",
+      "other_rules": [
+        "AI Interview on UniReady Portal.                                                        BECE is only F2F Interview",
+        "UG: N/A PG: Accepted with all documents",
+        "Parents, Parents in law, Spouse, Self, Brother or Sister, Grandparents  (maternal or paternal), Aunt and Uncle  (maternal or paternal)",
+        "High Risk Region : ITR of 14 Lakhs (With Education Loan), ITR of 15 Lakhs (Without Education Loan)                                                         Other Regions : ITR of 13 Lakhs (With Education Loan), ITR of 14 Lakhs (Without Education Loan)",
+        "Current Income needed for one sponsor:  100% from parents                                                                                  Current Income needed for two sponsors:  70%-80% from parents and remaining 20%-30% from other relatives (siblings, uncle/aunt, grandparents and parent-in-laws)                                                                                                                                                                                                  Current Income needed for three sponsors: \u00a0 If parents and siblings (50% from each sponsor) \u00a0 If siblings and other relatives (uncle/aunt,grandparents and parent-in-laws) (70% from siblings and remaining 30%\u00a0from other relatives) \u00a0 If only other relatives (Case by case assessment), only if parents are deceased",
+        "Any Public, Pvt and NBFC (Only Credila) is accepted",
+        "Sponsors with annual income less than INR 15 lacs should be allowed to take only 25-30 lakhs loan and show savings of INR 8-10 lacs in their bank.",
+        "1 year Fee required from High Risk Regions.                  75% of the first year from Uttar Pradesh, Jammu and Kashmir  Rest part of India : 50% of first year",
+        "No previous rejections from any country",
+        "February, July & November",
+        "Partial Agricultural or Dairy Income (not more than 30-40%) may be accepted on case-by-case basis only from Parents (no additional sponsors allowed). Remaining 60%-70% of the income should not be a business related to agriculture \u2013 Animal Husbandry, Seeds or Agro or Cattle related businesses. Other income \u2013 salary, pension or other source of income from other business. Following business are not allowed Boutique, Beauty parlour, Handloom, Bakery, Tuition"
+      ]
+    }
+  },
+  {
+    "id": "f65f2ca4e515610add04e6d3c79464a6",
+    "provider": "UniSC",
+    "country": "Australia",
+    "campus_locations": [
+      "Adelaide"
+    ],
+    "course": {
+      "name": "Master of Information and Communication Technology",
+      "level": "Masters",
+      "specialization": "Data, ML",
+      "link": "https://www.unisc.edu.au/study/courses-and-programs/postgraduate-degrees/master-of-information-and-communications-technology#program-detail"
+    },
+    "intakes": {
+      "raw": "July 26'",
+      "list": [
+        "July 26'"
+      ]
+    },
+    "requirements": {
+      "academic": {
+        "raw": "Section 1: 60% Section 2: 60% Section 3: Not accepted                                                     Not Accepting from Haryana (Other regions mentioned in GS requirement)"
+      },
+      "english": {
+        "raw": "IELTS: 6.5/6                                       PTE: 58/50",
+        "ielts": {
+          "overall": 6.5,
+          "min_band": 6.0
+        },
+        "pte": {
+          "overall": 58,
+          "min_band": 50
+        },
+        "toefl": null
+      }
+    },
+    "fees": {
+      "currency": "AUD",
+      "tuition_raw": "AUD 31500/Year",
+      "tuition_numeric": 31500.0,
+      "period": "Year",
+      "scholarship_raw": null,
+      "after_scholarship_raw": "AUD 26775/Year",
+      "after_scholarship_numeric": 26775.0
+    },
+    "deadlines": {
+      "intake_month": "July",
+      "application_deadline": "15th May, 26'",
+      "coe_or_deposit_deadline": "12th June, 26'",
+      "cas_deadline": null,
+      "intake_start_date": "20th July, 26'",
+      "next_intake": "Nov 26'"
+    },
+    "risk_guidelines": {
+      "high_risk_market_raw": "Punjab, Gujarat, Andhra Pradesh, Telangana, Uttar Pradesh (excluding Ghaziabad and Noida), Rajasthan, Uttarakhand, Bihar, Chhattisgarh, Jammu and Kashmir, Jharkhand. Immediate Rejection from Haryana, Rudrapur and Udham Singh Nagar (Uttarakhand), Sri Ganganagar (Rajasthan)-No UG Applications from these Regions.",
+      "age_limit": {
+        "raw": "UG: 19 PG: 32",
+        "ug": 19,
+        "pg": 32
+      },
+      "backlogs_allowed": {
+        "raw": "10 for 4 year degree and 8 for 3 year degree.",
+        "3_year_degree": 8,
+        "4_year_degree": 10
+      },
+      "core_subjects_required": "15 months for UG. 18 months for PG",
+      "gap_accepted": "Low Risk PG: more than 1 year old                                                                                                            High risk: Not Accepting from High Risk Region",
+      "other_rules": [
+        "AI Interview on UniReady Portal.                                                        BECE is only F2F Interview",
+        "UG: N/A PG: Accepted with all documents",
+        "Parents, Parents in law, Spouse, Self, Brother or Sister, Grandparents  (maternal or paternal), Aunt and Uncle  (maternal or paternal)",
+        "High Risk Region : ITR of 14 Lakhs (With Education Loan), ITR of 15 Lakhs (Without Education Loan)                                                         Other Regions : ITR of 13 Lakhs (With Education Loan), ITR of 14 Lakhs (Without Education Loan)",
+        "Current Income needed for one sponsor:  100% from parents                                                                                  Current Income needed for two sponsors:  70%-80% from parents and remaining 20%-30% from other relatives (siblings, uncle/aunt, grandparents and parent-in-laws)                                                                                                                                                                                                  Current Income needed for three sponsors: \u00a0 If parents and siblings (50% from each sponsor) \u00a0 If siblings and other relatives (uncle/aunt,grandparents and parent-in-laws) (70% from siblings and remaining 30%\u00a0from other relatives) \u00a0 If only other relatives (Case by case assessment), only if parents are deceased",
+        "Any Public, Pvt and NBFC (Only Credila) is accepted",
+        "Sponsors with annual income less than INR 15 lacs should be allowed to take only 25-30 lakhs loan and show savings of INR 8-10 lacs in their bank.",
+        "1 year Fee required from High Risk Regions.                  75% of the first year from Uttar Pradesh, Jammu and Kashmir  Rest part of India : 50% of first year",
+        "No previous rejections from any country",
+        "February, July & November",
+        "Partial Agricultural or Dairy Income (not more than 30-40%) may be accepted on case-by-case basis only from Parents (no additional sponsors allowed). Remaining 60%-70% of the income should not be a business related to agriculture \u2013 Animal Husbandry, Seeds or Agro or Cattle related businesses. Other income \u2013 salary, pension or other source of income from other business. Following business are not allowed Boutique, Beauty parlour, Handloom, Bakery, Tuition"
+      ]
+    }
+  },
+  {
+    "id": "e48ab4510fd784af19b81451125547c4",
+    "provider": "UniSC",
+    "country": "Australia",
+    "campus_locations": [
+      "Adelaide"
+    ],
+    "course": {
+      "name": "Master of Cyber Security and Forensics",
+      "level": "Masters",
+      "specialization": "Cyber Security",
+      "link": "https://www.unisc.edu.au/study/courses-and-programs/postgraduate-degrees/master-of-cyber-security-and-forensics"
+    },
+    "intakes": {
+      "raw": "July 26'",
+      "list": [
+        "July 26'"
+      ]
+    },
+    "requirements": {
+      "academic": {
+        "raw": null
+      },
+      "english": {
+        "raw": "IELTS: 6.5/6                                       PTE: 58/50",
+        "ielts": {
+          "overall": 6.5,
+          "min_band": 6.0
+        },
+        "pte": {
+          "overall": 58,
+          "min_band": 50
+        },
+        "toefl": null
+      }
+    },
+    "fees": {
+      "currency": "AUD",
+      "tuition_raw": "AUD 31500/Year",
+      "tuition_numeric": 31500.0,
+      "period": "Year",
+      "scholarship_raw": null,
+      "after_scholarship_raw": "AUD 26775/Year",
+      "after_scholarship_numeric": 26775.0
+    },
+    "deadlines": {
+      "intake_month": "July",
+      "application_deadline": "15th May, 26'",
+      "coe_or_deposit_deadline": "12th June, 26'",
+      "cas_deadline": null,
+      "intake_start_date": "20th July, 26'",
+      "next_intake": "Nov 26'"
+    },
+    "risk_guidelines": {
+      "high_risk_market_raw": "Punjab, Gujarat, Andhra Pradesh, Telangana, Uttar Pradesh (excluding Ghaziabad and Noida), Rajasthan, Uttarakhand, Bihar, Chhattisgarh, Jammu and Kashmir, Jharkhand. Immediate Rejection from Haryana, Rudrapur and Udham Singh Nagar (Uttarakhand), Sri Ganganagar (Rajasthan)-No UG Applications from these Regions.",
+      "age_limit": {
+        "raw": "UG: 19 PG: 32",
+        "ug": 19,
+        "pg": 32
+      },
+      "backlogs_allowed": {
+        "raw": "10 for 4 year degree and 8 for 3 year degree.",
+        "3_year_degree": 8,
+        "4_year_degree": 10
+      },
+      "core_subjects_required": "15 months for UG. 18 months for PG",
+      "gap_accepted": "Low Risk PG: more than 1 year old                                                                                                            High risk: Not Accepting from High Risk Region",
+      "other_rules": [
+        "AI Interview on UniReady Portal.                                                        BECE is only F2F Interview",
+        "UG: N/A PG: Accepted with all documents",
+        "Parents, Parents in law, Spouse, Self, Brother or Sister, Grandparents  (maternal or paternal), Aunt and Uncle  (maternal or paternal)",
+        "High Risk Region : ITR of 14 Lakhs (With Education Loan), ITR of 15 Lakhs (Without Education Loan)                                                         Other Regions : ITR of 13 Lakhs (With Education Loan), ITR of 14 Lakhs (Without Education Loan)",
+        "Current Income needed for one sponsor:  100% from parents                                                                                  Current Income needed for two sponsors:  70%-80% from parents and remaining 20%-30% from other relatives (siblings, uncle/aunt, grandparents and parent-in-laws)                                                                                                                                                                                                  Current Income needed for three sponsors: \u00a0 If parents and siblings (50% from each sponsor) \u00a0 If siblings and other relatives (uncle/aunt,grandparents and parent-in-laws) (70% from siblings and remaining 30%\u00a0from other relatives) \u00a0 If only other relatives (Case by case assessment), only if parents are deceased",
+        "Any Public, Pvt and NBFC (Only Credila) is accepted",
+        "Sponsors with annual income less than INR 15 lacs should be allowed to take only 25-30 lakhs loan and show savings of INR 8-10 lacs in their bank.",
+        "1 year Fee required from High Risk Regions.                  75% of the first year from Uttar Pradesh, Jammu and Kashmir  Rest part of India : 50% of first year",
+        "No previous rejections from any country",
+        "February, July & November",
+        "Partial Agricultural or Dairy Income (not more than 30-40%) may be accepted on case-by-case basis only from Parents (no additional sponsors allowed). Remaining 60%-70% of the income should not be a business related to agriculture \u2013 Animal Husbandry, Seeds or Agro or Cattle related businesses. Other income \u2013 salary, pension or other source of income from other business. Following business are not allowed Boutique, Beauty parlour, Handloom, Bakery, Tuition"
+      ]
+    }
+  },
+  {
+    "id": "811fd6743a277d15efae45b9646b3799",
+    "provider": "UniSC",
+    "country": "Australia",
+    "campus_locations": [
+      "Adelaide"
+    ],
+    "course": {
+      "name": "MBA + Master of Business Intelligence and Analytics",
+      "level": "Bachelors",
+      "specialization": "Dual Degree",
+      "link": "https://www.unisc.edu.au/study/courses-and-programs/postgraduate-degrees/master-of-business-administration-master-of-business-intelligence-and-analytics"
+    },
+    "intakes": {
+      "raw": "July 26'",
+      "list": [
+        "July 26'"
+      ]
+    },
+    "requirements": {
+      "academic": {
+        "raw": null
+      },
+      "english": {
+        "raw": "IELTS: 6.5/6                                       PTE: 58/50",
+        "ielts": {
+          "overall": 6.5,
+          "min_band": 6.0
+        },
+        "pte": {
+          "overall": 58,
+          "min_band": 50
+        },
+        "toefl": null
+      }
+    },
+    "fees": {
+      "currency": "AUD",
+      "tuition_raw": "AUD 32500/Year",
+      "tuition_numeric": 32500.0,
+      "period": "Year",
+      "scholarship_raw": null,
+      "after_scholarship_raw": "AUD 32500/Year",
+      "after_scholarship_numeric": 32500.0
+    },
+    "deadlines": {
+      "intake_month": "July",
+      "application_deadline": "15th May, 26'",
+      "coe_or_deposit_deadline": "12th June, 26'",
+      "cas_deadline": null,
+      "intake_start_date": "20th July, 26'",
+      "next_intake": "Nov 26'"
+    },
+    "risk_guidelines": {
+      "high_risk_market_raw": "Punjab, Gujarat, Andhra Pradesh, Telangana, Uttar Pradesh (excluding Ghaziabad and Noida), Rajasthan, Uttarakhand, Bihar, Chhattisgarh, Jammu and Kashmir, Jharkhand. Immediate Rejection from Haryana, Rudrapur and Udham Singh Nagar (Uttarakhand), Sri Ganganagar (Rajasthan)-No UG Applications from these Regions.",
+      "age_limit": {
+        "raw": "UG: 19 PG: 32",
+        "ug": 19,
+        "pg": 32
+      },
+      "backlogs_allowed": {
+        "raw": "10 for 4 year degree and 8 for 3 year degree.",
+        "3_year_degree": 8,
+        "4_year_degree": 10
+      },
+      "core_subjects_required": "15 months for UG. 18 months for PG",
+      "gap_accepted": "Low Risk PG: more than 1 year old                                                                                                            High risk: Not Accepting from High Risk Region",
+      "other_rules": [
+        "AI Interview on UniReady Portal.                                                        BECE is only F2F Interview",
+        "UG: N/A PG: Accepted with all documents",
+        "Parents, Parents in law, Spouse, Self, Brother or Sister, Grandparents  (maternal or paternal), Aunt and Uncle  (maternal or paternal)",
+        "High Risk Region : ITR of 14 Lakhs (With Education Loan), ITR of 15 Lakhs (Without Education Loan)                                                         Other Regions : ITR of 13 Lakhs (With Education Loan), ITR of 14 Lakhs (Without Education Loan)",
+        "Current Income needed for one sponsor:  100% from parents                                                                                  Current Income needed for two sponsors:  70%-80% from parents and remaining 20%-30% from other relatives (siblings, uncle/aunt, grandparents and parent-in-laws)                                                                                                                                                                                                  Current Income needed for three sponsors: \u00a0 If parents and siblings (50% from each sponsor) \u00a0 If siblings and other relatives (uncle/aunt,grandparents and parent-in-laws) (70% from siblings and remaining 30%\u00a0from other relatives) \u00a0 If only other relatives (Case by case assessment), only if parents are deceased",
+        "Any Public, Pvt and NBFC (Only Credila) is accepted",
+        "Sponsors with annual income less than INR 15 lacs should be allowed to take only 25-30 lakhs loan and show savings of INR 8-10 lacs in their bank.",
+        "1 year Fee required from High Risk Regions.                  75% of the first year from Uttar Pradesh, Jammu and Kashmir  Rest part of India : 50% of first year",
+        "No previous rejections from any country",
+        "February, July & November",
+        "Partial Agricultural or Dairy Income (not more than 30-40%) may be accepted on case-by-case basis only from Parents (no additional sponsors allowed). Remaining 60%-70% of the income should not be a business related to agriculture \u2013 Animal Husbandry, Seeds or Agro or Cattle related businesses. Other income \u2013 salary, pension or other source of income from other business. Following business are not allowed Boutique, Beauty parlour, Handloom, Bakery, Tuition"
+      ]
+    }
+  },
+  {
+    "id": "ab9af868c5295eda8c87c0c402167099",
+    "provider": "University of Canberra",
+    "country": "Australia",
+    "campus_locations": [
+      "Sydney Hills"
+    ],
+    "course": {
+      "name": "Bachelor of Nursing",
+      "level": "Bachelors",
+      "specialization": "Accredated Course",
+      "link": "https://www.canberra.edu.au/future-students/study-at-uc/other-locations/sydney/sydney-hills-campus/bachelor-of-nursing"
+    },
+    "intakes": {
+      "raw": "AUG 26'",
+      "list": [
+        "AUG 26'"
+      ]
+    },
+    "requirements": {
+      "academic": {
+        "raw": "CBSE: 65% best 4  ISCE: 65% best 4   SBSE: 70% best 4"
+      },
+      "english": {
+        "raw": "IELTS: 7/7 (Writing 6.5)                                                                                         PTE: 66/Writing 56 with other no less than 66.",
+        "ielts": {
+          "overall": 7.0,
+          "min_band": 7.0
+        },
+        "pte": null,
+        "toefl": null
+      }
+    },
+    "fees": {
+      "currency": "AUD",
+      "tuition_raw": "$38,000 / YEAR",
+      "tuition_numeric": 38000.0,
+      "period": "Year",
+      "scholarship_raw": "CBSE, ISCE: 10% - 70% in best of 4 Subjects & 20% - 80% in best of 4 subjects SBSE: 10% - 75% across all academics & 20% - 85% across all academics   Master of Public Health : AQF level 7 bachelor's degree 10% scholarship - 65%  20% scholarship - 75%",
+      "after_scholarship_raw": "34,200 AUD/Year",
+      "after_scholarship_numeric": 34200.0
+    },
+    "deadlines": {
+      "intake_month": "August",
+      "application_deadline": "31st May, 26'",
+      "coe_or_deposit_deadline": "30th June, 2026",
+      "cas_deadline": null,
+      "intake_start_date": "2026-10-08",
+      "next_intake": "Feb 27'"
+    },
+    "risk_guidelines": {
+      "high_risk_market_raw": null,
+      "age_limit": {
+        "raw": "UG: 18 PG: 32",
+        "ug": 18,
+        "pg": 32
+      },
+      "backlogs_allowed": {
+        "raw": "8 for 3 year degree and 12 for 4 year degree",
+        "3_year_degree": 8,
+        "4_year_degree": 12
+      },
+      "core_subjects_required": "15 months for UG. 18 months for PG",
+      "gap_accepted": "UG: N/A PG: more than 1 year old",
+      "other_rules": [
+        "Telephonic interview for all students.",
+        "UG: N/A PG: Accepted with all documents",
+        "Parents, Parents in law, Spouse, Self, Brother or Sister, Grandparents  (maternal or paternal), Aunt and Uncle  (maternal or paternal)",
+        "Parents : 12 lacs. If one sponsor added than 15 lacs",
+        "Current Income needed for one sponsor:  100% from parents                                                                                  Current Income needed for two sponsors: 70%-80% from parents and remaining 20%-30% from other relatives (siblings, uncle/aunt, grandparents and parent-in-laws)",
+        "Only Public or Pvt bank loans are accepted",
+        "Sponsors with annual income less than INR 15 lacs should be allowed to take only 25-30 lakhs loan and show savings of INR 8-10 lacs in their bank.",
+        "75% of the first year from Andhara pradesh, Telangana, Hyderabad, Uttar Pradesh, Jammu and Kashmir  Rest part of India : 50% of first year",
+        "No previous rejections from any country",
+        "February and July",
+        "Agricultural income is accepted (80%) +20% Business Income"
+      ]
+    }
+  },
+  {
+    "id": "0734d592f7adea6c982111016bb75f94",
+    "provider": "University of Canberra",
+    "country": "Australia",
+    "campus_locations": [
+      "Sydney Hills"
+    ],
+    "course": {
+      "name": "Bachelor of Early Childhood Education (Birth to 5)",
+      "level": "Bachelors",
+      "specialization": null,
+      "link": "https://www.canberra.edu.au/future-students/study-at-uc/about-our-courses/bachelor-of-early-childhood-education-birth-to-five"
+    },
+    "intakes": {
+      "raw": "AUG 26'",
+      "list": [
+        "AUG 26'"
+      ]
+    },
+    "requirements": {
+      "academic": {
+        "raw": null
+      },
+      "english": {
+        "raw": "IELTS: 6.5/6                                       PTE: 58/50 (Reading 48, Listening 47, Speaking 54, and Writing 51)",
+        "ielts": {
+          "overall": 6.5,
+          "min_band": 6.0
+        },
+        "pte": {
+          "overall": 58,
+          "min_band": 50
+        },
+        "toefl": null
+      }
+    },
+    "fees": {
+      "currency": "AUD",
+      "tuition_raw": "$34,000 / YEAR",
+      "tuition_numeric": 34000.0,
+      "period": "Year",
+      "scholarship_raw": null,
+      "after_scholarship_raw": "30600 AUD/Year 27200 AUD/Year",
+      "after_scholarship_numeric": 30600.0
+    },
+    "deadlines": {
+      "intake_month": "August",
+      "application_deadline": "31st May, 26'",
+      "coe_or_deposit_deadline": "30th June, 2026",
+      "cas_deadline": null,
+      "intake_start_date": "2026-10-08",
+      "next_intake": "Feb 27'"
+    },
+    "risk_guidelines": {
+      "high_risk_market_raw": null,
+      "age_limit": {
+        "raw": "UG: 18 PG: 32",
+        "ug": 18,
+        "pg": 32
+      },
+      "backlogs_allowed": {
+        "raw": "8 for 3 year degree and 12 for 4 year degree",
+        "3_year_degree": 8,
+        "4_year_degree": 12
+      },
+      "core_subjects_required": "15 months for UG. 18 months for PG",
+      "gap_accepted": "UG: N/A PG: more than 1 year old",
+      "other_rules": [
+        "Telephonic interview for all students.",
+        "UG: N/A PG: Accepted with all documents",
+        "Parents, Parents in law, Spouse, Self, Brother or Sister, Grandparents  (maternal or paternal), Aunt and Uncle  (maternal or paternal)",
+        "Parents : 12 lacs. If one sponsor added than 15 lacs",
+        "Current Income needed for one sponsor:  100% from parents                                                                                  Current Income needed for two sponsors: 70%-80% from parents and remaining 20%-30% from other relatives (siblings, uncle/aunt, grandparents and parent-in-laws)",
+        "Only Public or Pvt bank loans are accepted",
+        "Sponsors with annual income less than INR 15 lacs should be allowed to take only 25-30 lakhs loan and show savings of INR 8-10 lacs in their bank.",
+        "75% of the first year from Andhara pradesh, Telangana, Hyderabad, Uttar Pradesh, Jammu and Kashmir  Rest part of India : 50% of first year",
+        "No previous rejections from any country",
+        "February and July",
+        "Agricultural income is accepted (80%) +20% Business Income"
+      ]
+    }
+  },
+  {
+    "id": "6a0cf635eaf0a70233f21a14a2d794b6",
+    "provider": "University of Canberra",
+    "country": "Australia",
+    "campus_locations": [
+      "Sydney Hills"
+    ],
+    "course": {
+      "name": "Master of Public Health (Extended)",
+      "level": "Masters",
+      "specialization": null,
+      "link": "https://www.canberra.edu.au/future-students/study-at-uc/other-locations/sydney/sydney-hills-campus/master-of-public-health"
+    },
+    "intakes": {
+      "raw": "AUG 26'",
+      "list": [
+        "AUG 26'"
+      ]
+    },
+    "requirements": {
+      "academic": {
+        "raw": "Any Bachelor degree 50% /  From High Risk Markets 60% in Bachelor's is preferred"
+      },
+      "english": {
+        "raw": "IELTS: 6.5/6                                       PTE: 58/50 (Reading 48, Listening 47, Speaking 54, and Writing 51)",
+        "ielts": {
+          "overall": 6.5,
+          "min_band": 6.0
+        },
+        "pte": {
+          "overall": 58,
+          "min_band": 50
+        },
+        "toefl": null
+      }
+    },
+    "fees": {
+      "currency": "AUD",
+      "tuition_raw": "$36,000 / YEAR",
+      "tuition_numeric": 36000.0,
+      "period": "Year",
+      "scholarship_raw": null,
+      "after_scholarship_raw": "32400 AUD/ Year 28800 AUD/Year",
+      "after_scholarship_numeric": 32400.0
+    },
+    "deadlines": {
+      "intake_month": "August",
+      "application_deadline": "31st May, 26'",
+      "coe_or_deposit_deadline": "30th June, 2026",
+      "cas_deadline": null,
+      "intake_start_date": "2026-10-08",
+      "next_intake": "Feb 27'"
+    },
+    "risk_guidelines": {
+      "high_risk_market_raw": null,
+      "age_limit": {
+        "raw": "UG: 18 PG: 32",
+        "ug": 18,
+        "pg": 32
+      },
+      "backlogs_allowed": {
+        "raw": "8 for 3 year degree and 12 for 4 year degree",
+        "3_year_degree": 8,
+        "4_year_degree": 12
+      },
+      "core_subjects_required": "15 months for UG. 18 months for PG",
+      "gap_accepted": "UG: N/A PG: more than 1 year old",
+      "other_rules": [
+        "Telephonic interview for all students.",
+        "UG: N/A PG: Accepted with all documents",
+        "Parents, Parents in law, Spouse, Self, Brother or Sister, Grandparents  (maternal or paternal), Aunt and Uncle  (maternal or paternal)",
+        "Parents : 12 lacs. If one sponsor added than 15 lacs",
+        "Current Income needed for one sponsor:  100% from parents                                                                                  Current Income needed for two sponsors: 70%-80% from parents and remaining 20%-30% from other relatives (siblings, uncle/aunt, grandparents and parent-in-laws)",
+        "Only Public or Pvt bank loans are accepted",
+        "Sponsors with annual income less than INR 15 lacs should be allowed to take only 25-30 lakhs loan and show savings of INR 8-10 lacs in their bank.",
+        "75% of the first year from Andhara pradesh, Telangana, Hyderabad, Uttar Pradesh, Jammu and Kashmir  Rest part of India : 50% of first year",
+        "No previous rejections from any country",
+        "February and July",
+        "Agricultural income is accepted (80%) +20% Business Income"
+      ]
+    }
+  },
+  {
+    "id": "ddd182b1b75565fe6891d9f169a8c485",
+    "provider": "University Of Tasmania",
+    "country": "Australia",
+    "campus_locations": [
+      "Melbourne",
+      "Sydney"
+    ],
+    "course": {
+      "name": "Bachelor of Business - Only Melbourne",
+      "level": "Bachelors",
+      "specialization": "Accounting, Analytics, Finance, Hospitalit, Tourism",
+      "link": "https://www.utas.edu.au/courses/tsbe/courses/b3a-bachelor-of-business#courseStructure"
+    },
+    "intakes": {
+      "raw": "July 26'",
+      "list": [
+        "July 26'"
+      ]
+    },
+    "requirements": {
+      "academic": {
+        "raw": "CBSE, ICSE,SBSE : 65%  (75% TIS)                                                                            Not accepting State Boards from High Risk                                                                   Not Taking Gujarati Medium Students                          Not Accepting Students from High Risk Region (Mentioned in the GS Requirement Sheet)"
+      },
+      "english": {
+        "raw": "IELTS: 6/6                                                                       PTE: 50/50",
+        "ielts": {
+          "overall": 6.0,
+          "min_band": 6.0
+        },
+        "pte": {
+          "overall": 50,
+          "min_band": 50
+        },
+        "toefl": null
+      }
+    },
+    "fees": {
+      "currency": "AUD",
+      "tuition_raw": "$36,250 / Year",
+      "tuition_numeric": 36250.0,
+      "period": "Year",
+      "scholarship_raw": "15% Flat.                                                                  25%  India -                                 SBSE , CBSE, CICSE =75% punjab & haryana = 90%                                                                                                       Masters : +10 of entry requirement of each section ranking.",
+      "after_scholarship_raw": "$27,188/ Year",
+      "after_scholarship_numeric": 27188.0
+    },
+    "deadlines": {
+      "intake_month": "July",
+      "application_deadline": "10th May, 26'",
+      "coe_or_deposit_deadline": "18th May, 26'",
+      "cas_deadline": null,
+      "intake_start_date": "20th July, 26'",
+      "next_intake": "Feb 27'"
+    },
+    "risk_guidelines": {
+      "high_risk_market_raw": "Punjab, Haryana, Uttar Pradesh, Rajasthan, Uttarakhand, J&K, Gujarat, Telangana.  Immediate Rejection from Haryana, Uddham SIngh Nagar, Sri Ganganagar, Bathinda, Moga, Gurdaspur, Sangrur, Mehsana, Gandhinagar, Anand, Nadiad",
+      "age_limit": {
+        "raw": "UG:19 PG:30",
+        "ug": 19,
+        "pg": 30
+      },
+      "backlogs_allowed": {
+        "raw": "Low Risk Region : 15 Backlogs (including reattempt)          High Risk Region : 10 Backlogs (including reattemp)",
+        "3_year_degree": null,
+        "4_year_degree": null
+      },
+      "core_subjects_required": "15 months for UG. 18 months for PG",
+      "gap_accepted": "Low Risk PG: more than 1 year old                                                                                                            High risk: Not Accepting from High Risk Region",
+      "other_rules": [
+        "F2F interview. Schedule your interview according to student's flexibility",
+        "UG: N/A PG: Accepted with all documents",
+        "Parents, Parents in law, Spouse, Self, Brother or Sister, Grandparents  (maternal or paternal), Aunt and Uncle  (maternal or paternal)",
+        "Any Region : ITR of 16.5 Lakhs (With Education Loan) or 17.1 lacs without Loan",
+        "Current Income needed for one sponsor:  100% from parents                                                                                  Current Income needed for two sponsors:  70%-80% from parents and remaining 20%-30% from other relatives (siblings, uncle/aunt, grandparents and parent-in-laws)                                                                                                                                                                                                  Current Income needed for three sponsors: \u00a0 If parents and siblings (50% from each sponsor) \u00a0 If siblings and other relatives (uncle/aunt,grandparents and parent-in-laws) (70% from siblings and remaining 30%\u00a0from other relatives) \u00a0 If only other relatives (Case by case assessment), only if parents are deceased",
+        "Only Public bank loans are accepted",
+        "Sponsors with annual income less than INR 15 lacs should be allowed to take only 25-30 lakhs loan and show savings of INR 8-10 lacs in their bank.",
+        "1 year Fee required from High Risk Regions.75% of the first year from Andhara pradesh, Telangana, Hyderabad, Uttar Pradesh, Jammu and Kashmir Rest part of India : 50% of first year",
+        "No previous rejections from any country",
+        "February, July",
+        "Partial Agricultural or Dairy Income (not more than 30-40%) may be accepted on case-by-case basis only from Parents (no additional sponsors allowed). Remaining 60%-70% of the income should not be a business related to agriculture \u2013 Animal Husbandry, Seeds or Agro or Cattle related businesses. Other income \u2013 salary, pension or other source of income from other business. Following business are not allowed Boutique, Beauty parlour, Handloom, Bakery, Tuition"
+      ]
+    }
+  },
+  {
+    "id": "25b7abf03311a0503083bc1c549618cd",
+    "provider": "University Of Tasmania",
+    "country": "Australia",
+    "campus_locations": [
+      "Melbourne",
+      "Sydney"
+    ],
+    "course": {
+      "name": "Bachelor of Information & Communication Technology",
+      "level": "Bachelors",
+      "specialization": "AI, Games and Creative Tech, IOT, Network & Cyber",
+      "link": "https://www.utas.edu.au/courses/sci-eng/courses/p3t-bachelor-of-information-and-communication-technology#courseStructure"
+    },
+    "intakes": {
+      "raw": null,
+      "list": []
+    },
+    "requirements": {
+      "academic": {
+        "raw": null
+      },
+      "english": {
+        "raw": null,
+        "ielts": null,
+        "pte": null,
+        "toefl": null
+      }
+    },
+    "fees": {
+      "currency": "AUD",
+      "tuition_raw": "$37,950 / Year",
+      "tuition_numeric": 37950.0,
+      "period": "Year",
+      "scholarship_raw": null,
+      "after_scholarship_raw": "$28,463/ Year",
+      "after_scholarship_numeric": 28463.0
+    },
+    "deadlines": {
+      "intake_month": "July",
+      "application_deadline": "10th May, 26'",
+      "coe_or_deposit_deadline": "18th May, 26'",
+      "cas_deadline": null,
+      "intake_start_date": "20th July, 26'",
+      "next_intake": "Feb 27'"
+    },
+    "risk_guidelines": {
+      "high_risk_market_raw": "Punjab, Haryana, Uttar Pradesh, Rajasthan, Uttarakhand, J&K, Gujarat, Telangana.  Immediate Rejection from Haryana, Uddham SIngh Nagar, Sri Ganganagar, Bathinda, Moga, Gurdaspur, Sangrur, Mehsana, Gandhinagar, Anand, Nadiad",
+      "age_limit": {
+        "raw": "UG:19 PG:30",
+        "ug": 19,
+        "pg": 30
+      },
+      "backlogs_allowed": {
+        "raw": "Low Risk Region : 15 Backlogs (including reattempt)          High Risk Region : 10 Backlogs (including reattemp)",
+        "3_year_degree": null,
+        "4_year_degree": null
+      },
+      "core_subjects_required": "15 months for UG. 18 months for PG",
+      "gap_accepted": "Low Risk PG: more than 1 year old                                                                                                            High risk: Not Accepting from High Risk Region",
+      "other_rules": [
+        "F2F interview. Schedule your interview according to student's flexibility",
+        "UG: N/A PG: Accepted with all documents",
+        "Parents, Parents in law, Spouse, Self, Brother or Sister, Grandparents  (maternal or paternal), Aunt and Uncle  (maternal or paternal)",
+        "Any Region : ITR of 16.5 Lakhs (With Education Loan) or 17.1 lacs without Loan",
+        "Current Income needed for one sponsor:  100% from parents                                                                                  Current Income needed for two sponsors:  70%-80% from parents and remaining 20%-30% from other relatives (siblings, uncle/aunt, grandparents and parent-in-laws)                                                                                                                                                                                                  Current Income needed for three sponsors: \u00a0 If parents and siblings (50% from each sponsor) \u00a0 If siblings and other relatives (uncle/aunt,grandparents and parent-in-laws) (70% from siblings and remaining 30%\u00a0from other relatives) \u00a0 If only other relatives (Case by case assessment), only if parents are deceased",
+        "Only Public bank loans are accepted",
+        "Sponsors with annual income less than INR 15 lacs should be allowed to take only 25-30 lakhs loan and show savings of INR 8-10 lacs in their bank.",
+        "1 year Fee required from High Risk Regions.75% of the first year from Andhara pradesh, Telangana, Hyderabad, Uttar Pradesh, Jammu and Kashmir Rest part of India : 50% of first year",
+        "No previous rejections from any country",
+        "February, July",
+        "Partial Agricultural or Dairy Income (not more than 30-40%) may be accepted on case-by-case basis only from Parents (no additional sponsors allowed). Remaining 60%-70% of the income should not be a business related to agriculture \u2013 Animal Husbandry, Seeds or Agro or Cattle related businesses. Other income \u2013 salary, pension or other source of income from other business. Following business are not allowed Boutique, Beauty parlour, Handloom, Bakery, Tuition"
+      ]
+    }
+  },
+  {
+    "id": "f89a63c5ad2e3ec9d2de9411ea5e1257",
+    "provider": "University Of Tasmania",
+    "country": "Australia",
+    "campus_locations": [
+      "Melbourne",
+      "Sydney"
+    ],
+    "course": {
+      "name": "Master of Information Technology and Systems",
+      "level": "Masters",
+      "specialization": "Cybersecurity, Data Analytics and AI, Software Development",
+      "link": "https://www.utas.edu.au/courses/sci-eng/courses/k7i-master-of-information-technology-and-systems#courseStructure"
+    },
+    "intakes": {
+      "raw": "July 26'",
+      "list": [
+        "July 26'"
+      ]
+    },
+    "requirements": {
+      "academic": {
+        "raw": "Section 1 - 55% (65% TIS) Section 2 - 60% (70% TIS ) Section 3 - 65% (75% TIS )"
+      },
+      "english": {
+        "raw": "IELTS: 6.5/6                                       PTE: 58/50",
+        "ielts": {
+          "overall": 6.5,
+          "min_band": 6.0
+        },
+        "pte": {
+          "overall": 58,
+          "min_band": 50
+        },
+        "toefl": null
+      }
+    },
+    "fees": {
+      "currency": "AUD",
+      "tuition_raw": "$39,950 / Year",
+      "tuition_numeric": 39950.0,
+      "period": "Year",
+      "scholarship_raw": null,
+      "after_scholarship_raw": "$29,963 / Year",
+      "after_scholarship_numeric": 29963.0
+    },
+    "deadlines": {
+      "intake_month": "July",
+      "application_deadline": "10th May, 26'",
+      "coe_or_deposit_deadline": "18th May, 26'",
+      "cas_deadline": null,
+      "intake_start_date": "20th July, 26'",
+      "next_intake": "Feb 27'"
+    },
+    "risk_guidelines": {
+      "high_risk_market_raw": "Punjab, Haryana, Uttar Pradesh, Rajasthan, Uttarakhand, J&K, Gujarat, Telangana.  Immediate Rejection from Haryana, Uddham SIngh Nagar, Sri Ganganagar, Bathinda, Moga, Gurdaspur, Sangrur, Mehsana, Gandhinagar, Anand, Nadiad",
+      "age_limit": {
+        "raw": "UG:19 PG:30",
+        "ug": 19,
+        "pg": 30
+      },
+      "backlogs_allowed": {
+        "raw": "Low Risk Region : 15 Backlogs (including reattempt)          High Risk Region : 10 Backlogs (including reattemp)",
+        "3_year_degree": null,
+        "4_year_degree": null
+      },
+      "core_subjects_required": "15 months for UG. 18 months for PG",
+      "gap_accepted": "Low Risk PG: more than 1 year old                                                                                                            High risk: Not Accepting from High Risk Region",
+      "other_rules": [
+        "F2F interview. Schedule your interview according to student's flexibility",
+        "UG: N/A PG: Accepted with all documents",
+        "Parents, Parents in law, Spouse, Self, Brother or Sister, Grandparents  (maternal or paternal), Aunt and Uncle  (maternal or paternal)",
+        "Any Region : ITR of 16.5 Lakhs (With Education Loan) or 17.1 lacs without Loan",
+        "Current Income needed for one sponsor:  100% from parents                                                                                  Current Income needed for two sponsors:  70%-80% from parents and remaining 20%-30% from other relatives (siblings, uncle/aunt, grandparents and parent-in-laws)                                                                                                                                                                                                  Current Income needed for three sponsors: \u00a0 If parents and siblings (50% from each sponsor) \u00a0 If siblings and other relatives (uncle/aunt,grandparents and parent-in-laws) (70% from siblings and remaining 30%\u00a0from other relatives) \u00a0 If only other relatives (Case by case assessment), only if parents are deceased",
+        "Only Public bank loans are accepted",
+        "Sponsors with annual income less than INR 15 lacs should be allowed to take only 25-30 lakhs loan and show savings of INR 8-10 lacs in their bank.",
+        "1 year Fee required from High Risk Regions.75% of the first year from Andhara pradesh, Telangana, Hyderabad, Uttar Pradesh, Jammu and Kashmir Rest part of India : 50% of first year",
+        "No previous rejections from any country",
+        "February, July",
+        "Partial Agricultural or Dairy Income (not more than 30-40%) may be accepted on case-by-case basis only from Parents (no additional sponsors allowed). Remaining 60%-70% of the income should not be a business related to agriculture \u2013 Animal Husbandry, Seeds or Agro or Cattle related businesses. Other income \u2013 salary, pension or other source of income from other business. Following business are not allowed Boutique, Beauty parlour, Handloom, Bakery, Tuition"
+      ]
+    }
+  },
+  {
+    "id": "f75735722b81d6804446e1ee8b3d4ffd",
+    "provider": "University Of Tasmania",
+    "country": "Australia",
+    "campus_locations": [
+      "Melbourne",
+      "Sydney"
+    ],
+    "course": {
+      "name": "MBA Global",
+      "level": "Bachelors",
+      "specialization": "Accounting, Marketing",
+      "link": "https://www.utas.edu.au/courses/tsbe/courses/37q-master-of-business-administration-global"
+    },
+    "intakes": {
+      "raw": null,
+      "list": []
+    },
+    "requirements": {
+      "academic": {
+        "raw": null
+      },
+      "english": {
+        "raw": null,
+        "ielts": null,
+        "pte": null,
+        "toefl": null
+      }
+    },
+    "fees": {
+      "currency": "AUD",
+      "tuition_raw": "$35,792 / Year",
+      "tuition_numeric": 35792.0,
+      "period": "Year",
+      "scholarship_raw": null,
+      "after_scholarship_raw": "$24,329 / Year",
+      "after_scholarship_numeric": 24329.0
+    },
+    "deadlines": {
+      "intake_month": "July",
+      "application_deadline": "10th May, 26'",
+      "coe_or_deposit_deadline": "18th May, 26'",
+      "cas_deadline": null,
+      "intake_start_date": "20th July, 26'",
+      "next_intake": "Feb 27'"
+    },
+    "risk_guidelines": {
+      "high_risk_market_raw": "Punjab, Haryana, Uttar Pradesh, Rajasthan, Uttarakhand, J&K, Gujarat, Telangana.  Immediate Rejection from Haryana, Uddham SIngh Nagar, Sri Ganganagar, Bathinda, Moga, Gurdaspur, Sangrur, Mehsana, Gandhinagar, Anand, Nadiad",
+      "age_limit": {
+        "raw": "UG:19 PG:30",
+        "ug": 19,
+        "pg": 30
+      },
+      "backlogs_allowed": {
+        "raw": "Low Risk Region : 15 Backlogs (including reattempt)          High Risk Region : 10 Backlogs (including reattemp)",
+        "3_year_degree": null,
+        "4_year_degree": null
+      },
+      "core_subjects_required": "15 months for UG. 18 months for PG",
+      "gap_accepted": "Low Risk PG: more than 1 year old                                                                                                            High risk: Not Accepting from High Risk Region",
+      "other_rules": [
+        "F2F interview. Schedule your interview according to student's flexibility",
+        "UG: N/A PG: Accepted with all documents",
+        "Parents, Parents in law, Spouse, Self, Brother or Sister, Grandparents  (maternal or paternal), Aunt and Uncle  (maternal or paternal)",
+        "Any Region : ITR of 16.5 Lakhs (With Education Loan) or 17.1 lacs without Loan",
+        "Current Income needed for one sponsor:  100% from parents                                                                                  Current Income needed for two sponsors:  70%-80% from parents and remaining 20%-30% from other relatives (siblings, uncle/aunt, grandparents and parent-in-laws)                                                                                                                                                                                                  Current Income needed for three sponsors: \u00a0 If parents and siblings (50% from each sponsor) \u00a0 If siblings and other relatives (uncle/aunt,grandparents and parent-in-laws) (70% from siblings and remaining 30%\u00a0from other relatives) \u00a0 If only other relatives (Case by case assessment), only if parents are deceased",
+        "Only Public bank loans are accepted",
+        "Sponsors with annual income less than INR 15 lacs should be allowed to take only 25-30 lakhs loan and show savings of INR 8-10 lacs in their bank.",
+        "1 year Fee required from High Risk Regions.75% of the first year from Andhara pradesh, Telangana, Hyderabad, Uttar Pradesh, Jammu and Kashmir Rest part of India : 50% of first year",
+        "No previous rejections from any country",
+        "February, July",
+        "Partial Agricultural or Dairy Income (not more than 30-40%) may be accepted on case-by-case basis only from Parents (no additional sponsors allowed). Remaining 60%-70% of the income should not be a business related to agriculture \u2013 Animal Husbandry, Seeds or Agro or Cattle related businesses. Other income \u2013 salary, pension or other source of income from other business. Following business are not allowed Boutique, Beauty parlour, Handloom, Bakery, Tuition"
+      ]
+    }
+  },
+  {
+    "id": "3e71d6c217a73e5404dd7756f9a59424",
+    "provider": "University Of Tasmania",
+    "country": "Australia",
+    "campus_locations": [
+      "Melbourne",
+      "Sydney"
+    ],
+    "course": {
+      "name": "Master of Health Service Management",
+      "level": "Masters",
+      "specialization": "Digital Health, Integrated Care",
+      "link": "https://www.utas.edu.au/courses/tsbe/courses/c7u-master-of-health-service-management"
+    },
+    "intakes": {
+      "raw": null,
+      "list": []
+    },
+    "requirements": {
+      "academic": {
+        "raw": null
+      },
+      "english": {
+        "raw": null,
+        "ielts": null,
+        "pte": null,
+        "toefl": null
+      }
+    },
+    "fees": {
+      "currency": "AUD",
+      "tuition_raw": null,
+      "tuition_numeric": null,
+      "period": "Year",
+      "scholarship_raw": null,
+      "after_scholarship_raw": "$25,594/ Year",
+      "after_scholarship_numeric": 25594.0
+    },
+    "deadlines": {
+      "intake_month": "July",
+      "application_deadline": "10th May, 26'",
+      "coe_or_deposit_deadline": "18th May, 26'",
+      "cas_deadline": null,
+      "intake_start_date": "20th July, 26'",
+      "next_intake": "Feb 27'"
+    },
+    "risk_guidelines": {
+      "high_risk_market_raw": "Punjab, Haryana, Uttar Pradesh, Rajasthan, Uttarakhand, J&K, Gujarat, Telangana.  Immediate Rejection from Haryana, Uddham SIngh Nagar, Sri Ganganagar, Bathinda, Moga, Gurdaspur, Sangrur, Mehsana, Gandhinagar, Anand, Nadiad",
+      "age_limit": {
+        "raw": "UG:19 PG:30",
+        "ug": 19,
+        "pg": 30
+      },
+      "backlogs_allowed": {
+        "raw": "Low Risk Region : 15 Backlogs (including reattempt)          High Risk Region : 10 Backlogs (including reattemp)",
+        "3_year_degree": null,
+        "4_year_degree": null
+      },
+      "core_subjects_required": "15 months for UG. 18 months for PG",
+      "gap_accepted": "Low Risk PG: more than 1 year old                                                                                                            High risk: Not Accepting from High Risk Region",
+      "other_rules": [
+        "F2F interview. Schedule your interview according to student's flexibility",
+        "UG: N/A PG: Accepted with all documents",
+        "Parents, Parents in law, Spouse, Self, Brother or Sister, Grandparents  (maternal or paternal), Aunt and Uncle  (maternal or paternal)",
+        "Any Region : ITR of 16.5 Lakhs (With Education Loan) or 17.1 lacs without Loan",
+        "Current Income needed for one sponsor:  100% from parents                                                                                  Current Income needed for two sponsors:  70%-80% from parents and remaining 20%-30% from other relatives (siblings, uncle/aunt, grandparents and parent-in-laws)                                                                                                                                                                                                  Current Income needed for three sponsors: \u00a0 If parents and siblings (50% from each sponsor) \u00a0 If siblings and other relatives (uncle/aunt,grandparents and parent-in-laws) (70% from siblings and remaining 30%\u00a0from other relatives) \u00a0 If only other relatives (Case by case assessment), only if parents are deceased",
+        "Only Public bank loans are accepted",
+        "Sponsors with annual income less than INR 15 lacs should be allowed to take only 25-30 lakhs loan and show savings of INR 8-10 lacs in their bank.",
+        "1 year Fee required from High Risk Regions.75% of the first year from Andhara pradesh, Telangana, Hyderabad, Uttar Pradesh, Jammu and Kashmir Rest part of India : 50% of first year",
+        "No previous rejections from any country",
+        "February, July",
+        "Partial Agricultural or Dairy Income (not more than 30-40%) may be accepted on case-by-case basis only from Parents (no additional sponsors allowed). Remaining 60%-70% of the income should not be a business related to agriculture \u2013 Animal Husbandry, Seeds or Agro or Cattle related businesses. Other income \u2013 salary, pension or other source of income from other business. Following business are not allowed Boutique, Beauty parlour, Handloom, Bakery, Tuition"
+      ]
+    }
+  },
+  {
+    "id": "56654417bf864c61806d8a0159e2db3a",
+    "provider": "Victoria University",
+    "country": "Australia",
+    "campus_locations": [
+      "Sydney",
+      "Brisbane"
+    ],
+    "course": {
+      "name": "Bachelor of Business (Information systems, Accounting)",
+      "level": "Bachelors",
+      "specialization": "Banking and Finance, Business Analytics , Management and Innovation",
+      "link": "https://www.vu.edu.au/courses/bachelor-of-business-bbns"
+    },
+    "intakes": {
+      "raw": "Sep 26'",
+      "list": [
+        "Sep 26'"
+      ]
+    },
+    "requirements": {
+      "academic": {
+        "raw": "Low Risk Region:                                   CBSE,ICSE: 65%  SBSE: 70%                              High Risk Region :                                 CBSE,ICSE: 70%   SBSE: 85%                               Haryana & Sri Ganganagar Students Not Accepted                                                                     Punjab State Board Not Accepted                         Not Taking Gujarati Medium Students                                                                                                               BECE : Only 12th Arts/Humanities Student"
+      },
+      "english": {
+        "raw": "IELTS: 6/6                                                                        PTE: 52/52",
+        "ielts": {
+          "overall": 6.0,
+          "min_band": 6.0
+        },
+        "pte": {
+          "overall": 52,
+          "min_band": 52
+        },
+        "toefl": null
+      }
+    },
+    "fees": {
+      "currency": "AUD",
+      "tuition_raw": "$18,400/ 4 Units",
+      "tuition_numeric": 18400.0,
+      "period": "Unit",
+      "scholarship_raw": "22.5 %",
+      "after_scholarship_raw": "$14,260 / 4 Units",
+      "after_scholarship_numeric": 14260.0
+    },
+    "deadlines": {
+      "intake_month": "July",
+      "application_deadline": "5th June, 26'",
+      "coe_or_deposit_deadline": "12th June, 26'",
+      "cas_deadline": null,
+      "intake_start_date": "27th July, 26'",
+      "next_intake": "Sep 26'"
+    },
+    "risk_guidelines": {
+      "high_risk_market_raw": "Punjab, Haryana except Gurugram, Gujarat, Andhra Pradesh, Telangana, Uttar Pradesh, Rajasthan, Uttarakhand, Jammu and Kashmir (Immediate Rejection from Haryana, Sri Ganganagar, Hanumangarh, Pilibhit, (Udham Singh Nagar and Rudrapur)",
+      "age_limit": {
+        "raw": "High risk: UG 20, PG 31. Low risk: UG 24, PG 35",
+        "ug": null,
+        "pg": null
+      },
+      "backlogs_allowed": {
+        "raw": "10 for 4 year degree and 8 for 3 year degree.",
+        "3_year_degree": 8,
+        "4_year_degree": 10
+      },
+      "core_subjects_required": "15 months for UG. 18 months for PG",
+      "gap_accepted": "Low risk:  UG: N/A PG: more than 1 year old  High risk: Not taking married cases from any High Risk Region",
+      "other_rules": [
+        "All interviews through UniReady tool (prescreening) and Face to Face interview after GS stage",
+        "UG: N/A PG: Accepted with all documents",
+        "Parents, Parents in law, Spouse, Self, Brother or Sister, Grandparents  (maternal or paternal), Aunt and Uncle  (maternal or paternal)",
+        "High Risk Region : ITR of 14 Lakhs (With Education Loan), ITR of 15 Lakhs (Without Education Loan)                                                         Other Regions : ITR of 13 Lakhs (With Education Loan), ITR of 14 Lakhs (Without Education Loan)",
+        "Current Income needed for one sponsor:  100% from parents                                                                                  Current Income needed for two sponsors:  70%-80% from parents and remaining 20%-30% from other relatives (siblings, uncle/aunt, grandparents and parent-in-laws)                                                                                                                                                                                                  Current Income needed for three sponsors: \u00a0 If parents and siblings (50% from each sponsor) \u00a0 If siblings and other relatives (uncle/aunt,grandparents and parent-in-laws) (70% from siblings and remaining 30%\u00a0from other relatives) \u00a0 If only other relatives (Case by case assessment), only if parents are deceased",
+        "Any Public, Pvt and NBFC (Only Credila) is accepted",
+        "Sponsors with annual income less than INR 15 lacs should be allowed to take only 25-30 lakhs loan and show savings of INR 8-10 lacs in their bank.",
+        "1 year Fee required from High Risk Regions. 75% of the first year from Andhara pradesh, Telangana, Hyderabad, Uttar Pradesh, Jammu and Kashmir . Rest part of India : 50% of first year",
+        "No previous rejections from any country",
+        "February, April, July, September and October",
+        "Partial Agricultural or Dairy Income (not more than 30-40%) may be accepted on case-by-case basis only from Parents (no additional sponsors allowed). Remaining 60%-70% of the income should not be a business related to agriculture \u2013 Animal Husbandry, Seeds or Agro or Cattle related businesses. Other income \u2013 salary, pension or other source of income from other business. Following business are not allowed Boutique, Beauty parlour, Handloom, Bakery, Tuition"
+      ]
+    }
+  },
+  {
+    "id": "aacd0f634fd18356126703741d9b2b3a",
+    "provider": "Victoria University",
+    "country": "Australia",
+    "campus_locations": [
+      "Sydney",
+      "Brisbane"
+    ],
+    "course": {
+      "name": "Bachelor of Cyber Security",
+      "level": "Bachelors",
+      "specialization": "Cyber Security",
+      "link": "https://www.vu.edu.au/courses/bachelor-of-cyber-security-nbcs"
+    },
+    "intakes": {
+      "raw": null,
+      "list": []
+    },
+    "requirements": {
+      "academic": {
+        "raw": null
+      },
+      "english": {
+        "raw": null,
+        "ielts": null,
+        "pte": null,
+        "toefl": null
+      }
+    },
+    "fees": {
+      "currency": "AUD",
+      "tuition_raw": "$18,400/ 4 Units",
+      "tuition_numeric": 18400.0,
+      "period": "Unit",
+      "scholarship_raw": null,
+      "after_scholarship_raw": "$14,260 / 4 Units",
+      "after_scholarship_numeric": 14260.0
+    },
+    "deadlines": {
+      "intake_month": "July",
+      "application_deadline": "5th June, 26'",
+      "coe_or_deposit_deadline": "12th June, 26'",
+      "cas_deadline": null,
+      "intake_start_date": "27th July, 26'",
+      "next_intake": "Sep 26'"
+    },
+    "risk_guidelines": {
+      "high_risk_market_raw": "Punjab, Haryana except Gurugram, Gujarat, Andhra Pradesh, Telangana, Uttar Pradesh, Rajasthan, Uttarakhand, Jammu and Kashmir (Immediate Rejection from Haryana, Sri Ganganagar, Hanumangarh, Pilibhit, (Udham Singh Nagar and Rudrapur)",
+      "age_limit": {
+        "raw": "High risk: UG 20, PG 31. Low risk: UG 24, PG 35",
+        "ug": null,
+        "pg": null
+      },
+      "backlogs_allowed": {
+        "raw": "10 for 4 year degree and 8 for 3 year degree.",
+        "3_year_degree": 8,
+        "4_year_degree": 10
+      },
+      "core_subjects_required": "15 months for UG. 18 months for PG",
+      "gap_accepted": "Low risk:  UG: N/A PG: more than 1 year old  High risk: Not taking married cases from any High Risk Region",
+      "other_rules": [
+        "All interviews through UniReady tool (prescreening) and Face to Face interview after GS stage",
+        "UG: N/A PG: Accepted with all documents",
+        "Parents, Parents in law, Spouse, Self, Brother or Sister, Grandparents  (maternal or paternal), Aunt and Uncle  (maternal or paternal)",
+        "High Risk Region : ITR of 14 Lakhs (With Education Loan), ITR of 15 Lakhs (Without Education Loan)                                                         Other Regions : ITR of 13 Lakhs (With Education Loan), ITR of 14 Lakhs (Without Education Loan)",
+        "Current Income needed for one sponsor:  100% from parents                                                                                  Current Income needed for two sponsors:  70%-80% from parents and remaining 20%-30% from other relatives (siblings, uncle/aunt, grandparents and parent-in-laws)                                                                                                                                                                                                  Current Income needed for three sponsors: \u00a0 If parents and siblings (50% from each sponsor) \u00a0 If siblings and other relatives (uncle/aunt,grandparents and parent-in-laws) (70% from siblings and remaining 30%\u00a0from other relatives) \u00a0 If only other relatives (Case by case assessment), only if parents are deceased",
+        "Any Public, Pvt and NBFC (Only Credila) is accepted",
+        "Sponsors with annual income less than INR 15 lacs should be allowed to take only 25-30 lakhs loan and show savings of INR 8-10 lacs in their bank.",
+        "1 year Fee required from High Risk Regions. 75% of the first year from Andhara pradesh, Telangana, Hyderabad, Uttar Pradesh, Jammu and Kashmir . Rest part of India : 50% of first year",
+        "No previous rejections from any country",
+        "February, April, July, September and October",
+        "Partial Agricultural or Dairy Income (not more than 30-40%) may be accepted on case-by-case basis only from Parents (no additional sponsors allowed). Remaining 60%-70% of the income should not be a business related to agriculture \u2013 Animal Husbandry, Seeds or Agro or Cattle related businesses. Other income \u2013 salary, pension or other source of income from other business. Following business are not allowed Boutique, Beauty parlour, Handloom, Bakery, Tuition"
+      ]
+    }
+  },
+  {
+    "id": "e8c6c25c4e844a8219bbccf5fcdb6ae7",
+    "provider": "Victoria University",
+    "country": "Australia",
+    "campus_locations": [
+      "Sydney",
+      "Brisbane"
+    ],
+    "course": {
+      "name": "Bachelor of Information Technology (Not Available)",
+      "level": "Bachelors",
+      "specialization": "Network and System Computing, Web and Mobile Application Development",
+      "link": "https://www.vu.edu.au/courses/bachelor-of-information-technology-nbit"
+    },
+    "intakes": {
+      "raw": null,
+      "list": []
+    },
+    "requirements": {
+      "academic": {
+        "raw": null
+      },
+      "english": {
+        "raw": null,
+        "ielts": null,
+        "pte": null,
+        "toefl": null
+      }
+    },
+    "fees": {
+      "currency": "AUD",
+      "tuition_raw": "$18,400/ 4 Units",
+      "tuition_numeric": 18400.0,
+      "period": "Unit",
+      "scholarship_raw": null,
+      "after_scholarship_raw": "$14,260 / 4 Units",
+      "after_scholarship_numeric": 14260.0
+    },
+    "deadlines": {
+      "intake_month": "July",
+      "application_deadline": "5th June, 26'",
+      "coe_or_deposit_deadline": "12th June, 26'",
+      "cas_deadline": null,
+      "intake_start_date": "27th July, 26'",
+      "next_intake": "Sep 26'"
+    },
+    "risk_guidelines": {
+      "high_risk_market_raw": "Punjab, Haryana except Gurugram, Gujarat, Andhra Pradesh, Telangana, Uttar Pradesh, Rajasthan, Uttarakhand, Jammu and Kashmir (Immediate Rejection from Haryana, Sri Ganganagar, Hanumangarh, Pilibhit, (Udham Singh Nagar and Rudrapur)",
+      "age_limit": {
+        "raw": "High risk: UG 20, PG 31. Low risk: UG 24, PG 35",
+        "ug": null,
+        "pg": null
+      },
+      "backlogs_allowed": {
+        "raw": "10 for 4 year degree and 8 for 3 year degree.",
+        "3_year_degree": 8,
+        "4_year_degree": 10
+      },
+      "core_subjects_required": "15 months for UG. 18 months for PG",
+      "gap_accepted": "Low risk:  UG: N/A PG: more than 1 year old  High risk: Not taking married cases from any High Risk Region",
+      "other_rules": [
+        "All interviews through UniReady tool (prescreening) and Face to Face interview after GS stage",
+        "UG: N/A PG: Accepted with all documents",
+        "Parents, Parents in law, Spouse, Self, Brother or Sister, Grandparents  (maternal or paternal), Aunt and Uncle  (maternal or paternal)",
+        "High Risk Region : ITR of 14 Lakhs (With Education Loan), ITR of 15 Lakhs (Without Education Loan)                                                         Other Regions : ITR of 13 Lakhs (With Education Loan), ITR of 14 Lakhs (Without Education Loan)",
+        "Current Income needed for one sponsor:  100% from parents                                                                                  Current Income needed for two sponsors:  70%-80% from parents and remaining 20%-30% from other relatives (siblings, uncle/aunt, grandparents and parent-in-laws)                                                                                                                                                                                                  Current Income needed for three sponsors: \u00a0 If parents and siblings (50% from each sponsor) \u00a0 If siblings and other relatives (uncle/aunt,grandparents and parent-in-laws) (70% from siblings and remaining 30%\u00a0from other relatives) \u00a0 If only other relatives (Case by case assessment), only if parents are deceased",
+        "Any Public, Pvt and NBFC (Only Credila) is accepted",
+        "Sponsors with annual income less than INR 15 lacs should be allowed to take only 25-30 lakhs loan and show savings of INR 8-10 lacs in their bank.",
+        "1 year Fee required from High Risk Regions. 75% of the first year from Andhara pradesh, Telangana, Hyderabad, Uttar Pradesh, Jammu and Kashmir . Rest part of India : 50% of first year",
+        "No previous rejections from any country",
+        "February, April, July, September and October",
+        "Partial Agricultural or Dairy Income (not more than 30-40%) may be accepted on case-by-case basis only from Parents (no additional sponsors allowed). Remaining 60%-70% of the income should not be a business related to agriculture \u2013 Animal Husbandry, Seeds or Agro or Cattle related businesses. Other income \u2013 salary, pension or other source of income from other business. Following business are not allowed Boutique, Beauty parlour, Handloom, Bakery, Tuition"
+      ]
+    }
+  },
+  {
+    "id": "8226f80f1c71a5b44c3db8fcf5893295",
+    "provider": "Victoria University",
+    "country": "Australia",
+    "campus_locations": [
+      "Sydney",
+      "Brisbane"
+    ],
+    "course": {
+      "name": "Bachelor of Early Childhood Education",
+      "level": "Bachelors",
+      "specialization": null,
+      "link": "https://www.vu.edu.au/courses/bachelor-of-early-childhood-education-ebec"
+    },
+    "intakes": {
+      "raw": "Sep 26'",
+      "list": [
+        "Sep 26'"
+      ]
+    },
+    "requirements": {
+      "academic": {
+        "raw": null
+      },
+      "english": {
+        "raw": "IELTS: 6.5/6                                       PTE: 60/52",
+        "ielts": {
+          "overall": 6.5,
+          "min_band": 6.0
+        },
+        "pte": {
+          "overall": 60,
+          "min_band": 52
+        },
+        "toefl": null
+      }
+    },
+    "fees": {
+      "currency": "AUD",
+      "tuition_raw": "$16,900/ 4 Units",
+      "tuition_numeric": 16900.0,
+      "period": "Unit",
+      "scholarship_raw": null,
+      "after_scholarship_raw": "$13,098/ 4 Units",
+      "after_scholarship_numeric": 13098.0
+    },
+    "deadlines": {
+      "intake_month": "July",
+      "application_deadline": "5th June, 26'",
+      "coe_or_deposit_deadline": "12th June, 26'",
+      "cas_deadline": null,
+      "intake_start_date": "27th July, 26'",
+      "next_intake": "Sep 26'"
+    },
+    "risk_guidelines": {
+      "high_risk_market_raw": "Punjab, Haryana except Gurugram, Gujarat, Andhra Pradesh, Telangana, Uttar Pradesh, Rajasthan, Uttarakhand, Jammu and Kashmir (Immediate Rejection from Haryana, Sri Ganganagar, Hanumangarh, Pilibhit, (Udham Singh Nagar and Rudrapur)",
+      "age_limit": {
+        "raw": "High risk: UG 20, PG 31. Low risk: UG 24, PG 35",
+        "ug": null,
+        "pg": null
+      },
+      "backlogs_allowed": {
+        "raw": "10 for 4 year degree and 8 for 3 year degree.",
+        "3_year_degree": 8,
+        "4_year_degree": 10
+      },
+      "core_subjects_required": "15 months for UG. 18 months for PG",
+      "gap_accepted": "Low risk:  UG: N/A PG: more than 1 year old  High risk: Not taking married cases from any High Risk Region",
+      "other_rules": [
+        "All interviews through UniReady tool (prescreening) and Face to Face interview after GS stage",
+        "UG: N/A PG: Accepted with all documents",
+        "Parents, Parents in law, Spouse, Self, Brother or Sister, Grandparents  (maternal or paternal), Aunt and Uncle  (maternal or paternal)",
+        "High Risk Region : ITR of 14 Lakhs (With Education Loan), ITR of 15 Lakhs (Without Education Loan)                                                         Other Regions : ITR of 13 Lakhs (With Education Loan), ITR of 14 Lakhs (Without Education Loan)",
+        "Current Income needed for one sponsor:  100% from parents                                                                                  Current Income needed for two sponsors:  70%-80% from parents and remaining 20%-30% from other relatives (siblings, uncle/aunt, grandparents and parent-in-laws)                                                                                                                                                                                                  Current Income needed for three sponsors: \u00a0 If parents and siblings (50% from each sponsor) \u00a0 If siblings and other relatives (uncle/aunt,grandparents and parent-in-laws) (70% from siblings and remaining 30%\u00a0from other relatives) \u00a0 If only other relatives (Case by case assessment), only if parents are deceased",
+        "Any Public, Pvt and NBFC (Only Credila) is accepted",
+        "Sponsors with annual income less than INR 15 lacs should be allowed to take only 25-30 lakhs loan and show savings of INR 8-10 lacs in their bank.",
+        "1 year Fee required from High Risk Regions. 75% of the first year from Andhara pradesh, Telangana, Hyderabad, Uttar Pradesh, Jammu and Kashmir . Rest part of India : 50% of first year",
+        "No previous rejections from any country",
+        "February, April, July, September and October",
+        "Partial Agricultural or Dairy Income (not more than 30-40%) may be accepted on case-by-case basis only from Parents (no additional sponsors allowed). Remaining 60%-70% of the income should not be a business related to agriculture \u2013 Animal Husbandry, Seeds or Agro or Cattle related businesses. Other income \u2013 salary, pension or other source of income from other business. Following business are not allowed Boutique, Beauty parlour, Handloom, Bakery, Tuition"
+      ]
+    }
+  },
+  {
+    "id": "138e9f6cddf53d6011a7556e2f9a20a9",
+    "provider": "Victoria University",
+    "country": "Australia",
+    "campus_locations": [
+      "Sydney",
+      "Brisbane"
+    ],
+    "course": {
+      "name": "Bachelor of Early Childhood Education & Leadership (4 years)",
+      "level": "Bachelors",
+      "specialization": null,
+      "link": "https://www.vu.edu.au/courses/bachelor-of-early-childhood-education-ebec"
+    },
+    "intakes": {
+      "raw": null,
+      "list": []
+    },
+    "requirements": {
+      "academic": {
+        "raw": null
+      },
+      "english": {
+        "raw": null,
+        "ielts": null,
+        "pte": null,
+        "toefl": null
+      }
+    },
+    "fees": {
+      "currency": "AUD",
+      "tuition_raw": "$16,900/ 4 Units",
+      "tuition_numeric": 16900.0,
+      "period": "Unit",
+      "scholarship_raw": null,
+      "after_scholarship_raw": "$13,098/ 4 Units",
+      "after_scholarship_numeric": 13098.0
+    },
+    "deadlines": {
+      "intake_month": "July",
+      "application_deadline": "5th June, 26'",
+      "coe_or_deposit_deadline": "12th June, 26'",
+      "cas_deadline": null,
+      "intake_start_date": "27th July, 26'",
+      "next_intake": "Sep 26'"
+    },
+    "risk_guidelines": {
+      "high_risk_market_raw": "Punjab, Haryana except Gurugram, Gujarat, Andhra Pradesh, Telangana, Uttar Pradesh, Rajasthan, Uttarakhand, Jammu and Kashmir (Immediate Rejection from Haryana, Sri Ganganagar, Hanumangarh, Pilibhit, (Udham Singh Nagar and Rudrapur)",
+      "age_limit": {
+        "raw": "High risk: UG 20, PG 31. Low risk: UG 24, PG 35",
+        "ug": null,
+        "pg": null
+      },
+      "backlogs_allowed": {
+        "raw": "10 for 4 year degree and 8 for 3 year degree.",
+        "3_year_degree": 8,
+        "4_year_degree": 10
+      },
+      "core_subjects_required": "15 months for UG. 18 months for PG",
+      "gap_accepted": "Low risk:  UG: N/A PG: more than 1 year old  High risk: Not taking married cases from any High Risk Region",
+      "other_rules": [
+        "All interviews through UniReady tool (prescreening) and Face to Face interview after GS stage",
+        "UG: N/A PG: Accepted with all documents",
+        "Parents, Parents in law, Spouse, Self, Brother or Sister, Grandparents  (maternal or paternal), Aunt and Uncle  (maternal or paternal)",
+        "High Risk Region : ITR of 14 Lakhs (With Education Loan), ITR of 15 Lakhs (Without Education Loan)                                                         Other Regions : ITR of 13 Lakhs (With Education Loan), ITR of 14 Lakhs (Without Education Loan)",
+        "Current Income needed for one sponsor:  100% from parents                                                                                  Current Income needed for two sponsors:  70%-80% from parents and remaining 20%-30% from other relatives (siblings, uncle/aunt, grandparents and parent-in-laws)                                                                                                                                                                                                  Current Income needed for three sponsors: \u00a0 If parents and siblings (50% from each sponsor) \u00a0 If siblings and other relatives (uncle/aunt,grandparents and parent-in-laws) (70% from siblings and remaining 30%\u00a0from other relatives) \u00a0 If only other relatives (Case by case assessment), only if parents are deceased",
+        "Any Public, Pvt and NBFC (Only Credila) is accepted",
+        "Sponsors with annual income less than INR 15 lacs should be allowed to take only 25-30 lakhs loan and show savings of INR 8-10 lacs in their bank.",
+        "1 year Fee required from High Risk Regions. 75% of the first year from Andhara pradesh, Telangana, Hyderabad, Uttar Pradesh, Jammu and Kashmir . Rest part of India : 50% of first year",
+        "No previous rejections from any country",
+        "February, April, July, September and October",
+        "Partial Agricultural or Dairy Income (not more than 30-40%) may be accepted on case-by-case basis only from Parents (no additional sponsors allowed). Remaining 60%-70% of the income should not be a business related to agriculture \u2013 Animal Husbandry, Seeds or Agro or Cattle related businesses. Other income \u2013 salary, pension or other source of income from other business. Following business are not allowed Boutique, Beauty parlour, Handloom, Bakery, Tuition"
+      ]
+    }
+  },
+  {
+    "id": "ff347489aff5d12dee6037b59caa5c3c",
+    "provider": "Victoria University",
+    "country": "Australia",
+    "campus_locations": [
+      "Sydney",
+      "Brisbane"
+    ],
+    "course": {
+      "name": "Master of Business Administration (Not Available)",
+      "level": "Masters",
+      "specialization": null,
+      "link": "https://www.vu.edu.au/courses/master-of-business-administration-global-bmag"
+    },
+    "intakes": {
+      "raw": "Sep 26'",
+      "list": [
+        "Sep 26'"
+      ]
+    },
+    "requirements": {
+      "academic": {
+        "raw": "High Risk Region :                                                                                                      Section 1: 60%                                              Section 2: 65%                                                          Section 3: 70%                                          Low Risk Region :                                                 Section 1 & 2: 60%                                            Section 3: 65%                                                       Not Accepting from Haryana (Other regions mentioned in GS requirement)"
+      },
+      "english": {
+        "raw": "IELTS: 6.5/6                                       PTE: 60/52",
+        "ielts": {
+          "overall": 6.5,
+          "min_band": 6.0
+        },
+        "pte": {
+          "overall": 60,
+          "min_band": 52
+        },
+        "toefl": null
+      }
+    },
+    "fees": {
+      "currency": "AUD",
+      "tuition_raw": "$20,400 / 4 Units",
+      "tuition_numeric": 20400.0,
+      "period": "Unit",
+      "scholarship_raw": null,
+      "after_scholarship_raw": "$15,810 / 4 Units",
+      "after_scholarship_numeric": 15810.0
+    },
+    "deadlines": {
+      "intake_month": "July",
+      "application_deadline": "5th June, 26'",
+      "coe_or_deposit_deadline": "12th June, 26'",
+      "cas_deadline": null,
+      "intake_start_date": "27th July, 26'",
+      "next_intake": "Sep 26'"
+    },
+    "risk_guidelines": {
+      "high_risk_market_raw": "Punjab, Haryana except Gurugram, Gujarat, Andhra Pradesh, Telangana, Uttar Pradesh, Rajasthan, Uttarakhand, Jammu and Kashmir (Immediate Rejection from Haryana, Sri Ganganagar, Hanumangarh, Pilibhit, (Udham Singh Nagar and Rudrapur)",
+      "age_limit": {
+        "raw": "High risk: UG 20, PG 31. Low risk: UG 24, PG 35",
+        "ug": null,
+        "pg": null
+      },
+      "backlogs_allowed": {
+        "raw": "10 for 4 year degree and 8 for 3 year degree.",
+        "3_year_degree": 8,
+        "4_year_degree": 10
+      },
+      "core_subjects_required": "15 months for UG. 18 months for PG",
+      "gap_accepted": "Low risk:  UG: N/A PG: more than 1 year old  High risk: Not taking married cases from any High Risk Region",
+      "other_rules": [
+        "All interviews through UniReady tool (prescreening) and Face to Face interview after GS stage",
+        "UG: N/A PG: Accepted with all documents",
+        "Parents, Parents in law, Spouse, Self, Brother or Sister, Grandparents  (maternal or paternal), Aunt and Uncle  (maternal or paternal)",
+        "High Risk Region : ITR of 14 Lakhs (With Education Loan), ITR of 15 Lakhs (Without Education Loan)                                                         Other Regions : ITR of 13 Lakhs (With Education Loan), ITR of 14 Lakhs (Without Education Loan)",
+        "Current Income needed for one sponsor:  100% from parents                                                                                  Current Income needed for two sponsors:  70%-80% from parents and remaining 20%-30% from other relatives (siblings, uncle/aunt, grandparents and parent-in-laws)                                                                                                                                                                                                  Current Income needed for three sponsors: \u00a0 If parents and siblings (50% from each sponsor) \u00a0 If siblings and other relatives (uncle/aunt,grandparents and parent-in-laws) (70% from siblings and remaining 30%\u00a0from other relatives) \u00a0 If only other relatives (Case by case assessment), only if parents are deceased",
+        "Any Public, Pvt and NBFC (Only Credila) is accepted",
+        "Sponsors with annual income less than INR 15 lacs should be allowed to take only 25-30 lakhs loan and show savings of INR 8-10 lacs in their bank.",
+        "1 year Fee required from High Risk Regions. 75% of the first year from Andhara pradesh, Telangana, Hyderabad, Uttar Pradesh, Jammu and Kashmir . Rest part of India : 50% of first year",
+        "No previous rejections from any country",
+        "February, April, July, September and October",
+        "Partial Agricultural or Dairy Income (not more than 30-40%) may be accepted on case-by-case basis only from Parents (no additional sponsors allowed). Remaining 60%-70% of the income should not be a business related to agriculture \u2013 Animal Husbandry, Seeds or Agro or Cattle related businesses. Other income \u2013 salary, pension or other source of income from other business. Following business are not allowed Boutique, Beauty parlour, Handloom, Bakery, Tuition"
+      ]
+    }
+  },
+  {
+    "id": "2c07546691e0458baad8aa3e46b4918a",
+    "provider": "Victoria University",
+    "country": "Australia",
+    "campus_locations": [
+      "Sydney",
+      "Brisbane"
+    ],
+    "course": {
+      "name": "Master of Professional Accounting (Not Available)",
+      "level": "Masters",
+      "specialization": null,
+      "link": "https://www.vu.edu.au/vu-sydney/courses-at-vu-sydney/postgraduate-courses-vu-sydney/master-of-professional-accounting"
+    },
+    "intakes": {
+      "raw": null,
+      "list": []
+    },
+    "requirements": {
+      "academic": {
+        "raw": null
+      },
+      "english": {
+        "raw": null,
+        "ielts": null,
+        "pte": null,
+        "toefl": null
+      }
+    },
+    "fees": {
+      "currency": "AUD",
+      "tuition_raw": "$19,100 / 4 Units",
+      "tuition_numeric": 19100.0,
+      "period": "Unit",
+      "scholarship_raw": null,
+      "after_scholarship_raw": "$14,803 / 4 Units",
+      "after_scholarship_numeric": 14803.0
+    },
+    "deadlines": {
+      "intake_month": "July",
+      "application_deadline": "5th June, 26'",
+      "coe_or_deposit_deadline": "12th June, 26'",
+      "cas_deadline": null,
+      "intake_start_date": "27th July, 26'",
+      "next_intake": "Sep 26'"
+    },
+    "risk_guidelines": {
+      "high_risk_market_raw": "Punjab, Haryana except Gurugram, Gujarat, Andhra Pradesh, Telangana, Uttar Pradesh, Rajasthan, Uttarakhand, Jammu and Kashmir (Immediate Rejection from Haryana, Sri Ganganagar, Hanumangarh, Pilibhit, (Udham Singh Nagar and Rudrapur)",
+      "age_limit": {
+        "raw": "High risk: UG 20, PG 31. Low risk: UG 24, PG 35",
+        "ug": null,
+        "pg": null
+      },
+      "backlogs_allowed": {
+        "raw": "10 for 4 year degree and 8 for 3 year degree.",
+        "3_year_degree": 8,
+        "4_year_degree": 10
+      },
+      "core_subjects_required": "15 months for UG. 18 months for PG",
+      "gap_accepted": "Low risk:  UG: N/A PG: more than 1 year old  High risk: Not taking married cases from any High Risk Region",
+      "other_rules": [
+        "All interviews through UniReady tool (prescreening) and Face to Face interview after GS stage",
+        "UG: N/A PG: Accepted with all documents",
+        "Parents, Parents in law, Spouse, Self, Brother or Sister, Grandparents  (maternal or paternal), Aunt and Uncle  (maternal or paternal)",
+        "High Risk Region : ITR of 14 Lakhs (With Education Loan), ITR of 15 Lakhs (Without Education Loan)                                                         Other Regions : ITR of 13 Lakhs (With Education Loan), ITR of 14 Lakhs (Without Education Loan)",
+        "Current Income needed for one sponsor:  100% from parents                                                                                  Current Income needed for two sponsors:  70%-80% from parents and remaining 20%-30% from other relatives (siblings, uncle/aunt, grandparents and parent-in-laws)                                                                                                                                                                                                  Current Income needed for three sponsors: \u00a0 If parents and siblings (50% from each sponsor) \u00a0 If siblings and other relatives (uncle/aunt,grandparents and parent-in-laws) (70% from siblings and remaining 30%\u00a0from other relatives) \u00a0 If only other relatives (Case by case assessment), only if parents are deceased",
+        "Any Public, Pvt and NBFC (Only Credila) is accepted",
+        "Sponsors with annual income less than INR 15 lacs should be allowed to take only 25-30 lakhs loan and show savings of INR 8-10 lacs in their bank.",
+        "1 year Fee required from High Risk Regions. 75% of the first year from Andhara pradesh, Telangana, Hyderabad, Uttar Pradesh, Jammu and Kashmir . Rest part of India : 50% of first year",
+        "No previous rejections from any country",
+        "February, April, July, September and October",
+        "Partial Agricultural or Dairy Income (not more than 30-40%) may be accepted on case-by-case basis only from Parents (no additional sponsors allowed). Remaining 60%-70% of the income should not be a business related to agriculture \u2013 Animal Husbandry, Seeds or Agro or Cattle related businesses. Other income \u2013 salary, pension or other source of income from other business. Following business are not allowed Boutique, Beauty parlour, Handloom, Bakery, Tuition"
+      ]
+    }
+  },
+  {
+    "id": "ae543ffd908d357f876a19fe61ce458c",
+    "provider": "Victoria University",
+    "country": "Australia",
+    "campus_locations": [
+      "Sydney",
+      "Brisbane"
+    ],
+    "course": {
+      "name": "Master of Supply Chain Management (Not Available)",
+      "level": "Masters",
+      "specialization": null,
+      "link": "https://www.vu.edu.au/search?query=Master%20of%20Supply%20Chain%20Management"
+    },
+    "intakes": {
+      "raw": null,
+      "list": []
+    },
+    "requirements": {
+      "academic": {
+        "raw": null
+      },
+      "english": {
+        "raw": null,
+        "ielts": null,
+        "pte": null,
+        "toefl": null
+      }
+    },
+    "fees": {
+      "currency": "AUD",
+      "tuition_raw": "$19,100 / 4 Units",
+      "tuition_numeric": 19100.0,
+      "period": "Unit",
+      "scholarship_raw": null,
+      "after_scholarship_raw": "$14,803 / 4 Units",
+      "after_scholarship_numeric": 14803.0
+    },
+    "deadlines": {
+      "intake_month": "July",
+      "application_deadline": "5th June, 26'",
+      "coe_or_deposit_deadline": "12th June, 26'",
+      "cas_deadline": null,
+      "intake_start_date": "27th July, 26'",
+      "next_intake": "Sep 26'"
+    },
+    "risk_guidelines": {
+      "high_risk_market_raw": "Punjab, Haryana except Gurugram, Gujarat, Andhra Pradesh, Telangana, Uttar Pradesh, Rajasthan, Uttarakhand, Jammu and Kashmir (Immediate Rejection from Haryana, Sri Ganganagar, Hanumangarh, Pilibhit, (Udham Singh Nagar and Rudrapur)",
+      "age_limit": {
+        "raw": "High risk: UG 20, PG 31. Low risk: UG 24, PG 35",
+        "ug": null,
+        "pg": null
+      },
+      "backlogs_allowed": {
+        "raw": "10 for 4 year degree and 8 for 3 year degree.",
+        "3_year_degree": 8,
+        "4_year_degree": 10
+      },
+      "core_subjects_required": "15 months for UG. 18 months for PG",
+      "gap_accepted": "Low risk:  UG: N/A PG: more than 1 year old  High risk: Not taking married cases from any High Risk Region",
+      "other_rules": [
+        "All interviews through UniReady tool (prescreening) and Face to Face interview after GS stage",
+        "UG: N/A PG: Accepted with all documents",
+        "Parents, Parents in law, Spouse, Self, Brother or Sister, Grandparents  (maternal or paternal), Aunt and Uncle  (maternal or paternal)",
+        "High Risk Region : ITR of 14 Lakhs (With Education Loan), ITR of 15 Lakhs (Without Education Loan)                                                         Other Regions : ITR of 13 Lakhs (With Education Loan), ITR of 14 Lakhs (Without Education Loan)",
+        "Current Income needed for one sponsor:  100% from parents                                                                                  Current Income needed for two sponsors:  70%-80% from parents and remaining 20%-30% from other relatives (siblings, uncle/aunt, grandparents and parent-in-laws)                                                                                                                                                                                                  Current Income needed for three sponsors: \u00a0 If parents and siblings (50% from each sponsor) \u00a0 If siblings and other relatives (uncle/aunt,grandparents and parent-in-laws) (70% from siblings and remaining 30%\u00a0from other relatives) \u00a0 If only other relatives (Case by case assessment), only if parents are deceased",
+        "Any Public, Pvt and NBFC (Only Credila) is accepted",
+        "Sponsors with annual income less than INR 15 lacs should be allowed to take only 25-30 lakhs loan and show savings of INR 8-10 lacs in their bank.",
+        "1 year Fee required from High Risk Regions. 75% of the first year from Andhara pradesh, Telangana, Hyderabad, Uttar Pradesh, Jammu and Kashmir . Rest part of India : 50% of first year",
+        "No previous rejections from any country",
+        "February, April, July, September and October",
+        "Partial Agricultural or Dairy Income (not more than 30-40%) may be accepted on case-by-case basis only from Parents (no additional sponsors allowed). Remaining 60%-70% of the income should not be a business related to agriculture \u2013 Animal Husbandry, Seeds or Agro or Cattle related businesses. Other income \u2013 salary, pension or other source of income from other business. Following business are not allowed Boutique, Beauty parlour, Handloom, Bakery, Tuition"
+      ]
+    }
+  },
+  {
+    "id": "8dc66cd642342336aeb227421252601c",
+    "provider": "Victoria University",
+    "country": "Australia",
+    "campus_locations": [
+      "Sydney",
+      "Brisbane"
+    ],
+    "course": {
+      "name": "Master of Applied Information Technology",
+      "level": "Masters",
+      "specialization": null,
+      "link": "https://www.vu.edu.au/vu-sydney/courses-at-vu-sydney/postgraduate-courses-vu-sydney/master-of-applied-information-technology"
+    },
+    "intakes": {
+      "raw": null,
+      "list": []
+    },
+    "requirements": {
+      "academic": {
+        "raw": null
+      },
+      "english": {
+        "raw": null,
+        "ielts": null,
+        "pte": null,
+        "toefl": null
+      }
+    },
+    "fees": {
+      "currency": "AUD",
+      "tuition_raw": "$19,100 / 4 Units",
+      "tuition_numeric": 19100.0,
+      "period": "Unit",
+      "scholarship_raw": null,
+      "after_scholarship_raw": "$14,803 / 4 Units",
+      "after_scholarship_numeric": 14803.0
+    },
+    "deadlines": {
+      "intake_month": "July",
+      "application_deadline": "5th June, 26'",
+      "coe_or_deposit_deadline": "12th June, 26'",
+      "cas_deadline": null,
+      "intake_start_date": "27th July, 26'",
+      "next_intake": "Sep 26'"
+    },
+    "risk_guidelines": {
+      "high_risk_market_raw": "Punjab, Haryana except Gurugram, Gujarat, Andhra Pradesh, Telangana, Uttar Pradesh, Rajasthan, Uttarakhand, Jammu and Kashmir (Immediate Rejection from Haryana, Sri Ganganagar, Hanumangarh, Pilibhit, (Udham Singh Nagar and Rudrapur)",
+      "age_limit": {
+        "raw": "High risk: UG 20, PG 31. Low risk: UG 24, PG 35",
+        "ug": null,
+        "pg": null
+      },
+      "backlogs_allowed": {
+        "raw": "10 for 4 year degree and 8 for 3 year degree.",
+        "3_year_degree": 8,
+        "4_year_degree": 10
+      },
+      "core_subjects_required": "15 months for UG. 18 months for PG",
+      "gap_accepted": "Low risk:  UG: N/A PG: more than 1 year old  High risk: Not taking married cases from any High Risk Region",
+      "other_rules": [
+        "All interviews through UniReady tool (prescreening) and Face to Face interview after GS stage",
+        "UG: N/A PG: Accepted with all documents",
+        "Parents, Parents in law, Spouse, Self, Brother or Sister, Grandparents  (maternal or paternal), Aunt and Uncle  (maternal or paternal)",
+        "High Risk Region : ITR of 14 Lakhs (With Education Loan), ITR of 15 Lakhs (Without Education Loan)                                                         Other Regions : ITR of 13 Lakhs (With Education Loan), ITR of 14 Lakhs (Without Education Loan)",
+        "Current Income needed for one sponsor:  100% from parents                                                                                  Current Income needed for two sponsors:  70%-80% from parents and remaining 20%-30% from other relatives (siblings, uncle/aunt, grandparents and parent-in-laws)                                                                                                                                                                                                  Current Income needed for three sponsors: \u00a0 If parents and siblings (50% from each sponsor) \u00a0 If siblings and other relatives (uncle/aunt,grandparents and parent-in-laws) (70% from siblings and remaining 30%\u00a0from other relatives) \u00a0 If only other relatives (Case by case assessment), only if parents are deceased",
+        "Any Public, Pvt and NBFC (Only Credila) is accepted",
+        "Sponsors with annual income less than INR 15 lacs should be allowed to take only 25-30 lakhs loan and show savings of INR 8-10 lacs in their bank.",
+        "1 year Fee required from High Risk Regions. 75% of the first year from Andhara pradesh, Telangana, Hyderabad, Uttar Pradesh, Jammu and Kashmir . Rest part of India : 50% of first year",
+        "No previous rejections from any country",
+        "February, April, July, September and October",
+        "Partial Agricultural or Dairy Income (not more than 30-40%) may be accepted on case-by-case basis only from Parents (no additional sponsors allowed). Remaining 60%-70% of the income should not be a business related to agriculture \u2013 Animal Husbandry, Seeds or Agro or Cattle related businesses. Other income \u2013 salary, pension or other source of income from other business. Following business are not allowed Boutique, Beauty parlour, Handloom, Bakery, Tuition"
+      ]
+    }
+  },
+  {
+    "id": "6c542754ac25ca5ca34423cd5dab9010",
+    "provider": "Victoria University",
+    "country": "Australia",
+    "campus_locations": [
+      "Sydney",
+      "Brisbane"
+    ],
+    "course": {
+      "name": "Master of Education + Graduate Certificate of Early Childhood Education & Leadership  (Not Available)",
+      "level": "Masters",
+      "specialization": null,
+      "link": "https://www.vu.edu.au/vu-sydney/courses-at-vu-sydney/postgraduate-courses-vu-sydney/master-of-education-vu-sydney"
+    },
+    "intakes": {
+      "raw": null,
+      "list": []
+    },
+    "requirements": {
+      "academic": {
+        "raw": null
+      },
+      "english": {
+        "raw": null,
+        "ielts": null,
+        "pte": null,
+        "toefl": null
+      }
+    },
+    "fees": {
+      "currency": "AUD",
+      "tuition_raw": "$19,100 / 4 Units",
+      "tuition_numeric": 19100.0,
+      "period": "Unit",
+      "scholarship_raw": null,
+      "after_scholarship_raw": "$14,803 / 4 Units",
+      "after_scholarship_numeric": 14803.0
+    },
+    "deadlines": {
+      "intake_month": "July",
+      "application_deadline": "5th June, 26'",
+      "coe_or_deposit_deadline": "12th June, 26'",
+      "cas_deadline": null,
+      "intake_start_date": "27th July, 26'",
+      "next_intake": "Sep 26'"
+    },
+    "risk_guidelines": {
+      "high_risk_market_raw": "Punjab, Haryana except Gurugram, Gujarat, Andhra Pradesh, Telangana, Uttar Pradesh, Rajasthan, Uttarakhand, Jammu and Kashmir (Immediate Rejection from Haryana, Sri Ganganagar, Hanumangarh, Pilibhit, (Udham Singh Nagar and Rudrapur)",
+      "age_limit": {
+        "raw": "High risk: UG 20, PG 31. Low risk: UG 24, PG 35",
+        "ug": null,
+        "pg": null
+      },
+      "backlogs_allowed": {
+        "raw": "10 for 4 year degree and 8 for 3 year degree.",
+        "3_year_degree": 8,
+        "4_year_degree": 10
+      },
+      "core_subjects_required": "15 months for UG. 18 months for PG",
+      "gap_accepted": "Low risk:  UG: N/A PG: more than 1 year old  High risk: Not taking married cases from any High Risk Region",
+      "other_rules": [
+        "All interviews through UniReady tool (prescreening) and Face to Face interview after GS stage",
+        "UG: N/A PG: Accepted with all documents",
+        "Parents, Parents in law, Spouse, Self, Brother or Sister, Grandparents  (maternal or paternal), Aunt and Uncle  (maternal or paternal)",
+        "High Risk Region : ITR of 14 Lakhs (With Education Loan), ITR of 15 Lakhs (Without Education Loan)                                                         Other Regions : ITR of 13 Lakhs (With Education Loan), ITR of 14 Lakhs (Without Education Loan)",
+        "Current Income needed for one sponsor:  100% from parents                                                                                  Current Income needed for two sponsors:  70%-80% from parents and remaining 20%-30% from other relatives (siblings, uncle/aunt, grandparents and parent-in-laws)                                                                                                                                                                                                  Current Income needed for three sponsors: \u00a0 If parents and siblings (50% from each sponsor) \u00a0 If siblings and other relatives (uncle/aunt,grandparents and parent-in-laws) (70% from siblings and remaining 30%\u00a0from other relatives) \u00a0 If only other relatives (Case by case assessment), only if parents are deceased",
+        "Any Public, Pvt and NBFC (Only Credila) is accepted",
+        "Sponsors with annual income less than INR 15 lacs should be allowed to take only 25-30 lakhs loan and show savings of INR 8-10 lacs in their bank.",
+        "1 year Fee required from High Risk Regions. 75% of the first year from Andhara pradesh, Telangana, Hyderabad, Uttar Pradesh, Jammu and Kashmir . Rest part of India : 50% of first year",
+        "No previous rejections from any country",
+        "February, April, July, September and October",
+        "Partial Agricultural or Dairy Income (not more than 30-40%) may be accepted on case-by-case basis only from Parents (no additional sponsors allowed). Remaining 60%-70% of the income should not be a business related to agriculture \u2013 Animal Husbandry, Seeds or Agro or Cattle related businesses. Other income \u2013 salary, pension or other source of income from other business. Following business are not allowed Boutique, Beauty parlour, Handloom, Bakery, Tuition"
+      ]
+    }
+  },
+  {
+    "id": "aacd0f634fd18356126703741d9b2b3a",
+    "provider": "Victoria University",
+    "country": "Australia",
+    "campus_locations": [
+      "Sydney",
+      "Brisbane"
+    ],
+    "course": {
+      "name": "Bachelor of Cyber Security",
+      "level": "Bachelors",
+      "specialization": "Cyber Security",
+      "link": "https://www.vu.edu.au/courses/bachelor-of-cyber-security-nbcs"
+    },
+    "intakes": {
+      "raw": "Sep 26'",
+      "list": [
+        "Sep 26'"
+      ]
+    },
+    "requirements": {
+      "academic": {
+        "raw": "Low Risk Region:                                   CBSE,ICSE: 65%  SBSE: 70%                              High Risk Region :                                 CBSE,ICSE: 70%   SBSE: 85%                               Haryana & Sri Ganganagar Students Not Accepted                                                                     Punjab State Board Not Accepted                         Not Taking Gujarati Medium Students                                                                                                               BECE : Only 12th Arts/Humanities Student"
+      },
+      "english": {
+        "raw": "IELTS: 6/6                                                                        PTE: 52/52",
+        "ielts": {
+          "overall": 6.0,
+          "min_band": 6.0
+        },
+        "pte": {
+          "overall": 52,
+          "min_band": 52
+        },
+        "toefl": null
+      }
+    },
+    "fees": {
+      "currency": "AUD",
+      "tuition_raw": "$18,400/ 4 Units",
+      "tuition_numeric": 18400.0,
+      "period": "Unit",
+      "scholarship_raw": "22.5 %",
+      "after_scholarship_raw": "$14,260 / 4 Units",
+      "after_scholarship_numeric": 14260.0
+    },
+    "deadlines": {
+      "intake_month": "July",
+      "application_deadline": "5th June, 26'",
+      "coe_or_deposit_deadline": "12th June, 26'",
+      "cas_deadline": null,
+      "intake_start_date": "27th July, 26'",
+      "next_intake": "Sep 26'"
+    },
+    "risk_guidelines": {
+      "high_risk_market_raw": "Punjab, Haryana except Gurugram, Gujarat, Andhra Pradesh, Telangana, Uttar Pradesh, Rajasthan, Uttarakhand, Jammu and Kashmir (Immediate Rejection from Haryana, Sri Ganganagar, Hanumangarh, Pilibhit, (Udham Singh Nagar and Rudrapur)",
+      "age_limit": {
+        "raw": "High risk: UG 20, PG 31. Low risk: UG 24, PG 35",
+        "ug": null,
+        "pg": null
+      },
+      "backlogs_allowed": {
+        "raw": "10 for 4 year degree and 8 for 3 year degree.",
+        "3_year_degree": 8,
+        "4_year_degree": 10
+      },
+      "core_subjects_required": "15 months for UG. 18 months for PG",
+      "gap_accepted": "Low risk:  UG: N/A PG: more than 1 year old  High risk: Not taking married cases from any High Risk Region",
+      "other_rules": [
+        "All interviews through UniReady tool (prescreening) and Face to Face interview after GS stage",
+        "UG: N/A PG: Accepted with all documents",
+        "Parents, Parents in law, Spouse, Self, Brother or Sister, Grandparents  (maternal or paternal), Aunt and Uncle  (maternal or paternal)",
+        "High Risk Region : ITR of 14 Lakhs (With Education Loan), ITR of 15 Lakhs (Without Education Loan)                                                         Other Regions : ITR of 13 Lakhs (With Education Loan), ITR of 14 Lakhs (Without Education Loan)",
+        "Current Income needed for one sponsor:  100% from parents                                                                                  Current Income needed for two sponsors:  70%-80% from parents and remaining 20%-30% from other relatives (siblings, uncle/aunt, grandparents and parent-in-laws)                                                                                                                                                                                                  Current Income needed for three sponsors: \u00a0 If parents and siblings (50% from each sponsor) \u00a0 If siblings and other relatives (uncle/aunt,grandparents and parent-in-laws) (70% from siblings and remaining 30%\u00a0from other relatives) \u00a0 If only other relatives (Case by case assessment), only if parents are deceased",
+        "Any Public, Pvt and NBFC (Only Credila) is accepted",
+        "Sponsors with annual income less than INR 15 lacs should be allowed to take only 25-30 lakhs loan and show savings of INR 8-10 lacs in their bank.",
+        "1 year Fee required from High Risk Regions. 75% of the first year from Andhara pradesh, Telangana, Hyderabad, Uttar Pradesh, Jammu and Kashmir . Rest part of India : 50% of first year",
+        "No previous rejections from any country",
+        "February, April, July, September and October",
+        "Partial Agricultural or Dairy Income (not more than 30-40%) may be accepted on case-by-case basis only from Parents (no additional sponsors allowed). Remaining 60%-70% of the income should not be a business related to agriculture \u2013 Animal Husbandry, Seeds or Agro or Cattle related businesses. Other income \u2013 salary, pension or other source of income from other business. Following business are not allowed Boutique, Beauty parlour, Handloom, Bakery, Tuition"
+      ]
+    }
+  },
+  {
+    "id": "e8c6c25c4e844a8219bbccf5fcdb6ae7",
+    "provider": "Victoria University",
+    "country": "Australia",
+    "campus_locations": [
+      "Sydney",
+      "Brisbane"
+    ],
+    "course": {
+      "name": "Bachelor of Information Technology (Not Available)",
+      "level": "Bachelors",
+      "specialization": "Network and System Computing, Web and Mobile Application Development",
+      "link": "https://www.vu.edu.au/courses/bachelor-of-information-technology-nbit"
+    },
+    "intakes": {
+      "raw": null,
+      "list": []
+    },
+    "requirements": {
+      "academic": {
+        "raw": null
+      },
+      "english": {
+        "raw": null,
+        "ielts": null,
+        "pte": null,
+        "toefl": null
+      }
+    },
+    "fees": {
+      "currency": "AUD",
+      "tuition_raw": "$18,400/ 4 Units",
+      "tuition_numeric": 18400.0,
+      "period": "Unit",
+      "scholarship_raw": null,
+      "after_scholarship_raw": "$14,260 / 4 Units",
+      "after_scholarship_numeric": 14260.0
+    },
+    "deadlines": {
+      "intake_month": "July",
+      "application_deadline": "5th June, 26'",
+      "coe_or_deposit_deadline": "12th June, 26'",
+      "cas_deadline": null,
+      "intake_start_date": "27th July, 26'",
+      "next_intake": "Sep 26'"
+    },
+    "risk_guidelines": {
+      "high_risk_market_raw": "Punjab, Haryana except Gurugram, Gujarat, Andhra Pradesh, Telangana, Uttar Pradesh, Rajasthan, Uttarakhand, Jammu and Kashmir (Immediate Rejection from Haryana, Sri Ganganagar, Hanumangarh, Pilibhit, (Udham Singh Nagar and Rudrapur)",
+      "age_limit": {
+        "raw": "High risk: UG 20, PG 31. Low risk: UG 24, PG 35",
+        "ug": null,
+        "pg": null
+      },
+      "backlogs_allowed": {
+        "raw": "10 for 4 year degree and 8 for 3 year degree.",
+        "3_year_degree": 8,
+        "4_year_degree": 10
+      },
+      "core_subjects_required": "15 months for UG. 18 months for PG",
+      "gap_accepted": "Low risk:  UG: N/A PG: more than 1 year old  High risk: Not taking married cases from any High Risk Region",
+      "other_rules": [
+        "All interviews through UniReady tool (prescreening) and Face to Face interview after GS stage",
+        "UG: N/A PG: Accepted with all documents",
+        "Parents, Parents in law, Spouse, Self, Brother or Sister, Grandparents  (maternal or paternal), Aunt and Uncle  (maternal or paternal)",
+        "High Risk Region : ITR of 14 Lakhs (With Education Loan), ITR of 15 Lakhs (Without Education Loan)                                                         Other Regions : ITR of 13 Lakhs (With Education Loan), ITR of 14 Lakhs (Without Education Loan)",
+        "Current Income needed for one sponsor:  100% from parents                                                                                  Current Income needed for two sponsors:  70%-80% from parents and remaining 20%-30% from other relatives (siblings, uncle/aunt, grandparents and parent-in-laws)                                                                                                                                                                                                  Current Income needed for three sponsors: \u00a0 If parents and siblings (50% from each sponsor) \u00a0 If siblings and other relatives (uncle/aunt,grandparents and parent-in-laws) (70% from siblings and remaining 30%\u00a0from other relatives) \u00a0 If only other relatives (Case by case assessment), only if parents are deceased",
+        "Any Public, Pvt and NBFC (Only Credila) is accepted",
+        "Sponsors with annual income less than INR 15 lacs should be allowed to take only 25-30 lakhs loan and show savings of INR 8-10 lacs in their bank.",
+        "1 year Fee required from High Risk Regions. 75% of the first year from Andhara pradesh, Telangana, Hyderabad, Uttar Pradesh, Jammu and Kashmir . Rest part of India : 50% of first year",
+        "No previous rejections from any country",
+        "February, April, July, September and October",
+        "Partial Agricultural or Dairy Income (not more than 30-40%) may be accepted on case-by-case basis only from Parents (no additional sponsors allowed). Remaining 60%-70% of the income should not be a business related to agriculture \u2013 Animal Husbandry, Seeds or Agro or Cattle related businesses. Other income \u2013 salary, pension or other source of income from other business. Following business are not allowed Boutique, Beauty parlour, Handloom, Bakery, Tuition"
+      ]
+    }
+  },
+  {
+    "id": "8226f80f1c71a5b44c3db8fcf5893295",
+    "provider": "Victoria University",
+    "country": "Australia",
+    "campus_locations": [
+      "Sydney",
+      "Brisbane"
+    ],
+    "course": {
+      "name": "Bachelor of Early Childhood Education",
+      "level": "Bachelors",
+      "specialization": null,
+      "link": "https://www.vu.edu.au/courses/bachelor-of-early-childhood-education-ebec"
+    },
+    "intakes": {
+      "raw": "Sep 26'",
+      "list": [
+        "Sep 26'"
+      ]
+    },
+    "requirements": {
+      "academic": {
+        "raw": null
+      },
+      "english": {
+        "raw": "IELTS: 6.5/6                                       PTE: 60/52",
+        "ielts": {
+          "overall": 6.5,
+          "min_band": 6.0
+        },
+        "pte": {
+          "overall": 60,
+          "min_band": 52
+        },
+        "toefl": null
+      }
+    },
+    "fees": {
+      "currency": "AUD",
+      "tuition_raw": "$16,900/ 4 Units",
+      "tuition_numeric": 16900.0,
+      "period": "Unit",
+      "scholarship_raw": null,
+      "after_scholarship_raw": "$13,098/ 4 Units",
+      "after_scholarship_numeric": 13098.0
+    },
+    "deadlines": {
+      "intake_month": "July",
+      "application_deadline": "5th June, 26'",
+      "coe_or_deposit_deadline": "12th June, 26'",
+      "cas_deadline": null,
+      "intake_start_date": "27th July, 26'",
+      "next_intake": "Sep 26'"
+    },
+    "risk_guidelines": {
+      "high_risk_market_raw": "Punjab, Haryana except Gurugram, Gujarat, Andhra Pradesh, Telangana, Uttar Pradesh, Rajasthan, Uttarakhand, Jammu and Kashmir (Immediate Rejection from Haryana, Sri Ganganagar, Hanumangarh, Pilibhit, (Udham Singh Nagar and Rudrapur)",
+      "age_limit": {
+        "raw": "High risk: UG 20, PG 31. Low risk: UG 24, PG 35",
+        "ug": null,
+        "pg": null
+      },
+      "backlogs_allowed": {
+        "raw": "10 for 4 year degree and 8 for 3 year degree.",
+        "3_year_degree": 8,
+        "4_year_degree": 10
+      },
+      "core_subjects_required": "15 months for UG. 18 months for PG",
+      "gap_accepted": "Low risk:  UG: N/A PG: more than 1 year old  High risk: Not taking married cases from any High Risk Region",
+      "other_rules": [
+        "All interviews through UniReady tool (prescreening) and Face to Face interview after GS stage",
+        "UG: N/A PG: Accepted with all documents",
+        "Parents, Parents in law, Spouse, Self, Brother or Sister, Grandparents  (maternal or paternal), Aunt and Uncle  (maternal or paternal)",
+        "High Risk Region : ITR of 14 Lakhs (With Education Loan), ITR of 15 Lakhs (Without Education Loan)                                                         Other Regions : ITR of 13 Lakhs (With Education Loan), ITR of 14 Lakhs (Without Education Loan)",
+        "Current Income needed for one sponsor:  100% from parents                                                                                  Current Income needed for two sponsors:  70%-80% from parents and remaining 20%-30% from other relatives (siblings, uncle/aunt, grandparents and parent-in-laws)                                                                                                                                                                                                  Current Income needed for three sponsors: \u00a0 If parents and siblings (50% from each sponsor) \u00a0 If siblings and other relatives (uncle/aunt,grandparents and parent-in-laws) (70% from siblings and remaining 30%\u00a0from other relatives) \u00a0 If only other relatives (Case by case assessment), only if parents are deceased",
+        "Any Public, Pvt and NBFC (Only Credila) is accepted",
+        "Sponsors with annual income less than INR 15 lacs should be allowed to take only 25-30 lakhs loan and show savings of INR 8-10 lacs in their bank.",
+        "1 year Fee required from High Risk Regions. 75% of the first year from Andhara pradesh, Telangana, Hyderabad, Uttar Pradesh, Jammu and Kashmir . Rest part of India : 50% of first year",
+        "No previous rejections from any country",
+        "February, April, July, September and October",
+        "Partial Agricultural or Dairy Income (not more than 30-40%) may be accepted on case-by-case basis only from Parents (no additional sponsors allowed). Remaining 60%-70% of the income should not be a business related to agriculture \u2013 Animal Husbandry, Seeds or Agro or Cattle related businesses. Other income \u2013 salary, pension or other source of income from other business. Following business are not allowed Boutique, Beauty parlour, Handloom, Bakery, Tuition"
+      ]
+    }
+  },
+  {
+    "id": "138e9f6cddf53d6011a7556e2f9a20a9",
+    "provider": "Victoria University",
+    "country": "Australia",
+    "campus_locations": [
+      "Sydney",
+      "Brisbane"
+    ],
+    "course": {
+      "name": "Bachelor of Early Childhood Education & Leadership (4 years)",
+      "level": "Bachelors",
+      "specialization": null,
+      "link": "https://www.vu.edu.au/courses/bachelor-of-early-childhood-education-ebec"
+    },
+    "intakes": {
+      "raw": null,
+      "list": []
+    },
+    "requirements": {
+      "academic": {
+        "raw": null
+      },
+      "english": {
+        "raw": null,
+        "ielts": null,
+        "pte": null,
+        "toefl": null
+      }
+    },
+    "fees": {
+      "currency": "AUD",
+      "tuition_raw": "$16,900/ 4 Units",
+      "tuition_numeric": 16900.0,
+      "period": "Unit",
+      "scholarship_raw": null,
+      "after_scholarship_raw": "$13,098/ 4 Units",
+      "after_scholarship_numeric": 13098.0
+    },
+    "deadlines": {
+      "intake_month": "July",
+      "application_deadline": "5th June, 26'",
+      "coe_or_deposit_deadline": "12th June, 26'",
+      "cas_deadline": null,
+      "intake_start_date": "27th July, 26'",
+      "next_intake": "Sep 26'"
+    },
+    "risk_guidelines": {
+      "high_risk_market_raw": "Punjab, Haryana except Gurugram, Gujarat, Andhra Pradesh, Telangana, Uttar Pradesh, Rajasthan, Uttarakhand, Jammu and Kashmir (Immediate Rejection from Haryana, Sri Ganganagar, Hanumangarh, Pilibhit, (Udham Singh Nagar and Rudrapur)",
+      "age_limit": {
+        "raw": "High risk: UG 20, PG 31. Low risk: UG 24, PG 35",
+        "ug": null,
+        "pg": null
+      },
+      "backlogs_allowed": {
+        "raw": "10 for 4 year degree and 8 for 3 year degree.",
+        "3_year_degree": 8,
+        "4_year_degree": 10
+      },
+      "core_subjects_required": "15 months for UG. 18 months for PG",
+      "gap_accepted": "Low risk:  UG: N/A PG: more than 1 year old  High risk: Not taking married cases from any High Risk Region",
+      "other_rules": [
+        "All interviews through UniReady tool (prescreening) and Face to Face interview after GS stage",
+        "UG: N/A PG: Accepted with all documents",
+        "Parents, Parents in law, Spouse, Self, Brother or Sister, Grandparents  (maternal or paternal), Aunt and Uncle  (maternal or paternal)",
+        "High Risk Region : ITR of 14 Lakhs (With Education Loan), ITR of 15 Lakhs (Without Education Loan)                                                         Other Regions : ITR of 13 Lakhs (With Education Loan), ITR of 14 Lakhs (Without Education Loan)",
+        "Current Income needed for one sponsor:  100% from parents                                                                                  Current Income needed for two sponsors:  70%-80% from parents and remaining 20%-30% from other relatives (siblings, uncle/aunt, grandparents and parent-in-laws)                                                                                                                                                                                                  Current Income needed for three sponsors: \u00a0 If parents and siblings (50% from each sponsor) \u00a0 If siblings and other relatives (uncle/aunt,grandparents and parent-in-laws) (70% from siblings and remaining 30%\u00a0from other relatives) \u00a0 If only other relatives (Case by case assessment), only if parents are deceased",
+        "Any Public, Pvt and NBFC (Only Credila) is accepted",
+        "Sponsors with annual income less than INR 15 lacs should be allowed to take only 25-30 lakhs loan and show savings of INR 8-10 lacs in their bank.",
+        "1 year Fee required from High Risk Regions. 75% of the first year from Andhara pradesh, Telangana, Hyderabad, Uttar Pradesh, Jammu and Kashmir . Rest part of India : 50% of first year",
+        "No previous rejections from any country",
+        "February, April, July, September and October",
+        "Partial Agricultural or Dairy Income (not more than 30-40%) may be accepted on case-by-case basis only from Parents (no additional sponsors allowed). Remaining 60%-70% of the income should not be a business related to agriculture \u2013 Animal Husbandry, Seeds or Agro or Cattle related businesses. Other income \u2013 salary, pension or other source of income from other business. Following business are not allowed Boutique, Beauty parlour, Handloom, Bakery, Tuition"
+      ]
+    }
+  },
+  {
+    "id": "ff347489aff5d12dee6037b59caa5c3c",
+    "provider": "Victoria University",
+    "country": "Australia",
+    "campus_locations": [
+      "Sydney",
+      "Brisbane"
+    ],
+    "course": {
+      "name": "Master of Business Administration (Not Available)",
+      "level": "Masters",
+      "specialization": null,
+      "link": "https://www.vu.edu.au/courses/master-of-business-administration-global-bmag"
+    },
+    "intakes": {
+      "raw": "Sep 26'",
+      "list": [
+        "Sep 26'"
+      ]
+    },
+    "requirements": {
+      "academic": {
+        "raw": "High Risk Region :                                              Section 1: 60%                                                      Section 2: 65%                                                          Section 3: 70%                                          Low Risk Region :                                                 Section 1 & 2: 60%                                            Section 3: 65%                                                       Not Accepting from Haryana (Other regions mentioned in GS requirement)                                               For MBA only Engg Background accepted"
+      },
+      "english": {
+        "raw": "IELTS: 6.5/6                                       PTE: 60/52",
+        "ielts": {
+          "overall": 6.5,
+          "min_band": 6.0
+        },
+        "pte": {
+          "overall": 60,
+          "min_band": 52
+        },
+        "toefl": null
+      }
+    },
+    "fees": {
+      "currency": "AUD",
+      "tuition_raw": "$20,400 / 4 Units",
+      "tuition_numeric": 20400.0,
+      "period": "Unit",
+      "scholarship_raw": null,
+      "after_scholarship_raw": "$15,810 / 4 Units",
+      "after_scholarship_numeric": 15810.0
+    },
+    "deadlines": {
+      "intake_month": "July",
+      "application_deadline": "5th June, 26'",
+      "coe_or_deposit_deadline": "12th June, 26'",
+      "cas_deadline": null,
+      "intake_start_date": "27th July, 26'",
+      "next_intake": "Sep 26'"
+    },
+    "risk_guidelines": {
+      "high_risk_market_raw": "Punjab, Haryana except Gurugram, Gujarat, Andhra Pradesh, Telangana, Uttar Pradesh, Rajasthan, Uttarakhand, Jammu and Kashmir (Immediate Rejection from Haryana, Sri Ganganagar, Hanumangarh, Pilibhit, (Udham Singh Nagar and Rudrapur)",
+      "age_limit": {
+        "raw": "High risk: UG 20, PG 31. Low risk: UG 24, PG 35",
+        "ug": null,
+        "pg": null
+      },
+      "backlogs_allowed": {
+        "raw": "10 for 4 year degree and 8 for 3 year degree.",
+        "3_year_degree": 8,
+        "4_year_degree": 10
+      },
+      "core_subjects_required": "15 months for UG. 18 months for PG",
+      "gap_accepted": "Low risk:  UG: N/A PG: more than 1 year old  High risk: Not taking married cases from any High Risk Region",
+      "other_rules": [
+        "All interviews through UniReady tool (prescreening) and Face to Face interview after GS stage",
+        "UG: N/A PG: Accepted with all documents",
+        "Parents, Parents in law, Spouse, Self, Brother or Sister, Grandparents  (maternal or paternal), Aunt and Uncle  (maternal or paternal)",
+        "High Risk Region : ITR of 14 Lakhs (With Education Loan), ITR of 15 Lakhs (Without Education Loan)                                                         Other Regions : ITR of 13 Lakhs (With Education Loan), ITR of 14 Lakhs (Without Education Loan)",
+        "Current Income needed for one sponsor:  100% from parents                                                                                  Current Income needed for two sponsors:  70%-80% from parents and remaining 20%-30% from other relatives (siblings, uncle/aunt, grandparents and parent-in-laws)                                                                                                                                                                                                  Current Income needed for three sponsors: \u00a0 If parents and siblings (50% from each sponsor) \u00a0 If siblings and other relatives (uncle/aunt,grandparents and parent-in-laws) (70% from siblings and remaining 30%\u00a0from other relatives) \u00a0 If only other relatives (Case by case assessment), only if parents are deceased",
+        "Any Public, Pvt and NBFC (Only Credila) is accepted",
+        "Sponsors with annual income less than INR 15 lacs should be allowed to take only 25-30 lakhs loan and show savings of INR 8-10 lacs in their bank.",
+        "1 year Fee required from High Risk Regions. 75% of the first year from Andhara pradesh, Telangana, Hyderabad, Uttar Pradesh, Jammu and Kashmir . Rest part of India : 50% of first year",
+        "No previous rejections from any country",
+        "February, April, July, September and October",
+        "Partial Agricultural or Dairy Income (not more than 30-40%) may be accepted on case-by-case basis only from Parents (no additional sponsors allowed). Remaining 60%-70% of the income should not be a business related to agriculture \u2013 Animal Husbandry, Seeds or Agro or Cattle related businesses. Other income \u2013 salary, pension or other source of income from other business. Following business are not allowed Boutique, Beauty parlour, Handloom, Bakery, Tuition"
+      ]
+    }
+  },
+  {
+    "id": "c1d366947baf98d2ce6ee68194bdaad3",
+    "provider": "Victoria University",
+    "country": "Australia",
+    "campus_locations": [
+      "Sydney",
+      "Brisbane"
+    ],
+    "course": {
+      "name": "Master of Business Analytics",
+      "level": "Masters",
+      "specialization": null,
+      "link": "https://www.vu.edu.au/vu-brisbane/courses-at-vu-brisbane/master-of-business-analytics"
+    },
+    "intakes": {
+      "raw": null,
+      "list": []
+    },
+    "requirements": {
+      "academic": {
+        "raw": null
+      },
+      "english": {
+        "raw": null,
+        "ielts": null,
+        "pte": null,
+        "toefl": null
+      }
+    },
+    "fees": {
+      "currency": "AUD",
+      "tuition_raw": "$19,100 / 4 Units",
+      "tuition_numeric": 19100.0,
+      "period": "Unit",
+      "scholarship_raw": null,
+      "after_scholarship_raw": "$14,803 / 4 Units",
+      "after_scholarship_numeric": 14803.0
+    },
+    "deadlines": {
+      "intake_month": "July",
+      "application_deadline": "5th June, 26'",
+      "coe_or_deposit_deadline": "12th June, 26'",
+      "cas_deadline": null,
+      "intake_start_date": "27th July, 26'",
+      "next_intake": "Sep 26'"
+    },
+    "risk_guidelines": {
+      "high_risk_market_raw": "Punjab, Haryana except Gurugram, Gujarat, Andhra Pradesh, Telangana, Uttar Pradesh, Rajasthan, Uttarakhand, Jammu and Kashmir (Immediate Rejection from Haryana, Sri Ganganagar, Hanumangarh, Pilibhit, (Udham Singh Nagar and Rudrapur)",
+      "age_limit": {
+        "raw": "High risk: UG 20, PG 31. Low risk: UG 24, PG 35",
+        "ug": null,
+        "pg": null
+      },
+      "backlogs_allowed": {
+        "raw": "10 for 4 year degree and 8 for 3 year degree.",
+        "3_year_degree": 8,
+        "4_year_degree": 10
+      },
+      "core_subjects_required": "15 months for UG. 18 months for PG",
+      "gap_accepted": "Low risk:  UG: N/A PG: more than 1 year old  High risk: Not taking married cases from any High Risk Region",
+      "other_rules": [
+        "All interviews through UniReady tool (prescreening) and Face to Face interview after GS stage",
+        "UG: N/A PG: Accepted with all documents",
+        "Parents, Parents in law, Spouse, Self, Brother or Sister, Grandparents  (maternal or paternal), Aunt and Uncle  (maternal or paternal)",
+        "High Risk Region : ITR of 14 Lakhs (With Education Loan), ITR of 15 Lakhs (Without Education Loan)                                                         Other Regions : ITR of 13 Lakhs (With Education Loan), ITR of 14 Lakhs (Without Education Loan)",
+        "Current Income needed for one sponsor:  100% from parents                                                                                  Current Income needed for two sponsors:  70%-80% from parents and remaining 20%-30% from other relatives (siblings, uncle/aunt, grandparents and parent-in-laws)                                                                                                                                                                                                  Current Income needed for three sponsors: \u00a0 If parents and siblings (50% from each sponsor) \u00a0 If siblings and other relatives (uncle/aunt,grandparents and parent-in-laws) (70% from siblings and remaining 30%\u00a0from other relatives) \u00a0 If only other relatives (Case by case assessment), only if parents are deceased",
+        "Any Public, Pvt and NBFC (Only Credila) is accepted",
+        "Sponsors with annual income less than INR 15 lacs should be allowed to take only 25-30 lakhs loan and show savings of INR 8-10 lacs in their bank.",
+        "1 year Fee required from High Risk Regions. 75% of the first year from Andhara pradesh, Telangana, Hyderabad, Uttar Pradesh, Jammu and Kashmir . Rest part of India : 50% of first year",
+        "No previous rejections from any country",
+        "February, April, July, September and October",
+        "Partial Agricultural or Dairy Income (not more than 30-40%) may be accepted on case-by-case basis only from Parents (no additional sponsors allowed). Remaining 60%-70% of the income should not be a business related to agriculture \u2013 Animal Husbandry, Seeds or Agro or Cattle related businesses. Other income \u2013 salary, pension or other source of income from other business. Following business are not allowed Boutique, Beauty parlour, Handloom, Bakery, Tuition"
+      ]
+    }
+  },
+  {
+    "id": "8dc66cd642342336aeb227421252601c",
+    "provider": "Victoria University",
+    "country": "Australia",
+    "campus_locations": [
+      "Sydney",
+      "Brisbane"
+    ],
+    "course": {
+      "name": "Master of Applied Information Technology",
+      "level": "Masters",
+      "specialization": null,
+      "link": "https://www.vu.edu.au/vu-sydney/courses-at-vu-sydney/postgraduate-courses-vu-sydney/master-of-applied-information-technology"
+    },
+    "intakes": {
+      "raw": null,
+      "list": []
+    },
+    "requirements": {
+      "academic": {
+        "raw": null
+      },
+      "english": {
+        "raw": null,
+        "ielts": null,
+        "pte": null,
+        "toefl": null
+      }
+    },
+    "fees": {
+      "currency": "AUD",
+      "tuition_raw": "$19,100 / 4 Units",
+      "tuition_numeric": 19100.0,
+      "period": "Unit",
+      "scholarship_raw": null,
+      "after_scholarship_raw": "$14,803 / 4 Units",
+      "after_scholarship_numeric": 14803.0
+    },
+    "deadlines": {
+      "intake_month": "July",
+      "application_deadline": "5th June, 26'",
+      "coe_or_deposit_deadline": "12th June, 26'",
+      "cas_deadline": null,
+      "intake_start_date": "27th July, 26'",
+      "next_intake": "Sep 26'"
+    },
+    "risk_guidelines": {
+      "high_risk_market_raw": "Punjab, Haryana except Gurugram, Gujarat, Andhra Pradesh, Telangana, Uttar Pradesh, Rajasthan, Uttarakhand, Jammu and Kashmir (Immediate Rejection from Haryana, Sri Ganganagar, Hanumangarh, Pilibhit, (Udham Singh Nagar and Rudrapur)",
+      "age_limit": {
+        "raw": "High risk: UG 20, PG 31. Low risk: UG 24, PG 35",
+        "ug": null,
+        "pg": null
+      },
+      "backlogs_allowed": {
+        "raw": "10 for 4 year degree and 8 for 3 year degree.",
+        "3_year_degree": 8,
+        "4_year_degree": 10
+      },
+      "core_subjects_required": "15 months for UG. 18 months for PG",
+      "gap_accepted": "Low risk:  UG: N/A PG: more than 1 year old  High risk: Not taking married cases from any High Risk Region",
+      "other_rules": [
+        "All interviews through UniReady tool (prescreening) and Face to Face interview after GS stage",
+        "UG: N/A PG: Accepted with all documents",
+        "Parents, Parents in law, Spouse, Self, Brother or Sister, Grandparents  (maternal or paternal), Aunt and Uncle  (maternal or paternal)",
+        "High Risk Region : ITR of 14 Lakhs (With Education Loan), ITR of 15 Lakhs (Without Education Loan)                                                         Other Regions : ITR of 13 Lakhs (With Education Loan), ITR of 14 Lakhs (Without Education Loan)",
+        "Current Income needed for one sponsor:  100% from parents                                                                                  Current Income needed for two sponsors:  70%-80% from parents and remaining 20%-30% from other relatives (siblings, uncle/aunt, grandparents and parent-in-laws)                                                                                                                                                                                                  Current Income needed for three sponsors: \u00a0 If parents and siblings (50% from each sponsor) \u00a0 If siblings and other relatives (uncle/aunt,grandparents and parent-in-laws) (70% from siblings and remaining 30%\u00a0from other relatives) \u00a0 If only other relatives (Case by case assessment), only if parents are deceased",
+        "Any Public, Pvt and NBFC (Only Credila) is accepted",
+        "Sponsors with annual income less than INR 15 lacs should be allowed to take only 25-30 lakhs loan and show savings of INR 8-10 lacs in their bank.",
+        "1 year Fee required from High Risk Regions. 75% of the first year from Andhara pradesh, Telangana, Hyderabad, Uttar Pradesh, Jammu and Kashmir . Rest part of India : 50% of first year",
+        "No previous rejections from any country",
+        "February, April, July, September and October",
+        "Partial Agricultural or Dairy Income (not more than 30-40%) may be accepted on case-by-case basis only from Parents (no additional sponsors allowed). Remaining 60%-70% of the income should not be a business related to agriculture \u2013 Animal Husbandry, Seeds or Agro or Cattle related businesses. Other income \u2013 salary, pension or other source of income from other business. Following business are not allowed Boutique, Beauty parlour, Handloom, Bakery, Tuition"
+      ]
+    }
+  },
+  {
+    "id": "6c542754ac25ca5ca34423cd5dab9010",
+    "provider": "Victoria University",
+    "country": "Australia",
+    "campus_locations": [
+      "Sydney",
+      "Brisbane"
+    ],
+    "course": {
+      "name": "Master of Education + Graduate Certificate of Early Childhood Education & Leadership  (Not Available)",
+      "level": "Masters",
+      "specialization": null,
+      "link": "https://www.vu.edu.au/vu-sydney/courses-at-vu-sydney/postgraduate-courses-vu-sydney/master-of-education-vu-sydney"
+    },
+    "intakes": {
+      "raw": "Sep 26'",
+      "list": [
+        "Sep 26'"
+      ]
+    },
+    "requirements": {
+      "academic": {
+        "raw": null
+      },
+      "english": {
+        "raw": "Overall, 7.0 with Listening 7.5, Reading 6.5, Writing 6.5, Speaking 7.5.    PTE: OV 65 with Listening 73, Reading 58, Writing 58, Speaking 73",
+        "ielts": {
+          "overall": 7.0,
+          "min_band": 6.5
+        },
+        "pte": null,
+        "toefl": null
+      }
+    },
+    "fees": {
+      "currency": "AUD",
+      "tuition_raw": "$16,900/ 4 Units",
+      "tuition_numeric": 16900.0,
+      "period": "Unit",
+      "scholarship_raw": null,
+      "after_scholarship_raw": "$13,098/ 4 Units",
+      "after_scholarship_numeric": 13098.0
+    },
+    "deadlines": {
+      "intake_month": "July",
+      "application_deadline": "5th June, 26'",
+      "coe_or_deposit_deadline": "12th June, 26'",
+      "cas_deadline": null,
+      "intake_start_date": "27th July, 26'",
+      "next_intake": "Sep 26'"
+    },
+    "risk_guidelines": {
+      "high_risk_market_raw": "Punjab, Haryana except Gurugram, Gujarat, Andhra Pradesh, Telangana, Uttar Pradesh, Rajasthan, Uttarakhand, Jammu and Kashmir (Immediate Rejection from Haryana, Sri Ganganagar, Hanumangarh, Pilibhit, (Udham Singh Nagar and Rudrapur)",
+      "age_limit": {
+        "raw": "High risk: UG 20, PG 31. Low risk: UG 24, PG 35",
+        "ug": null,
+        "pg": null
+      },
+      "backlogs_allowed": {
+        "raw": "10 for 4 year degree and 8 for 3 year degree.",
+        "3_year_degree": 8,
+        "4_year_degree": 10
+      },
+      "core_subjects_required": "15 months for UG. 18 months for PG",
+      "gap_accepted": "Low risk:  UG: N/A PG: more than 1 year old  High risk: Not taking married cases from any High Risk Region",
+      "other_rules": [
+        "All interviews through UniReady tool (prescreening) and Face to Face interview after GS stage",
+        "UG: N/A PG: Accepted with all documents",
+        "Parents, Parents in law, Spouse, Self, Brother or Sister, Grandparents  (maternal or paternal), Aunt and Uncle  (maternal or paternal)",
+        "High Risk Region : ITR of 14 Lakhs (With Education Loan), ITR of 15 Lakhs (Without Education Loan)                                                         Other Regions : ITR of 13 Lakhs (With Education Loan), ITR of 14 Lakhs (Without Education Loan)",
+        "Current Income needed for one sponsor:  100% from parents                                                                                  Current Income needed for two sponsors:  70%-80% from parents and remaining 20%-30% from other relatives (siblings, uncle/aunt, grandparents and parent-in-laws)                                                                                                                                                                                                  Current Income needed for three sponsors: \u00a0 If parents and siblings (50% from each sponsor) \u00a0 If siblings and other relatives (uncle/aunt,grandparents and parent-in-laws) (70% from siblings and remaining 30%\u00a0from other relatives) \u00a0 If only other relatives (Case by case assessment), only if parents are deceased",
+        "Any Public, Pvt and NBFC (Only Credila) is accepted",
+        "Sponsors with annual income less than INR 15 lacs should be allowed to take only 25-30 lakhs loan and show savings of INR 8-10 lacs in their bank.",
+        "1 year Fee required from High Risk Regions. 75% of the first year from Andhara pradesh, Telangana, Hyderabad, Uttar Pradesh, Jammu and Kashmir . Rest part of India : 50% of first year",
+        "No previous rejections from any country",
+        "February, April, July, September and October",
+        "Partial Agricultural or Dairy Income (not more than 30-40%) may be accepted on case-by-case basis only from Parents (no additional sponsors allowed). Remaining 60%-70% of the income should not be a business related to agriculture \u2013 Animal Husbandry, Seeds or Agro or Cattle related businesses. Other income \u2013 salary, pension or other source of income from other business. Following business are not allowed Boutique, Beauty parlour, Handloom, Bakery, Tuition"
+      ]
+    }
+  },
+  {
+    "id": "7c64a61156508e8579dedd80d3566aca",
+    "provider": "APIC",
+    "country": "Australia",
+    "campus_locations": [
+      "Sydney",
+      "Melbourne",
+      "Brisbane"
+    ],
+    "course": {
+      "name": "Bachelor of Business (APIC Sydney and Melbourne campus only for Sep 2025  ) And also Bachelor of Business Information system - now offering",
+      "level": "Bachelors",
+      "specialization": "Accounting, Analytics and AI or Project Management.",
+      "link": "https://apicollege.edu.au/courses/bachelor-of-business/"
+    },
+    "intakes": {
+      "raw": "June 26'",
+      "list": [
+        "June 26'"
+      ]
+    },
+    "requirements": {
+      "academic": {
+        "raw": "HIGH RISK:                                                                                                      CBSE, CICSE: 70%                                                        SBSE : 80%(No Punjab or Hayrana State Board )                                                                                                                             LOW RISK:                                                                                                      CBSE, CICSE 60%                                                          SBSE : 65%      No Students from Haryana"
+      },
+      "english": {
+        "raw": "IELTS: 6/6                                                                  PTE: 50/50",
+        "ielts": {
+          "overall": 6.0,
+          "min_band": 6.0
+        },
+        "pte": {
+          "overall": 50,
+          "min_band": 50
+        },
+        "toefl": null
+      }
+    },
+    "fees": {
+      "currency": "AUD",
+      "tuition_raw": "$66,000 / Full Course",
+      "tuition_numeric": 66000.0,
+      "period": "Full Course",
+      "scholarship_raw": "$2200 / per 8 unit",
+      "after_scholarship_raw": "$43,200/ Full Course",
+      "after_scholarship_numeric": 43200.0
+    },
+    "deadlines": {
+      "intake_month": "Sept",
+      "application_deadline": "10th July, 26'",
+      "coe_or_deposit_deadline": "14th July, 26'",
+      "cas_deadline": null,
+      "intake_start_date": "28th Sep, 26'",
+      "next_intake": "Feb 27'"
+    },
+    "risk_guidelines": {
+      "high_risk_market_raw": "Punjab, Gujarat, Andhra Pradesh, Telangana, Uttar Pradesh (excluding Ghaziabad and Noida), Rajasthan, Uttarakhand, Bihar, Chhattisgarh, Jammu and Kashmir, Jharkhand. Immediate Rejection from Haryana, Rudrapur and Udham Singh Nagar (Uttarakhand), Sri Ganganagar (Rajasthan)-No UG Applications from these Regions.",
+      "age_limit": {
+        "raw": "UG:24 PG:35",
+        "ug": 24,
+        "pg": 35
+      },
+      "backlogs_allowed": {
+        "raw": "16 for 4 year degree 12 for 3 year degree",
+        "3_year_degree": 12,
+        "4_year_degree": 16
+      },
+      "core_subjects_required": "15 months for UG. 18 months for PG",
+      "gap_accepted": "UG: N/A PG: more than 1 year old                                       (Not taking from Haryana)",
+      "other_rules": [
+        "F2F interview. Schedule your interview according to student's flexibility using the link. Low Risk: AI Interview",
+        "UG: N/A PG: Accepted with all documents",
+        "Parents, Parents in law, Spouse, Self, Brother or Sister, Grandparents  (maternal or paternal), Aunt and Uncle  (maternal or paternal)",
+        "High Risk Region : ITR of 14 Lakhs (With Education Loan), ITR of 15 Lakhs (Without Education Loan)                                                         Other Regions : ITR of 13 Lakhs (With Education Loan), ITR of 14 Lakhs (Without Education Loan)",
+        "Current Income needed for one sponsor:  100% from parents                                                                                  Current Income needed for two sponsors:  70%-80% from parents and remaining 20%-30% from other relatives (siblings, uncle/aunt, grandparents and parent-in-laws)                                                                                                                                                                                                  Current Income needed for three sponsors: \u00a0 If parents and siblings (50% from each sponsor) \u00a0 If siblings and other relatives (uncle/aunt,grandparents and parent-in-laws) (70% from siblings and remaining 30%\u00a0from other relatives) \u00a0 If only other relatives (Case by case assessment), only if parents are deceased",
+        "Any Public, Pvt and NBFC (Only Credila) is accepted",
+        "Sponsors with annual income less than INR 15 lacs should be allowed to take only 25-30 lakhs loan and show savings of INR 8-10 lacs in their bank.",
+        "High risk: 100% first year fee Medium risk: 75% of first year Low risk: 50% of first year",
+        "No previous rejections from any country",
+        "February, April, July, September and October",
+        "Partial Agricultural or Dairy Income (not more than 30-40%) may be accepted on case-by-case basis only from Parents (no additional sponsors allowed). Remaining 60%-70% of the income should not be a business related to agriculture \u2013 Animal Husbandry, Seeds or Agro or Cattle related businesses. Other income \u2013 salary, pension or other source of income from other business. Following business are not allowed Boutique, Beauty parlour, Handloom, Bakery, Tuition"
+      ]
+    }
+  },
+  {
+    "id": "e98b09c874377c95b6ccefabc03c16c9",
+    "provider": "APIC",
+    "country": "Australia",
+    "campus_locations": [
+      "Sydney",
+      "Melbourne",
+      "Brisbane"
+    ],
+    "course": {
+      "name": "Bachelor of Information Technology",
+      "level": "Bachelors",
+      "specialization": "Cyber",
+      "link": "https://apicollege.edu.au/courses/bachelor-of-information-technology/"
+    },
+    "intakes": {
+      "raw": "June 26'",
+      "list": [
+        "June 26'"
+      ]
+    },
+    "requirements": {
+      "academic": {
+        "raw": null
+      },
+      "english": {
+        "raw": null,
+        "ielts": null,
+        "pte": null,
+        "toefl": null
+      }
+    },
+    "fees": {
+      "currency": "AUD",
+      "tuition_raw": "$66,000 / Full Course",
+      "tuition_numeric": 66000.0,
+      "period": "Full Course",
+      "scholarship_raw": null,
+      "after_scholarship_raw": "$43,200/ Full Course",
+      "after_scholarship_numeric": 43200.0
+    },
+    "deadlines": {
+      "intake_month": "Sept",
+      "application_deadline": "10th July, 26'",
+      "coe_or_deposit_deadline": "14th July, 26'",
+      "cas_deadline": null,
+      "intake_start_date": "28th Sep, 26'",
+      "next_intake": "Feb 27'"
+    },
+    "risk_guidelines": {
+      "high_risk_market_raw": "Punjab, Gujarat, Andhra Pradesh, Telangana, Uttar Pradesh (excluding Ghaziabad and Noida), Rajasthan, Uttarakhand, Bihar, Chhattisgarh, Jammu and Kashmir, Jharkhand. Immediate Rejection from Haryana, Rudrapur and Udham Singh Nagar (Uttarakhand), Sri Ganganagar (Rajasthan)-No UG Applications from these Regions.",
+      "age_limit": {
+        "raw": "UG:24 PG:35",
+        "ug": 24,
+        "pg": 35
+      },
+      "backlogs_allowed": {
+        "raw": "16 for 4 year degree 12 for 3 year degree",
+        "3_year_degree": 12,
+        "4_year_degree": 16
+      },
+      "core_subjects_required": "15 months for UG. 18 months for PG",
+      "gap_accepted": "UG: N/A PG: more than 1 year old                                       (Not taking from Haryana)",
+      "other_rules": [
+        "F2F interview. Schedule your interview according to student's flexibility using the link. Low Risk: AI Interview",
+        "UG: N/A PG: Accepted with all documents",
+        "Parents, Parents in law, Spouse, Self, Brother or Sister, Grandparents  (maternal or paternal), Aunt and Uncle  (maternal or paternal)",
+        "High Risk Region : ITR of 14 Lakhs (With Education Loan), ITR of 15 Lakhs (Without Education Loan)                                                         Other Regions : ITR of 13 Lakhs (With Education Loan), ITR of 14 Lakhs (Without Education Loan)",
+        "Current Income needed for one sponsor:  100% from parents                                                                                  Current Income needed for two sponsors:  70%-80% from parents and remaining 20%-30% from other relatives (siblings, uncle/aunt, grandparents and parent-in-laws)                                                                                                                                                                                                  Current Income needed for three sponsors: \u00a0 If parents and siblings (50% from each sponsor) \u00a0 If siblings and other relatives (uncle/aunt,grandparents and parent-in-laws) (70% from siblings and remaining 30%\u00a0from other relatives) \u00a0 If only other relatives (Case by case assessment), only if parents are deceased",
+        "Any Public, Pvt and NBFC (Only Credila) is accepted",
+        "Sponsors with annual income less than INR 15 lacs should be allowed to take only 25-30 lakhs loan and show savings of INR 8-10 lacs in their bank.",
+        "High risk: 100% first year fee Medium risk: 75% of first year Low risk: 50% of first year",
+        "No previous rejections from any country",
+        "February, April, July, September and October",
+        "Partial Agricultural or Dairy Income (not more than 30-40%) may be accepted on case-by-case basis only from Parents (no additional sponsors allowed). Remaining 60%-70% of the income should not be a business related to agriculture \u2013 Animal Husbandry, Seeds or Agro or Cattle related businesses. Other income \u2013 salary, pension or other source of income from other business. Following business are not allowed Boutique, Beauty parlour, Handloom, Bakery, Tuition"
+      ]
+    }
+  },
+  {
+    "id": "27b2c7d40033d4a6d4b296932c063515",
+    "provider": "APIC",
+    "country": "Australia",
+    "campus_locations": [
+      "Sydney",
+      "Melbourne",
+      "Brisbane"
+    ],
+    "course": {
+      "name": "MBA (Only Engineering)",
+      "level": "Bachelors",
+      "specialization": "Business Law, IT",
+      "link": "https://apicollege.edu.au/courses/master-of-business-administration/"
+    },
+    "intakes": {
+      "raw": "June 26'",
+      "list": [
+        "June 26'"
+      ]
+    },
+    "requirements": {
+      "academic": {
+        "raw": "High Risk Region :                                              Section 1: 60%                                                      Section 2: 65%                                                          Section 3: 70%                                          Low Risk Region :                                                 Section 1 & 2: 60%                                            Section 3: 65%                                                       Not Accepting from Haryana (Other regions mentioned in GS requirement)"
+      },
+      "english": {
+        "raw": "IELTS: 6.5/6                                                               PTE: 58/50",
+        "ielts": {
+          "overall": 6.5,
+          "min_band": 6.0
+        },
+        "pte": {
+          "overall": 58,
+          "min_band": 50
+        },
+        "toefl": null
+      }
+    },
+    "fees": {
+      "currency": "AUD",
+      "tuition_raw": "$49,200 / Full Course",
+      "tuition_numeric": 49200.0,
+      "period": "Full Course",
+      "scholarship_raw": "$3000 / per 8 unit",
+      "after_scholarship_raw": "$36,000 / Full Course",
+      "after_scholarship_numeric": 36000.0
+    },
+    "deadlines": {
+      "intake_month": "Sept",
+      "application_deadline": "10th July, 26'",
+      "coe_or_deposit_deadline": "14th July, 26'",
+      "cas_deadline": null,
+      "intake_start_date": "28th Sep, 26'",
+      "next_intake": "Feb 27'"
+    },
+    "risk_guidelines": {
+      "high_risk_market_raw": "Punjab, Gujarat, Andhra Pradesh, Telangana, Uttar Pradesh (excluding Ghaziabad and Noida), Rajasthan, Uttarakhand, Bihar, Chhattisgarh, Jammu and Kashmir, Jharkhand. Immediate Rejection from Haryana, Rudrapur and Udham Singh Nagar (Uttarakhand), Sri Ganganagar (Rajasthan)-No UG Applications from these Regions.",
+      "age_limit": {
+        "raw": "UG:24 PG:35",
+        "ug": 24,
+        "pg": 35
+      },
+      "backlogs_allowed": {
+        "raw": "16 for 4 year degree 12 for 3 year degree",
+        "3_year_degree": 12,
+        "4_year_degree": 16
+      },
+      "core_subjects_required": "15 months for UG. 18 months for PG",
+      "gap_accepted": "UG: N/A PG: more than 1 year old                                       (Not taking from Haryana)",
+      "other_rules": [
+        "F2F interview. Schedule your interview according to student's flexibility using the link. Low Risk: AI Interview",
+        "UG: N/A PG: Accepted with all documents",
+        "Parents, Parents in law, Spouse, Self, Brother or Sister, Grandparents  (maternal or paternal), Aunt and Uncle  (maternal or paternal)",
+        "High Risk Region : ITR of 14 Lakhs (With Education Loan), ITR of 15 Lakhs (Without Education Loan)                                                         Other Regions : ITR of 13 Lakhs (With Education Loan), ITR of 14 Lakhs (Without Education Loan)",
+        "Current Income needed for one sponsor:  100% from parents                                                                                  Current Income needed for two sponsors:  70%-80% from parents and remaining 20%-30% from other relatives (siblings, uncle/aunt, grandparents and parent-in-laws)                                                                                                                                                                                                  Current Income needed for three sponsors: \u00a0 If parents and siblings (50% from each sponsor) \u00a0 If siblings and other relatives (uncle/aunt,grandparents and parent-in-laws) (70% from siblings and remaining 30%\u00a0from other relatives) \u00a0 If only other relatives (Case by case assessment), only if parents are deceased",
+        "Any Public, Pvt and NBFC (Only Credila) is accepted",
+        "Sponsors with annual income less than INR 15 lacs should be allowed to take only 25-30 lakhs loan and show savings of INR 8-10 lacs in their bank.",
+        "High risk: 100% first year fee Medium risk: 75% of first year Low risk: 50% of first year",
+        "No previous rejections from any country",
+        "February, April, July, September and October",
+        "Partial Agricultural or Dairy Income (not more than 30-40%) may be accepted on case-by-case basis only from Parents (no additional sponsors allowed). Remaining 60%-70% of the income should not be a business related to agriculture \u2013 Animal Husbandry, Seeds or Agro or Cattle related businesses. Other income \u2013 salary, pension or other source of income from other business. Following business are not allowed Boutique, Beauty parlour, Handloom, Bakery, Tuition"
+      ]
+    }
+  },
+  {
+    "id": "c75fb9af9068bf01d1a2a3568f0116b1",
+    "provider": "APIC",
+    "country": "Australia",
+    "campus_locations": [
+      "Sydney",
+      "Melbourne",
+      "Brisbane"
+    ],
+    "course": {
+      "name": "Master of Project Management",
+      "level": "Masters",
+      "specialization": "Health Service Management, IT",
+      "link": "https://apicollege.edu.au/courses/master-of-project-management-and-business/"
+    },
+    "intakes": {
+      "raw": "June 26'",
+      "list": [
+        "June 26'"
+      ]
+    },
+    "requirements": {
+      "academic": {
+        "raw": null
+      },
+      "english": {
+        "raw": null,
+        "ielts": null,
+        "pte": null,
+        "toefl": null
+      }
+    },
+    "fees": {
+      "currency": "AUD",
+      "tuition_raw": "$49,200 / Full Course",
+      "tuition_numeric": 49200.0,
+      "period": "Full Course",
+      "scholarship_raw": "$3000 / per 8 unit",
+      "after_scholarship_raw": "$36,000 / Full Course",
+      "after_scholarship_numeric": 36000.0
+    },
+    "deadlines": {
+      "intake_month": "Sept",
+      "application_deadline": "10th July, 26'",
+      "coe_or_deposit_deadline": "14th July, 26'",
+      "cas_deadline": null,
+      "intake_start_date": "28th Sep, 26'",
+      "next_intake": "Feb 27'"
+    },
+    "risk_guidelines": {
+      "high_risk_market_raw": "Punjab, Gujarat, Andhra Pradesh, Telangana, Uttar Pradesh (excluding Ghaziabad and Noida), Rajasthan, Uttarakhand, Bihar, Chhattisgarh, Jammu and Kashmir, Jharkhand. Immediate Rejection from Haryana, Rudrapur and Udham Singh Nagar (Uttarakhand), Sri Ganganagar (Rajasthan)-No UG Applications from these Regions.",
+      "age_limit": {
+        "raw": "UG:24 PG:35",
+        "ug": 24,
+        "pg": 35
+      },
+      "backlogs_allowed": {
+        "raw": "16 for 4 year degree 12 for 3 year degree",
+        "3_year_degree": 12,
+        "4_year_degree": 16
+      },
+      "core_subjects_required": "15 months for UG. 18 months for PG",
+      "gap_accepted": "UG: N/A PG: more than 1 year old                                       (Not taking from Haryana)",
+      "other_rules": [
+        "F2F interview. Schedule your interview according to student's flexibility using the link. Low Risk: AI Interview",
+        "UG: N/A PG: Accepted with all documents",
+        "Parents, Parents in law, Spouse, Self, Brother or Sister, Grandparents  (maternal or paternal), Aunt and Uncle  (maternal or paternal)",
+        "High Risk Region : ITR of 14 Lakhs (With Education Loan), ITR of 15 Lakhs (Without Education Loan)                                                         Other Regions : ITR of 13 Lakhs (With Education Loan), ITR of 14 Lakhs (Without Education Loan)",
+        "Current Income needed for one sponsor:  100% from parents                                                                                  Current Income needed for two sponsors:  70%-80% from parents and remaining 20%-30% from other relatives (siblings, uncle/aunt, grandparents and parent-in-laws)                                                                                                                                                                                                  Current Income needed for three sponsors: \u00a0 If parents and siblings (50% from each sponsor) \u00a0 If siblings and other relatives (uncle/aunt,grandparents and parent-in-laws) (70% from siblings and remaining 30%\u00a0from other relatives) \u00a0 If only other relatives (Case by case assessment), only if parents are deceased",
+        "Any Public, Pvt and NBFC (Only Credila) is accepted",
+        "Sponsors with annual income less than INR 15 lacs should be allowed to take only 25-30 lakhs loan and show savings of INR 8-10 lacs in their bank.",
+        "High risk: 100% first year fee Medium risk: 75% of first year Low risk: 50% of first year",
+        "No previous rejections from any country",
+        "February, April, July, September and October",
+        "Partial Agricultural or Dairy Income (not more than 30-40%) may be accepted on case-by-case basis only from Parents (no additional sponsors allowed). Remaining 60%-70% of the income should not be a business related to agriculture \u2013 Animal Husbandry, Seeds or Agro or Cattle related businesses. Other income \u2013 salary, pension or other source of income from other business. Following business are not allowed Boutique, Beauty parlour, Handloom, Bakery, Tuition"
+      ]
+    }
+  },
+  {
+    "id": "2ed94c40a1709bf1ab0ac219980a3104",
+    "provider": "APIC",
+    "country": "Australia",
+    "campus_locations": [
+      "Sydney",
+      "Melbourne",
+      "Brisbane"
+    ],
+    "course": {
+      "name": "Master of Information Technology",
+      "level": "Masters",
+      "specialization": "Cyber Security, Enterprise Networks, or Artificial Intelligence.",
+      "link": "https://apicollege.edu.au/courses/master-of-information-technology/"
+    },
+    "intakes": {
+      "raw": "June 26'",
+      "list": [
+        "June 26'"
+      ]
+    },
+    "requirements": {
+      "academic": {
+        "raw": null
+      },
+      "english": {
+        "raw": null,
+        "ielts": null,
+        "pte": null,
+        "toefl": null
+      }
+    },
+    "fees": {
+      "currency": "AUD",
+      "tuition_raw": "$49,200 / Full Course",
+      "tuition_numeric": 49200.0,
+      "period": "Full Course",
+      "scholarship_raw": null,
+      "after_scholarship_raw": "$36,000 / Full Course",
+      "after_scholarship_numeric": 36000.0
+    },
+    "deadlines": {
+      "intake_month": "Sept",
+      "application_deadline": "10th July, 26'",
+      "coe_or_deposit_deadline": "14th July, 26'",
+      "cas_deadline": null,
+      "intake_start_date": "28th Sep, 26'",
+      "next_intake": "Feb 27'"
+    },
+    "risk_guidelines": {
+      "high_risk_market_raw": "Punjab, Gujarat, Andhra Pradesh, Telangana, Uttar Pradesh (excluding Ghaziabad and Noida), Rajasthan, Uttarakhand, Bihar, Chhattisgarh, Jammu and Kashmir, Jharkhand. Immediate Rejection from Haryana, Rudrapur and Udham Singh Nagar (Uttarakhand), Sri Ganganagar (Rajasthan)-No UG Applications from these Regions.",
+      "age_limit": {
+        "raw": "UG:24 PG:35",
+        "ug": 24,
+        "pg": 35
+      },
+      "backlogs_allowed": {
+        "raw": "16 for 4 year degree 12 for 3 year degree",
+        "3_year_degree": 12,
+        "4_year_degree": 16
+      },
+      "core_subjects_required": "15 months for UG. 18 months for PG",
+      "gap_accepted": "UG: N/A PG: more than 1 year old                                       (Not taking from Haryana)",
+      "other_rules": [
+        "F2F interview. Schedule your interview according to student's flexibility using the link. Low Risk: AI Interview",
+        "UG: N/A PG: Accepted with all documents",
+        "Parents, Parents in law, Spouse, Self, Brother or Sister, Grandparents  (maternal or paternal), Aunt and Uncle  (maternal or paternal)",
+        "High Risk Region : ITR of 14 Lakhs (With Education Loan), ITR of 15 Lakhs (Without Education Loan)                                                         Other Regions : ITR of 13 Lakhs (With Education Loan), ITR of 14 Lakhs (Without Education Loan)",
+        "Current Income needed for one sponsor:  100% from parents                                                                                  Current Income needed for two sponsors:  70%-80% from parents and remaining 20%-30% from other relatives (siblings, uncle/aunt, grandparents and parent-in-laws)                                                                                                                                                                                                  Current Income needed for three sponsors: \u00a0 If parents and siblings (50% from each sponsor) \u00a0 If siblings and other relatives (uncle/aunt,grandparents and parent-in-laws) (70% from siblings and remaining 30%\u00a0from other relatives) \u00a0 If only other relatives (Case by case assessment), only if parents are deceased",
+        "Any Public, Pvt and NBFC (Only Credila) is accepted",
+        "Sponsors with annual income less than INR 15 lacs should be allowed to take only 25-30 lakhs loan and show savings of INR 8-10 lacs in their bank.",
+        "High risk: 100% first year fee Medium risk: 75% of first year Low risk: 50% of first year",
+        "No previous rejections from any country",
+        "February, April, July, September and October",
+        "Partial Agricultural or Dairy Income (not more than 30-40%) may be accepted on case-by-case basis only from Parents (no additional sponsors allowed). Remaining 60%-70% of the income should not be a business related to agriculture \u2013 Animal Husbandry, Seeds or Agro or Cattle related businesses. Other income \u2013 salary, pension or other source of income from other business. Following business are not allowed Boutique, Beauty parlour, Handloom, Bakery, Tuition"
+      ]
+    }
+  },
+  {
+    "id": "1bd4471bf395f8f4c84d554e82325bc4",
+    "provider": "CHS",
+    "country": "Australia",
+    "campus_locations": [
+      "Sydney",
+      "Brisbane"
+    ],
+    "course": {
+      "name": "Master of Health Service Management",
+      "level": "Masters",
+      "specialization": null,
+      "link": "https://chs.edu.au/course/master-of-health-management/"
+    },
+    "intakes": {
+      "raw": "June 26'",
+      "list": [
+        "June 26'"
+      ]
+    },
+    "requirements": {
+      "academic": {
+        "raw": "Bachelor degree in any health discipline                                                   Section 3 university: First division only                                                Bachelor degree in any other discipline can apply for grad cert pathway                                          No Students from Haryana"
+      },
+      "english": {
+        "raw": "IELTS: 6.5/6                                                           PTE: 58/50",
+        "ielts": {
+          "overall": 6.5,
+          "min_band": 6.0
+        },
+        "pte": {
+          "overall": 58,
+          "min_band": 50
+        },
+        "toefl": null
+      }
+    },
+    "fees": {
+      "currency": "AUD",
+      "tuition_raw": "$49,200 / Full Course",
+      "tuition_numeric": 49200.0,
+      "period": "Full Course",
+      "scholarship_raw": "$3300 / per 8 unit",
+      "after_scholarship_raw": "$39,600 / Full Course",
+      "after_scholarship_numeric": 39600.0
+    },
+    "deadlines": {
+      "intake_month": "Sept",
+      "application_deadline": "10th July, 26'",
+      "coe_or_deposit_deadline": "14th July, 26'",
+      "cas_deadline": null,
+      "intake_start_date": "28th Sep, 26'",
+      "next_intake": "Feb 27'"
+    },
+    "risk_guidelines": {
+      "high_risk_market_raw": "Punjab, Gujarat, Andhra Pradesh, Telangana, Uttar Pradesh (excluding Ghaziabad and Noida), Rajasthan, Uttarakhand, Bihar, Chhattisgarh, Jammu and Kashmir, Jharkhand. Immediate Rejection from Haryana, Rudrapur and Udham Singh Nagar (Uttarakhand), Sri Ganganagar (Rajasthan)-No UG Applications from these Regions.",
+      "age_limit": {
+        "raw": "UG: N/A PG: 30",
+        "ug": null,
+        "pg": 30
+      },
+      "backlogs_allowed": {
+        "raw": "16 for 4 year degree 12 for 3 year degree",
+        "3_year_degree": 12,
+        "4_year_degree": 16
+      },
+      "core_subjects_required": "15 months for UG. 18 months for PG",
+      "gap_accepted": "UG: N/A PG: more than 1 year old                             (Not taking from Haryana)",
+      "other_rules": [
+        "F2F interview. Schedule your interview according to student's flexibility using the link. Low Risk: AI Interview",
+        "UG: N/A PG: Accepted with all documents",
+        "GRAD CERT HSM + MHSM",
+        "Parents, Parents in law, Spouse, Self, Brother or Sister, Grandparents  (maternal or paternal), Aunt and Uncle  (maternal or paternal)",
+        "High Risk Region : ITR of 14 Lakhs (With Education Loan), ITR of 15 Lakhs (Without Education Loan)                                                         Other Regions : ITR of 13 Lakhs (With Education Loan), ITR of 14 Lakhs (Without Education Loan)",
+        "Current Income needed for one sponsor:  100% from parents                                                                                  Current Income needed for two sponsors:  70%-80% from parents and remaining 20%-30% from other relatives (siblings, uncle/aunt, grandparents and parent-in-laws)                                                                                                                                                                                                  Current Income needed for three sponsors: \u00a0 If parents and siblings (50% from each sponsor) \u00a0 If siblings and other relatives (uncle/aunt,grandparents and parent-in-laws) (70% from siblings and remaining 30%\u00a0from other relatives) \u00a0 If only other relatives (Case by case assessment), only if parents are deceased",
+        "Any Public, Pvt and NBFC (Only Credila) is accepted",
+        "Sponsors with annual income less than INR 15 lacs should be allowed to take only 25-30 lakhs loan and show savings of INR 8-10 lacs in their bank.",
+        "High risk: 100% first year fee Medium risk: 75% of first year Low risk: 50% of first year",
+        "No previous rejections from any country",
+        "February July, October",
+        "Partial Agricultural or Dairy Income (not more than 30-40%) may be accepted on case-by-case basis only from Parents (no additional sponsors allowed). Remaining 60%-70% of the income should not be a business related to agriculture \u2013 Animal Husbandry, Seeds or Agro or Cattle related businesses. Other income \u2013 salary, pension or other source of income from other business. Following business are not allowed Boutique, Beauty parlour, Handloom, Bakery, Tuition"
+      ]
+    }
+  },
+  {
+    "id": "dda6579e0c82e81638643ecf37fb06b9",
+    "provider": "HELI",
+    "country": "Australia",
+    "campus_locations": [
+      "Melbourne"
+    ],
+    "course": {
+      "name": "Master of Research",
+      "level": "Masters",
+      "specialization": null,
+      "link": "https://www.heli.edu.au/master-of-research/"
+    },
+    "intakes": {
+      "raw": "June 26'",
+      "list": [
+        "June 26'"
+      ]
+    },
+    "requirements": {
+      "academic": {
+        "raw": "Any bachelor degree with 65% or more                     No students from Harayana"
+      },
+      "english": {
+        "raw": "IELTS: 6.5/6                                                                   PTE: 58/50",
+        "ielts": {
+          "overall": 6.5,
+          "min_band": 6.0
+        },
+        "pte": {
+          "overall": 58,
+          "min_band": 50
+        },
+        "toefl": null
+      }
+    },
+    "fees": {
+      "currency": "AUD",
+      "tuition_raw": "$70,800 / Full Course",
+      "tuition_numeric": 70800.0,
+      "period": "Full Course",
+      "scholarship_raw": "$3500 / per 8 unit",
+      "after_scholarship_raw": "$58,800 / Full Course",
+      "after_scholarship_numeric": 58800.0
+    },
+    "deadlines": {
+      "intake_month": "Sept",
+      "application_deadline": "10th July, 26'",
+      "coe_or_deposit_deadline": "14th July, 26'",
+      "cas_deadline": null,
+      "intake_start_date": "28th Sep, 26'",
+      "next_intake": "Feb 27'"
+    },
+    "risk_guidelines": {
+      "high_risk_market_raw": "Punjab, Gujarat, Andhra Pradesh, Telangana, Uttar Pradesh (excluding Ghaziabad and Noida), Rajasthan, Uttarakhand, Bihar, Chhattisgarh, Jammu and Kashmir, Jharkhand. Immediate Rejection from Haryana, Rudrapur and Udham Singh Nagar (Uttarakhand), Sri Ganganagar (Rajasthan)-No UG Applications from these Regions.",
+      "age_limit": {
+        "raw": "UG: N/A PG: 35",
+        "ug": null,
+        "pg": 35
+      },
+      "backlogs_allowed": {
+        "raw": "16 for 4 year degree 12 for 3 year degree",
+        "3_year_degree": 12,
+        "4_year_degree": 16
+      },
+      "core_subjects_required": "15 months for UG. 18 months for PG",
+      "gap_accepted": "UG: N/A PG: more than 1 year old                                (Not taking from Haryana)",
+      "other_rules": [
+        "F2F interview. Schedule your interview according to student's flexibility using the link. Low Risk: AI Interview",
+        "UG: N/A PG: Accepted with all documents",
+        "Parents, Parents in law, Spouse, Self, Brother or Sister, Grandparents  (maternal or paternal), Aunt and Uncle  (maternal or paternal)",
+        "High Risk Region : ITR of 14 Lakhs (With Education Loan), ITR of 15 Lakhs (Without Education Loan)                                                         Other Regions : ITR of 13 Lakhs (With Education Loan), ITR of 14 Lakhs (Without Education Loan)",
+        "Current Income needed for one sponsor:  100% from parents                                                                                  Current Income needed for two sponsors:  70%-80% from parents and remaining 20%-30% from other relatives (siblings, uncle/aunt, grandparents and parent-in-laws)                                                                                                                                                                                                  Current Income needed for three sponsors: \u00a0 If parents and siblings (50% from each sponsor) \u00a0 If siblings and other relatives (uncle/aunt,grandparents and parent-in-laws) (70% from siblings and remaining 30%\u00a0from other relatives) \u00a0 If only other relatives (Case by case assessment), only if parents are deceased",
+        "Any Public, Pvt and NBFC (Only Credila) is accepted",
+        "Sponsors with annual income less than INR 15 lacs should be allowed to take only 25-30 lakhs loan and show savings of INR 8-10 lacs in their bank.",
+        "75% of the first year from Andhara pradesh, Telangana, Hyderabad, Uttar Pradesh, Jammu and Kashmir  Rest part of India : 50% of first year",
+        "No previous rejections from any country",
+        "Feb,July, November",
+        "Partial Agricultural or Dairy Income (not more than 30-40%) may be accepted on case-by-case basis only from Parents (no additional sponsors allowed). Remaining 60%-70% of the income should not be a business related to agriculture \u2013 Animal Husbandry, Seeds or Agro or Cattle related businesses. Other income \u2013 salary, pension or other source of income from other business. Following business are not allowed Boutique, Beauty parlour, Handloom, Bakery, Tuition"
+      ]
+    }
+  }
+]

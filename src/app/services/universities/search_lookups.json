@@ -1,0 +1,283 @@
+{
+  "academic_vs_nonacademic_subjects": [
+    {
+      "subject": "Arabic",
+      "status": "Non-academic"
+    },
+    {
+      "subject": "Arts",
+      "status": "Non-academic"
+    },
+    {
+      "subject": "Accountancy",
+      "status": "Academic"
+    },
+    {
+      "subject": "App/Commercial Art",
+      "status": "Non-academic"
+    },
+    {
+      "subject": "Banking and Finance",
+      "status": "Academic"
+    },
+    {
+      "subject": "Biology",
+      "status": "Academic"
+    },
+    {
+      "subject": "Business",
+      "status": "Academic"
+    },
+    {
+      "subject": "Business Studies",
+      "status": "Academic"
+    },
+    {
+      "subject": "Business Economics & Quantitative Methods",
+      "status": "Academic"
+    },
+    {
+      "subject": "Chemistry",
+      "status": "Academic"
+    },
+    {
+      "subject": "Civics",
+      "status": "Academic"
+    },
+    {
+      "subject": "Commercial Art",
+      "status": "Non-academic"
+    },
+    {
+      "subject": "Computer Application",
+      "status": "Academic"
+    },
+    {
+      "subject": "Computer Science",
+      "status": "Academic"
+    },
+    {
+      "subject": "Commerce",
+      "status": "Academic"
+    },
+    {
+      "subject": "Dance",
+      "status": "Non-academic"
+    },
+    {
+      "subject": "Elective Punjabi (Local Language)",
+      "status": "Non-academic"
+    },
+    {
+      "subject": "Environmental Education",
+      "status": "Non-academic"
+    },
+    {
+      "subject": "English",
+      "status": "Academic"
+    },
+    {
+      "subject": "Economics",
+      "status": "Academic"
+    },
+    {
+      "subject": "Entrepreneurship",
+      "status": "Academic"
+    },
+    {
+      "subject": "Fundamentals of e-Business",
+      "status": "Academic"
+    },
+    {
+      "subject": "Geography",
+      "status": "Academic"
+    },
+    {
+      "subject": "General Studies",
+      "status": "Non-academic"
+    },
+    {
+      "subject": "General Punjabi (Local Language)",
+      "status": "Non-academic"
+    },
+    {
+      "subject": "Gujarati (Local Language)",
+      "status": "Non-academic"
+    },
+    {
+      "subject": "Health & Physicals Education",
+      "status": "Non-academic"
+    },
+    {
+      "subject": "Hindi (Local Language)",
+      "status": "Non-academic"
+    },
+    {
+      "subject": "History",
+      "status": "Academic"
+    },
+    {
+      "subject": "Home Science",
+      "status": "Non-academic"
+    },
+    {
+      "subject": "Hospitality Management",
+      "status": "Non-academic"
+    },
+    {
+      "subject": "Informatics Practices",
+      "status": "Academic"
+    },
+    {
+      "subject": "IT and enabling services",
+      "status": "Academic"
+    },
+    {
+      "subject": "Knowledge Traditional & Practices of India",
+      "status": "Non-academic"
+    },
+    {
+      "subject": "Library",
+      "status": "Non-academic"
+    },
+    {
+      "subject": "Literature",
+      "status": "Academic"
+    },
+    {
+      "subject": "Marketing",
+      "status": "Academic"
+    },
+    {
+      "subject": "Mathematics",
+      "status": "Academic"
+    },
+    {
+      "subject": "Management II",
+      "status": "Academic"
+    },
+    {
+      "subject": "Mechanical, drawing & Painting",
+      "status": "Non-academic"
+    },
+    {
+      "subject": "Mass Media Sudies",
+      "status": "Academic"
+    },
+    {
+      "subject": "Music",
+      "status": "Non-academic"
+    },
+    {
+      "subject": "National Cadet Corps",
+      "status": "Non-academic"
+    },
+    {
+      "subject": "Organisation of commerce and Management",
+      "status": "Academic"
+    },
+    {
+      "subject": "Painting",
+      "status": "Non-academic"
+    },
+    {
+      "subject": "Physical Education",
+      "status": "Non-academic"
+    },
+    {
+      "subject": "Psychology",
+      "status": "Academic"
+    },
+    {
+      "subject": "Physics",
+      "status": "Academic"
+    },
+    {
+      "subject": "Philosophy",
+      "status": "Academic"
+    },
+    {
+      "subject": "Political Science",
+      "status": "Academic"
+    },
+    {
+      "subject": "Public administration",
+      "status": "Academic"
+    },
+    {
+      "subject": "Secretarial Practice",
+      "status": "Non-academic"
+    },
+    {
+      "subject": "Sanskrit",
+      "status": "Non-academic"
+    },
+    {
+      "subject": "Social Science",
+      "status": "Academic"
+    },
+    {
+      "subject": "Social Studies",
+      "status": "Non-academic"
+    },
+    {
+      "subject": "Sociology",
+      "status": "Academic"
+    },
+    {
+      "subject": "Technology & E- Commerce",
+      "status": "Academic"
+    },
+    {
+      "subject": "Tourism",
+      "status": "Non-academic"
+    },
+    {
+      "subject": "Work Experience /General Studies",
+      "status": "Non-academic"
+    },
+    {
+      "subject": "Welcome life",
+      "status": "Non-academic"
+    }
+  ],
+  "moi_accepted_indian_institutions": [
+    "Acharya Nagarjuna University,Andhra Pradesh",
+    "Amity University,Uttar Pradesh",
+    "Anna University,Tamil Nadu",
+    "Annamalai University,Tamil Nadu",
+    "APJ Abdul Kalam Technological University,Kerala",
+    "Bangalore University,Karnataka",
+    "Calicut University,Kerala",
+    "Galgotias University,Uttar Pradesh",
+    "Graphic Era Hill University,Uttarakhand",
+    "Gujarat Technological University,Gujarat",
+    "Gujarat University,Gujarat",
+    "Guru Gobind Singh Indraprastha University,Delhi",
+    "Himachal Pradesh University,Himachal Pradesh",
+    "Jain University,Karnataka",
+    "Jamia Millia Islamia,Delhi",
+    "Jawaharlal Nehru Technological University,Telangana",
+    "Kakatiya University,Telangana",
+    "Maharaja Sayajirao University Of Baroda,Gujarat",
+    "Maharashtra University of Health Sciences,Maharashtra",
+    "Mahatma Gandhi University,Kerala",
+    "Mangalore University,Konaje/Mangaluru/Karnataka",
+    "Mumbai University,Mumbai",
+    "National Institute of Fashion Technology,Delhi",
+    "National Institute of Technology,Delhi",
+    "Parul University,Gujarat",
+    "Sardar Patel University,Gujarat",
+    "Savitribai Phule Pune University,Pune",
+    "SRM Institute of Science & Technology,Tamil Nadu",
+    "Symbiosis International University,Pune",
+    "University of Delhi,Delhi",
+    "University of Goa,Goa",
+    "University Of Jammu,Jammu and Kashmir",
+    "University of Kerala,Kerala",
+    "University of Madras,Tamil Nadu",
+    "University Of Mysore,Karnataka",
+    "University Of Rajasthan,Rajasthan",
+    "Visvesvaraya Technological University,Karnataka"
+  ]
+}

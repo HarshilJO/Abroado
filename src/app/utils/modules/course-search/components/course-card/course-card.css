@@ -1,0 +1,200 @@
+/* ═══════════════════════════════════════════════════
+   COURSE CARD  –  Professional Design
+═══════════════════════════════════════════════════ */
+
+:host { display: block; height: 100%; }
+
+.cc {
+  background: #fff;
+  border: 1px solid #e8ecf4;
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+  cursor: pointer;
+  height: 100%;
+}
+
+.cc:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 40px rgba(99, 102, 241, 0.12);
+  border-color: #c7d2fe;
+}
+
+/* ── Top accent bar ───────────────────────────── */
+.cc__bar {
+  height: 4px;
+  background: linear-gradient(90deg, #94a3b8, #cbd5e1);
+  flex-shrink: 0;
+}
+.cc__bar--uk {
+  background: linear-gradient(90deg, #3730a3, #6366f1, #818cf8);
+}
+.cc__bar--au {
+  background: linear-gradient(90deg, #065f46, #10b981, #34d399);
+}
+
+/* ── Head: badges ─────────────────────────────── */
+.cc__head {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  padding: 14px 16px 0;
+}
+
+.cc__badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  padding: 3px 9px;
+  border-radius: 100px;
+  white-space: nowrap;
+}
+
+.cc__badge--country {
+  background: #eff6ff;
+  color: #3b82f6;
+  border: 1px solid #bfdbfe;
+}
+
+.cc__badge--country.uk   { background: #eef2ff; color: #4f46e5; border-color: #c7d2fe; }
+.cc__badge--country.au   { background: #ecfdf5; color: #059669; border-color: #a7f3d0; }
+
+.cc__badge--level {
+  background: #f8fafc;
+  color: #64748b;
+  border: 1px solid #e2e8f0;
+}
+
+/* ── Title ────────────────────────────────────── */
+.cc__title {
+  font-size: 0.97rem;
+  font-weight: 700;
+  color: #0f172a;
+  line-height: 1.4;
+  padding: 10px 16px 4px;
+  /* clamp to 3 lines */
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ── Provider ─────────────────────────────────── */
+.cc__provider {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #475569;
+  padding: 0 16px 12px;
+}
+
+.cc__provider svg {
+  width: 13px;
+  height: 13px;
+  color: #94a3b8;
+  flex-shrink: 0;
+}
+
+/* ── Divider ─────────────────────────────────── */
+.cc__divider {
+  height: 1px;
+  background: #f1f5f9;
+  margin: 0 16px;
+}
+
+/* ── Details ─────────────────────────────────── */
+.cc__details {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 12px 16px;
+  flex: 1;
+}
+
+.cc__detail {
+  display: flex;
+  align-items: flex-start;
+  gap: 7px;
+  font-size: 0.78rem;
+  color: #64748b;
+  line-height: 1.45;
+}
+
+.cc__detail svg {
+  width: 13px;
+  height: 13px;
+  flex-shrink: 0;
+  margin-top: 1px;
+  color: #94a3b8;
+}
+
+/* ── Fee footer ──────────────────────────────── */
+.cc__fee {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  background: #f8fafc;
+  border-top: 1px solid #f1f5f9;
+  margin-top: auto;
+}
+
+.cc__fee-label {
+  display: block;
+  font-size: 0.67rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #94a3b8;
+  margin-bottom: 2px;
+}
+
+.cc__fee-amount {
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: #0f172a;
+  line-height: 1;
+}
+
+.cc__fee-period {
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: #94a3b8;
+}
+
+/* CTA arrow button */
+.cc__cta {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #eef2ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.cc__cta svg {
+  width: 14px;
+  height: 14px;
+  color: #6366f1;
+  transition: transform 0.2s;
+}
+
+.cc:hover .cc__cta {
+  background: #6366f1;
+}
+
+.cc:hover .cc__cta svg {
+  color: #fff;
+  transform: translateX(2px);
+}

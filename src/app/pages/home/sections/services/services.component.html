@@ -23,10 +23,16 @@
             }
           </div>
           <div class="visa-countries">
-            <span class="visa-country">🇬🇧 UK</span>
-            <span class="visa-country">🇦🇺 Australia</span>
+            <span class="visa-country"><img src="https://flagcdn.com/w40/gb.png" alt="UK" width="20" height="15"> UK</span>
+            <span class="visa-country"><img src="https://flagcdn.com/w40/au.png" alt="Australia" width="20" height="15"> Australia</span>
           </div>
-          <a routerLink="/contact" class="btn btn-block" [class.btn-primary]="i===0" [class.btn-dark]="i===1">
+          <!-- Study Visa -->
+          <a *ngIf="i===0" href="#assessment" (click)="scrollTo($event, 'assessment')" class="btn btn-block btn-primary">
+            {{ card.cta }}
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <!-- Visitor Visa -->
+          <a *ngIf="i===1" href="https://wa.me/917778832033?text=Hello%20Abroado%2C%20I%20am%20interested%20in%20applying%20for%20a%20Visitor%20Visa." target="_blank" rel="noopener" class="btn btn-block btn-dark">
             {{ card.cta }}
             <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           </a>
