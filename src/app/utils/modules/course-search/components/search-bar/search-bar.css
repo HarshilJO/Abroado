@@ -1,0 +1,21 @@
+/* The wrapper card is on the parent – input is borderless here */
+:host { display: block; flex: 1; }
+
+.search-bar-wrapper { width: 100%; }
+
+.main-search-input {
+  width: 100%;
+  padding: 10px 4px;
+  font-size: 1rem;
+  font-family: var(--font-body);
+  color: #1e293b;
+  background: transparent;
+  border: none;
+  outline: none;
+  caret-color: #6366f1;
+}
+
+.main-search-input::placeholder {
+  color: #94a3b8;
+  font-weight: 400;
+}

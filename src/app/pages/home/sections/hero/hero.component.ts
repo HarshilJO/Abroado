@@ -10,10 +10,10 @@ import { CommonModule } from '@angular/common';
 })
 export class HeroComponent implements OnInit, OnDestroy {
   slides = [
-    { img: 'images/uk-hero.jpg' },
-    { img: 'images/australia-hero.jpg' },
-    { img: 'images/students-hero.jpg' },
-    { img: 'images/travel-hero.jpg' }
+    { img: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1920&q=80' },
+    { img: 'https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?w=1920&q=80' },
+    { img: 'https://images.unsplash.com/photo-1520986606214-8b456906c813?w=1920&q=80' },
+    { img: 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1920&q=80' }
   ];
   currentSlide = 0;
   progressWidth = 0;

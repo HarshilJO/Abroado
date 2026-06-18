@@ -14,6 +14,9 @@ export class AboutComponent {
   scrollTo(e: Event, id: string) {
     e.preventDefault();
     const el = document.getElementById(id);
-    if (el) window.scrollTo({ top: el.offsetTop - 80, behavior: 'smooth' });
+    if (el) {
+      const y = el.getBoundingClientRect().top + window.scrollY - 80;
+      window.scrollTo({ top: y, behavior: 'smooth' });
+    }
   }
 }

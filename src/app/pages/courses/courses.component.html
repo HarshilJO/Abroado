@@ -1,0 +1,48 @@
+<!-- ══ COURSES PAGE ══════════════════════════════════════════ -->
+<div class="courses-page">
+
+  <!-- Hero -->
+  <section class="cp-hero">
+    <div class="cp-hero__bg-orb cp-hero__bg-orb--1"></div>
+    <div class="cp-hero__bg-orb cp-hero__bg-orb--2"></div>
+
+    <div class="container cp-hero__inner">
+      <a routerLink="/" class="cp-back">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
+        Back to Home
+      </a>
+
+      <div class="cp-hero__content">
+        <span class="cp-pill">🎓 Course Finder</span>
+        <h1 class="cp-hero__title">Find Your <span class="cp-accent">Perfect Program</span></h1>
+        <p class="cp-hero__subtitle">
+          Explore thousands of courses across top-ranked universities in the
+          <strong>United Kingdom</strong> &amp; <strong>Australia</strong>
+        </p>
+
+        <div class="cp-stats">
+          <div class="cp-stat">
+            <span class="cp-stat__num">5,000+</span>
+            <span class="cp-stat__label">Courses</span>
+          </div>
+          <div class="cp-stat__divider"></div>
+          <div class="cp-stat">
+            <span class="cp-stat__num">150+</span>
+            <span class="cp-stat__label">Universities</span>
+          </div>
+          <div class="cp-stat__divider"></div>
+          <div class="cp-stat">
+            <span class="cp-stat__num">2</span>
+            <span class="cp-stat__label">Countries</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Finder Body -->
+  <div class="cp-body container">
+    <app-search-container></app-search-container>
+  </div>
+
+</div>

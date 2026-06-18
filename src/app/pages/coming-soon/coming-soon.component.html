@@ -1,0 +1,36 @@
+<div class="coming-soon-wrapper">
+  <div class="coming-soon-bg">
+    <div class="bg-orb bg-orb--1"></div>
+    <div class="bg-orb bg-orb--2"></div>
+  </div>
+
+  <div class="container coming-soon-content">
+    <div class="icon-wrapper animate-up" style="animation-delay: 0s;">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+        <path d="M12 8v4"/>
+        <path d="M12 16h.01"/>
+      </svg>
+    </div>
+    
+    <span class="section-tag animate-up" style="animation-delay: 0.1s;">Destination Expanding</span>
+    <h1 class="coming-soon-title animate-up" style="animation-delay: 0.2s;">
+      <span class="title-accent">{{ country }}</span> Programs<br>Are Coming Soon
+    </h1>
+    
+    <p class="coming-soon-description animate-up" style="animation-delay: 0.3s;">
+      We are working hard to partner with the best universities in {{ country }}. 
+      Our comprehensive course finder for this destination will be available very soon.
+    </p>
+
+    <div class="action-buttons animate-up" style="animation-delay: 0.4s;">
+      <a routerLink="/" class="btn btn-primary">
+        Back to Home
+        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+      <a routerLink="/courses" class="btn btn-dark">
+        Explore Available Programs
+      </a>
+    </div>
+  </div>
+</div>
