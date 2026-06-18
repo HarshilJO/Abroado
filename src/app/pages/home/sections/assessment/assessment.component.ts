@@ -13,6 +13,8 @@ import { formatDateToDDMMYYYY } from '../../../../utils/date.utils';
 })
 export class AssessmentComponent implements AfterViewInit {
   form = {
+    name: '',
+    surname: '',
     dob: '',
     qualification: '',
     gap: '',
@@ -29,10 +31,12 @@ export class AssessmentComponent implements AfterViewInit {
 
   onSubmit(e: Event) {
     e.preventDefault();
-    if (!this.form.dob || !this.form.qualification || !this.form.country || !this.form.email) return;
+    if (!this.form.name || !this.form.surname || !this.form.dob || !this.form.qualification || !this.form.country || !this.form.email) return;
     this.submitting = true;
     
     const assessmentData = {
+      name: this.form.name,
+      surname: this.form.surname,
       email: this.form.email,
       dob: formatDateToDDMMYYYY(this.form.dob),
       qualification: this.form.qualification,
@@ -47,7 +51,7 @@ export class AssessmentComponent implements AfterViewInit {
     setTimeout(() => {
       this.submitting = false;
       this.submitted = true;
-      this.form = { dob: '', qualification: '', gap: '', country: '', course: '', budget: '', income: '', email: '' };
+      this.form = { name: '', surname: '', dob: '', qualification: '', gap: '', country: '', course: '', budget: '', income: '', email: '' };
     }, 1500);
   }
 
