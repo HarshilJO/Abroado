@@ -12,6 +12,14 @@ import { RouterModule } from '@angular/router';
 export class AboutPageComponent implements AfterViewInit {
   activeRecCard: 1 | 2 = 1;
 
+  get companyExperience(): number {
+    return Math.max(1, new Date().getFullYear() - 2022);
+  }
+
+  get dhavalExperience(): number {
+    return Math.max(1, new Date().getFullYear() - 2014);
+  }
+
   ngAfterViewInit() {
     setTimeout(() => {
       window.scrollTo(0, 0);

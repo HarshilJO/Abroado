@@ -3,7 +3,7 @@
   <div class="hero-slider" (mouseenter)="pauseSlider()" (mouseleave)="resumeSlider()">
     @for (slide of slides; track $index; let i = $index) {
       <div class="hero-slide" [class.active]="i === currentSlide" [style.background-image]="'url(' + slide.img + ')'">
-        <div class="slide-overlay"></div>
+        <div class="slide-overlay" [style.opacity]="i === 0 ? 1 : 0" style="transition: opacity 0.5s ease;"></div>
       </div>
     }
   </div>
@@ -28,8 +28,9 @@
     <div class="hero-slider-progress-bar" [style.width.%]="progressWidth"></div>
   </div>
 
-  <div class="hero-content container" [style.opacity]="currentSlide === 0 ? 1 : 0" [style.visibility]="currentSlide === 0 ? 'visible' : 'hidden'" style="transition: opacity 0.5s ease, visibility 0.5s ease;">
-    <div class="hero-badge" data-animate="fade-up">
+  <div class="container" style="position: relative; z-index: 2; width: 100%;">
+    <div class="hero-content" [style.opacity]="currentSlide === 0 ? 1 : 0" [style.visibility]="currentSlide === 0 ? 'visible' : 'hidden'" style="transition: opacity 0.5s ease, visibility 0.5s ease;">
+      <div class="hero-badge" data-animate="fade-up">
       <span class="badge-dot"></span> Trusted by 5000+ Students Worldwide
     </div>
     <h1 class="hero-title" data-animate="fade-up" data-delay="100">
@@ -51,6 +52,7 @@
         Visitor Visa
       </a>
     </div> -->
+    </div>
   </div>
 
   <!-- <div class="hero-scroll">
