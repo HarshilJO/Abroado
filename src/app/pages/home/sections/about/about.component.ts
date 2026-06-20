@@ -21,4 +21,7 @@ export class AboutComponent {
       window.scrollTo({ top: y, behavior: 'smooth' });
     }
   }
+  get companyExperience(): number {
+    return Math.max(1, new Date().getFullYear() - 2022);
+  }
 }
