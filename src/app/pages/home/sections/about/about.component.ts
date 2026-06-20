@@ -11,6 +11,7 @@ import { RouterModule } from '@angular/router';
 })
 export class AboutComponent {
   features = ['Expert Study Visa Guidance', 'Hassle-free Visitor Visa Processing', '98% Visa Approval Success Rate'];
+  activeCard: 1 | 2 = 1;
 
   scrollTo(e: Event, id: string) {
     e.preventDefault();

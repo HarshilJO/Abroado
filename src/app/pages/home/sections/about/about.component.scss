@@ -6,15 +6,17 @@
 .feature-icon { width: 32px; height: 32px; background: rgba(26,54,93,0.1); border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
 .feature-icon svg { width: 16px; height: 16px; color: var(--color-primary); }
 .about-visual { position: relative; height: 500px; }
-.visual-card { position: absolute; border-radius: var(--radius-xl); overflow: hidden; box-shadow: var(--shadow-2xl); }
-.visual-card-1 { width: 65%; top: 0; right: 0; }
-.visual-card-2 { width: 55%; bottom: 0; left: 0; }
+.visual-card { position: absolute; border-radius: var(--radius-xl); overflow: hidden; box-shadow: var(--shadow-2xl); cursor: pointer; transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1); }
+.card-state-main { width: 65%; top: 0; right: 0; z-index: 2; }
+.card-state-secondary { width: 55%; bottom: 0; left: 0; z-index: 1; transform: scale(0.95); opacity: 0.9; }
 .card-image { height: 220px; overflow: hidden; }
 .card-image img { width: 100%; height: 100%; object-fit: cover; transition: transform var(--transition-slow); }
 .visual-card:hover .card-image img { transform: scale(1.05); }
+.card-state-secondary:hover { opacity: 1; transform: scale(0.98); }
 .card-label { padding: var(--spacing-md) var(--spacing-lg); background: var(--color-surface); font-weight: 600; display: flex; align-items: center; gap: var(--spacing-sm); }
-.visual-card-1 .card-label { justify-content: flex-end; }
-.card-flag { font-size: 1.25rem; }
+.card-state-main .card-label { justify-content: flex-end; }
+.card-flag { display: flex; align-items: center; justify-content: center; }
+.card-flag img { display: block; border-radius: 2px; }
 .visual-accent { position: absolute; width: 120px; height: 120px; background: linear-gradient(135deg, var(--color-accent), var(--color-accent-light)); border-radius: var(--radius-xl); top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: -1; opacity: 0.3; }
 .visual-stats { position: absolute; top: 30%; left: -20px; background: var(--color-primary); color: #fff; padding: var(--spacing-lg); border-radius: var(--radius-lg); box-shadow: var(--shadow-xl); text-align: center; }
 .visual-stat-number { font-family: var(--font-display); font-size: 2rem; font-weight: 700; color: var(--color-accent); display: block; }

@@ -20,8 +20,6 @@ export class AssessmentComponent implements AfterViewInit {
     gap: '',
     country: '',
     course: '',
-    budget: '',
-    income: '',
     email: ''
   };
   submitting = false;
@@ -42,16 +40,14 @@ export class AssessmentComponent implements AfterViewInit {
       qualification: this.form.qualification,
       gap: (this.form.gap !== null && this.form.gap !== '') ? String(this.form.gap) : null,
       country: this.form.country,
-      course: this.form.course || null,
-      budget: (this.form.budget !== null && this.form.budget !== '') ? String(this.form.budget) : null,
-      income: (this.form.income !== null && this.form.income !== '') ? String(this.form.income) : null
+      course: this.form.course || null
     };
     this.analytics.trackAssessment(assessmentData);
 
     setTimeout(() => {
       this.submitting = false;
       this.submitted = true;
-      this.form = { name: '', surname: '', dob: '', qualification: '', gap: '', country: '', course: '', budget: '', income: '', email: '' };
+      this.form = { name: '', surname: '', dob: '', qualification: '', gap: '', country: '', course: '', email: '' };
     }, 1500);
   }
 

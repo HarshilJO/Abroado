@@ -13,7 +13,7 @@
       <div class="about-grid">
         <div class="about-content" data-animate="fade-right">
           <p class="about-text">
-            <strong>Abroado Overseas Education</strong>, based in Ahmedabad, brings over 15 years of expertise in
+            <strong>Abroado Overseas Education</strong>, based in Ahmedabad, brings over 5 years of expertise in
             guiding students toward fulfilling their dreams of studying in the UK and Australia. With a track record of
             over 2,200 successful placements, we have helped students pursue bachelor's, master's, and pathway programs,
             tailoring each journey to align with their unique aspirations and academic goals.
@@ -35,7 +35,7 @@
             <img src="images/australia-hero.jpg" alt="Students abroad" loading="lazy">
           </div>
           <div class="stat-card stat-card-1">
-            <span class="stat-number">15+</span>
+            <span class="stat-number">5+</span>
             <span class="stat-label">Years Experience</span>
           </div>
           <div class="stat-card stat-card-2">
@@ -97,6 +97,40 @@
           <div class="ceo-signature">
             <h4 class="sig-name">Dhaval Joshi</h4>
             <span class="sig-title">CEO, Abroado</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section recognition-section" id="recognition">
+    <div class="container">
+      <div class="text-center" style="margin-bottom: var(--spacing-2xl);">
+        <span class="section-tag">Recognition</span>
+        <h2 class="section-title">Recognized for Excellence in <br><span class="title-highlight">Australian Education Placements</span></h2>
+      </div>
+
+      <div class="recognition-grid">
+        <div class="recognition-content" data-animate="fade-right">
+          <p class="about-text">
+            <strong>Abroado Overseas Education</strong> has been distinguished as a <strong>Platinum Partner by ECA</strong>. This certification serves as a formal recognition of our high applicant generation and consistent support within the Australian international education sector.
+          </p>
+          <p class="about-text">
+            We were honored to have ECA CEO, Mr. Rajesh Singh, present the certificate to our CEO, Mr. Dhaval Joshi. This achievement reinforces Abroado’s core mission: a dedicated, ongoing commitment to facilitating academic growth and ensuring the long-term success of our students abroad.
+          </p>
+        </div>
+        <div class="recognition-visual" data-animate="fade-left">
+          <div class="swipe-cards-container">
+            <div class="swipe-card" 
+                 [ngClass]="activeRecCard === 1 ? 'card-front' : 'card-back-1'"
+                 (click)="activeRecCard = 1">
+              <img src="images/Photo%20with%20Rajesh%20sir.jpeg" alt="Photo with ECA CEO Mr. Rajesh Singh" loading="lazy">
+            </div>
+            <div class="swipe-card cert-card"
+                 [ngClass]="activeRecCard === 2 ? 'card-front' : 'card-back-2'"
+                 (click)="activeRecCard = 2">
+              <img src="images/Platinum%20certificate%20image.jpeg" alt="ECA Platinum Partner Certificate" loading="lazy">
+            </div>
           </div>
         </div>
       </div>

@@ -10,6 +10,8 @@ import { RouterModule } from '@angular/router';
   styleUrl: './about-page.component.scss'
 })
 export class AboutPageComponent implements AfterViewInit {
+  activeRecCard: 1 | 2 = 1;
+
   ngAfterViewInit() {
     setTimeout(() => {
       window.scrollTo(0, 0);
