@@ -2,30 +2,19 @@
   <nav class="nav container">
     <a routerLink="/" class="logo">
       <span class="logo-icon">
-        <svg viewBox="0 0 120 130" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
-          <defs>
-            <linearGradient id="navGrad" gradientUnits="userSpaceOnUse" x1="17" y1="15" x2="103" y2="115">
-              <stop offset="0%" stop-color="#30a9e3" />
-              <stop offset="100%" stop-color="#1771c1" />
-            </linearGradient>
-          </defs>
-          <polygon points="60,15 103,40 103,90 60,115 17,90 17,40" fill="url(#navGrad)" />
-          <rect x="37" y="42" width="46" height="46" fill="#ffffff" />
-          <polygon points="48,53 72,53 72,77" fill="url(#navGrad)" />
-        </svg>
+        <img src="/images/logo.png" alt="Abroado Logo" class="logo-img">
       </span>
-      <span class="logo-text">Abroado</span>
     </a>
 
     <ul class="nav-links" id="nav-links">
-      <li><a routerLink="/" fragment="home" class="nav-link" [class.active]="activeSection==='home'"
+      <li><a routerLink="/" class="nav-link" [class.active]="activeSection==='home'"
           (click)="scrollTo('home')">Home</a></li>
       <li><a routerLink="/about" class="nav-link" routerLinkActive="active">About</a></li>
-      <li><a routerLink="/" fragment="services" class="nav-link" [class.active]="activeSection==='services'"
+      <li><a routerLink="/" class="nav-link" [class.active]="activeSection==='services'"
           (click)="scrollTo('services')">Services</a></li>
-      <li><a routerLink="/" fragment="destinations" class="nav-link" [class.active]="activeSection==='destinations'"
+      <li><a routerLink="/" class="nav-link" [class.active]="activeSection==='destinations'"
           (click)="scrollTo('destinations')">Destinations</a></li>
-      <li><a routerLink="/" fragment="testimonials" class="nav-link" [class.active]="activeSection==='testimonials'"
+      <li><a routerLink="/" class="nav-link" [class.active]="activeSection==='testimonials'"
           (click)="scrollTo('testimonials')">Success Stories</a></li>
       <li><a routerLink="/contact" class="nav-link" routerLinkActive="active">Contact</a></li>
 
@@ -49,14 +38,14 @@
 <!-- Mobile Menu -->
 <div class="mobile-menu" [class.active]="mobileOpen" id="mobile-menu">
   <ul class="mobile-nav-links">
-    <li><a routerLink="/" fragment="home" class="mobile-nav-link" (click)="closeMobile(); scrollTo('home')">Home</a>
+    <li><a routerLink="/" class="mobile-nav-link" (click)="closeMobile(); scrollTo('home')">Home</a>
     </li>
     <li><a routerLink="/about" class="mobile-nav-link" routerLinkActive="active" (click)="closeMobile()">About</a></li>
-    <li><a routerLink="/" fragment="services" class="mobile-nav-link"
+    <li><a routerLink="/" class="mobile-nav-link"
         (click)="closeMobile(); scrollTo('services')">Services</a></li>
-    <li><a routerLink="/" fragment="destinations" class="mobile-nav-link"
+    <li><a routerLink="/" class="mobile-nav-link"
         (click)="closeMobile(); scrollTo('destinations')">Destinations</a></li>
-    <li><a routerLink="/" fragment="testimonials" class="mobile-nav-link"
+    <li><a routerLink="/" class="mobile-nav-link"
         (click)="closeMobile(); scrollTo('testimonials')">Success Stories</a></li>
     <li><a routerLink="/blog" class="mobile-nav-link" (click)="closeMobile()">Blog</a></li>
     <li><a routerLink="/contact" class="mobile-nav-link" routerLinkActive="active" (click)="closeMobile()">Contact</a></li>
