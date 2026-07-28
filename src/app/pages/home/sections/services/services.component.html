@@ -1,16 +1,29 @@
 <section class="visa-services section" id="services">
   <div class="container">
     <div class="section-header center">
-      <span class="section-tag" data-animate="fade-up">Our Services</span>
-      <h2 class="section-title" data-animate="fade-up" data-delay="100">Two Pathways to Your<br><span class="title-accent">International Dreams</span></h2>
-      <p class="section-description" data-animate="fade-up" data-delay="200">Whether you want to study at world-renowned universities or explore beautiful destinations, we have you covered with expert visa services.</p>
+      <div class="section-header-top" style="display: flex; justify-content: space-between; align-items: flex-end; text-align: left; margin-bottom: var(--spacing-xl);">
+        <div>
+          <span class="section-tag" data-animate="fade-up">Our Services</span>
+          <h2 class="section-title" data-animate="fade-up" data-delay="100">Comprehensive Pathways to Your<br><span class="title-accent">International Dreams</span></h2>
+          <p class="section-description" data-animate="fade-up" data-delay="200" style="margin: 0; max-width: 600px;">Whether you want to study at world-renowned universities or explore beautiful destinations, we have you covered with expert visa services.</p>
+        </div>
+        <div class="slider-controls" data-animate="fade-up">
+           <button class="slider-btn prev" (click)="scrollCards(-1)" aria-label="Previous">
+             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+           </button>
+           <button class="slider-btn next" (click)="scrollCards(1)" aria-label="Next">
+             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+           </button>
+        </div>
+      </div>
     </div>
-    <div class="visa-cards">
+    <div class="slider-wrapper">
+      <div class="visa-cards" #slider>
       @for (card of visaCards; track card.title; let i = $index) {
-        <div class="visa-card" [class.study-visa]="i===0" [class.visitor-visa]="i===1" data-animate="fade-up" [attr.data-delay]="300 + i*100">
+        <div class="visa-card" data-animate="fade-up" [attr.data-delay]="300 + (i % 3)*100">
           <div class="visa-card-header">
             <div class="visa-icon" [innerHTML]="card.icon"></div>
-            <div class="visa-badge" [class.visitor]="i===1">{{ card.badge }}</div>
+            <div class="visa-badge" [class.visitor]="card.badgeClass === 'visitor'">{{ card.badge }}</div>
           </div>
           <h3 class="visa-title">{{ card.title }}</h3>
           <p class="visa-description">{{ card.description }}</p>
@@ -23,21 +36,20 @@
             }
           </div>
           <div class="visa-countries">
-            <span class="visa-country"><img src="https://flagcdn.com/w40/gb.png" alt="UK" width="20" height="15"> UK</span>
-            <span class="visa-country"><img src="https://flagcdn.com/w40/au.png" alt="Australia" width="20" height="15"> Australia</span>
+            <span class="visa-country" title="United Kingdom"><img src="https://flagcdn.com/w40/gb.png" alt="UK" width="20" height="15"></span>
+            <span class="visa-country" title="Australia"><img src="https://flagcdn.com/w40/au.png" alt="Australia" width="20" height="15"></span>
+            <span class="visa-country" title="USA"><img src="https://flagcdn.com/w40/us.png" alt="USA" width="20" height="15"></span>
+            <span class="visa-country" title="Canada"><img src="https://flagcdn.com/w40/ca.png" alt="Canada" width="20" height="15"></span>
+            <span class="visa-country" title="New Zealand"><img src="https://flagcdn.com/w40/nz.png" alt="New Zealand" width="20" height="15"></span>
           </div>
-          <!-- Study Visa -->
-          <a *ngIf="i===0" href="#assessment" (click)="scrollTo($event, 'assessment')" class="btn btn-block btn-primary">
-            {{ card.cta }}
-            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-          </a>
-          <!-- Visitor Visa -->
-          <a *ngIf="i===1" href="https://wa.me/917778832033?text=Hello%20Abroado%2C%20I%20am%20interested%20in%20applying%20for%20a%20Visitor%20Visa." target="_blank" rel="noopener" class="btn btn-block btn-dark">
+          <!-- WhatsApp Link -->
+          <a [href]="card.ctaLink" target="_blank" rel="noopener" class="btn btn-block" [ngClass]="card.btnClass">
             {{ card.cta }}
             <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           </a>
         </div>
       }
+      </div>
     </div>
   </div>
 </section>

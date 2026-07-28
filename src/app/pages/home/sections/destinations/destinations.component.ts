@@ -10,7 +10,7 @@ import { Router } from '@angular/router';
   styleUrl: './destinations.component.scss'
 })
 export class DestinationsComponent {
-  constructor(private router: Router) {}
+  constructor(private router: Router) { }
   destinations = [
     {
       flagImg: 'https://flagcdn.com/w40/gb.png',
@@ -31,7 +31,7 @@ export class DestinationsComponent {
       img: 'https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=800&q=80',
       headerBg: 'linear-gradient(135deg, #00008B, #0052a5)',
       description: 'Discover world-class education in a land of stunning landscapes. Australian universities consistently rank among the global top 100.',
-      highlights: [{ num: '50+', text: 'Partner Universities' }, { num: '2-3', text: 'Year Programs' }, { num: 'Up to 4 Yrs', text: 'Post-Study Work' }],
+      highlights: [{ num: '30+', text: 'Partner Universities' }, { num: '2-3', text: 'Year Programs' }, { num: 'Up to 4 Yrs', text: 'Post-Study Work' }],
       features: ['High Quality of Life', 'Multicultural Environment', 'Part-time Work Rights', 'PR Pathway Options']
     },
     {
@@ -53,7 +53,7 @@ export class DestinationsComponent {
       img: 'https://images.unsplash.com/photo-1517935706615-2717063c2225?w=800&q=80',
       headerBg: 'linear-gradient(135deg, #FF0000, #8B0000)',
       description: 'Studying in Canada is a popular choice for international students due to its high-quality education system, cultural diversity, and beautiful landscapes.',
-      highlights: [{ num: '90+', text: 'Public Universities' }, { num: '1-4', text: 'Year Programs' }, { num: 'Up to 3 Yrs', text: 'PGWP' }],
+      highlights: [{ num: '90+', text: 'Universities and Colleges' }, { num: '1-4', text: 'Year Programs' }, { num: 'Up to 3 Yrs', text: 'PGWP' }],
       features: ['Affordable Tuition', 'Safe and Welcoming', 'Immigration Opportunities', 'Bilingual Environment']
     },
     {
@@ -71,7 +71,7 @@ export class DestinationsComponent {
 
   exploreCourses(countryName: string) {
     const supportedCountries = ['United Kingdom', 'Australia'];
-    
+
     if (supportedCountries.includes(countryName)) {
       // Map display name to the filter value used in the data
       const countryMap: Record<string, string> = {
